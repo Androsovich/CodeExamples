@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <title>Login page</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/main.css}"/>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="intro">
+    <header th:insert="fragments/header.html :: header"></header>
+    <div class="div-login">
+        <div>
+            <h4 th:utext="#{label.login.input}"></h4>
+            <form class="form-login" th:action="@{/j_spring_security_check}" method="post">
+                <table>
+                    <tr>
+                        <td><label for="username" th:utext="#{label.username}"></label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="form-control" type="text" id="username" name="j_username"
+                                   autofocus="autofocus"/> <br/>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="password" th:utext="#{label.password}"></label>:</td>
+                    </tr>
+                    <tr>
+                        <td><input class="form-control" type="password" id="password" name="j_password"/> <br/></td>
+                    </tr>
+                </table>
+                <input type="submit" class="btn btn-primary btn-block" th:value="#{label.log.in}"/>
+                <input type="button" id="signup" class="btn btn-primary btn-block" th:value="#{label.signup}"/>
+            </form>
+
+        </div>
+        <div>
+            <div id="modal" class="modal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" th:utext="#{label.create.user}"></h5>
+                        </div>
+                        <div class="modal-body">
+                            <label for="firstName" th:utext="#{label.user.first.name}"></label>
+                            <input type="text" id="firstName" class="form-control"/>
+
+                            <label for="lastName" th:utext="#{label.user.last.name}"></label>
+                            <input type="text" id="lastName" class="form-control"/>
+
+                            <label for="middleName" th:utext="#{label.user.middle.name}"></label>
+                            <input type="text" id="middleName" class="form-control"/>
+
+                            <label for="user_login" th:utext="#{label.login}"></label>
+                            <input type="text" id="user_login" class="form-control"/>
+
+                            <label for="user_password" th:utext="#{label.password}"></label>
+                            <input type="text" id="user_password" class="form-control"/>
+
+                            <label for="birthday" th:utext="#{label.birthday}"></label>
+                            <input type="date" id="birthday" class="form-control">
+
+                            <label for="user_email" th:utext="#{label.email}"></label>
+                            <input type="email" id="user_email" class="form-control" placeholder="name@example.com"/>
+
+                            <label for="user_email" th:utext="#{label.role}"></label>
+                            <select class="select-css" id="roles">
+                                <option selected value="2" th:utext="#{label.role.user}"></option>
+                                <option value="1" th:utext="#{label.role.admin}"></option>
+                            </select>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" id="modal_close" th:utext="#{label.close}">
+                                Close
+                            </button>
+                            <button type="button" class="btn btn-primary" id="save_user" th:utext="#{label.save}">Save
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script th:src="@{/webjars/jquery/3.1.1/jquery.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/main.js}"></script>
+</body>
+</html>

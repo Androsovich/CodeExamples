@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<body>
+<div class="navigation" th:fragment="header">
+
+    <div style="text-align: center">
+        <nav>
+            <a sec:authorize="isAuthenticated()" th:href="@{/api/user-info}" th:utext="#{label.user_info}"></a>
+
+            <a sec:authorize="hasAuthority('ROLE_ADMIN')" th:utext="#{label.users}" th:href="@{/security/users/all}"></a>
+
+            <a sec:authorize="isAuthenticated()" th:href="@{/api/projects}" th:utext="#{label.projects}"></a>
+
+            <a sec:authorize="hasAuthority('ROLE_ADMIN')" th:utext="#{label.manage_projects} "
+               th:href="@{/security/projects}"></a>
+
+            <a sec:authorize="isAuthenticated()" th:utext="#{label.logout}" th:href="@{/j_spring_security_logout}"></a>
+        </nav>
+    </div>
+    <div class="nav-locale">
+        <select class="styled" id="locales">
+            <option value="" th:utext="#{lang.change}"></option>
+            <option value="en_US" th:utext="#{lang.en}"></option>
+            <option value="ru_RU" th:utext="#{lang.ru}"></option>
+        </select>
+    </div>
+
+</div>
+</body>
+</html>

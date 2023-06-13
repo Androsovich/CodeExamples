@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title> Update Project </title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/main.css}"/>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+<header th:insert="fragments/header.html :: header"></header>
+
+<div class id="intro">
+    <div class id="container">
+
+        <div class="row">
+            <p class="h4" th:utext="#{label.users}"></p>
+            <th:block th:if="${users!=null and !users.empty}">
+                <table class="table table-bordered" style="width: 100%">
+                    <thead>
+                    <tr>
+                        <th th:utext="#{label.user.id}"></th>
+                        <th th:utext="#{label.user.first.name}"></th>
+                        <th th:utext="#{label.user.last.name}"></th>
+                        <th th:utext="#{label.user.middle.name}"></th>
+                        <th th:utext="#{label.birthday}"></th>
+                        <th th:utext="#{label.username}"></th>
+                        <th th:utext="#{label.password}"></th>
+                        <th th:utext="#{label.email}"></th>
+                        <th th:utext="#{label.role}"></th>
+                    </tr>
+                    </thead>
+                    <tbody style="background:#ccc">
+                    <tr th:each="user :${users}">
+
+                        <td th:text="${user.id}" style="text-align: center"></td>
+
+                        <td th:text="${user.firstName}" style="text-align: center"></td>
+
+                        <td th:text="${user.lastName}" style="text-align: center"></td>
+
+                        <td th:text="${user.middleName}" style="text-align: center"></td>
+
+                        <td th:text="${user.birthday}" style="text-align: center"></td>
+
+                        <td th:text="${user.userName}" style="text-align: center"></td>
+
+                        <td th:text="${user.password}" style="text-align: center"></td>
+
+                        <td th:text="${user.email}" style="text-align: center"></td>
+
+                        <td th:each=" role:${user.roles}" style="text-align: center">
+                            <span th:text="${role.name}"></span>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </th:block>
+        </div>
+    </div>
+</div>
+</div>
+<footer th:insert="fragments/footer.html :: footer"></footer>
+
+
+<script th:src="@{/webjars/jquery/3.1.1/jquery.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/main.js}"></script>
+</body>
+</html>

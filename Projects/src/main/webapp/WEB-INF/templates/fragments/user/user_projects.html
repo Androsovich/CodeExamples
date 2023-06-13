@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title> Main Page </title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/main.css}"/>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+<header th:insert="fragments/header.html :: header"></header>
+
+<div class id="intro">
+    <div class id="container" style="width: 970px; margin: 0 auto;">
+        <div class="row">
+            <div class="col">
+                <div class="col-lg-5 mt-5 mb-5">
+                    <label for="projects" th:utext="#{label.project}"></label>
+                    <th:block th:if="${projects!=null and !#lists.isEmpty(projects)}">
+
+                        <select class="select-css" id="projects">
+                            <option th:each=" project:${projects}" th:text="${project.title}"
+                                    th:value="${project.id}"></option>
+                        </select>
+                        <button type="button" class="btn btn-primary" id="view_tasks"
+                                th:utext="#{label.view.project.tasks}"></button>
+
+                    </th:block>
+
+                    <th:block th:if="${projects==null || #lists.isEmpty(projects)}">
+                        <h4 th:utext="#{label.projects.no.present}"></h4>
+                    </th:block>
+
+                </div>
+            </div>
+            <div id="tasks"></div>
+        </div>
+    </div>
+</div>
+
+<footer th:insert="fragments/footer.html :: footer"></footer>
+
+<script th:src="@{/webjars/jquery/3.1.1/jquery.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/main.js}"></script>
+</body>
+</html>

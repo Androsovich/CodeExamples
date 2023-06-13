@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<body>
+<div class="col" th:fragment="project_tasks">
+    <div class="col-lg-10 mt-5 mb-5">
+        <p class="h4" th:utext="#{label.project.tasks}"></p>
+        <table id="example" class="table table-bordered" style="width: 100%">
+            <thead>
+            <tr>
+                <th th:utext="#{label.id}"></th>
+                <th th:utext="#{label.title}"></th>
+                <th th:utext="#{label.executor}"></th>
+                <th th:utext="#{label.actions}"></th>
+            </tr>
+            </thead>
+            <tbody style="background:#ccc">
+            <tr th:each="task :${tasks}">
+
+                <td th:text="${task.id}" style="text-align: center"></td>
+
+                <td th:text="${task.title}" style="text-align: center"></td>
+
+                <td th:text="${task.executor.getFullName()}" style="text-align: center"></td>
+
+                <td>
+                    <a id="details_task" th:href="@{/api/task/details/{id}(id=${task.id})}"
+                       th:utext="#{label.details}"></a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-------------------------------add User to Project modal fragment --------------------------->
+<div class="col" th:fragment="add_user_project">
+    <div id="modal_add_user_to_project" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" th:utext="#{label.add.project.user}"></h5>
+                </div>
+                <div class="modal-body">
+                    <select class="select-css" id="add_p_user">
+                        <option th:each=" user:${users}" th:value="${user.id}"
+                                th:text="${user.getFullName()}"></option>
+                    </select>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" id="modal_close" th:utext="#{label.close}">
+                    </button>
+                    <button type="button" class="btn btn-primary" th:data-project-id="${project_id}"
+                            id="save_project_user"
+                            th:utext="#{label.save}">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>

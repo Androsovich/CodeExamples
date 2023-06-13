@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title> Main Page </title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/main.css}"/>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+<header th:insert="fragments/header.html :: header"></header>
+
+<div class id="intro">
+    <div class id="container">
+
+        <div style="width: 970px; margin: 0 auto;">
+            <div class="row">
+                <div class="col">
+                    <div class="col-lg-5 mt-5 mb-5">
+                        <p class="h4" th:utext="#{label.personal.info}"></p>
+                        <ul class="list-group list-group-flush" th:each=" user:${user}">
+                            <label for="user.id" th:utext="#{label.user.id}"></label>
+                            <li class="list-group-item" id="user.id" th:text="${user.id}"></li>
+
+                            <label for="firstName" th:utext="#{label.user.first.name}"></label>
+                            <li class="list-group-item" id="firstName" th:text="${user.firstName}"></li>
+
+                            <label for="lastName" th:utext="#{label.user.last.name}"></label>
+                            <li class="list-group-item" id="lastName" th:text="${user.lastName}"></li>
+
+                            <label for="middleName" th:utext="#{label.user.middle.name}"></label>
+                            <li class="list-group-item" id="middleName" th:text="${user.middleName}"></li>
+
+                            <label for="birthday" th:utext="#{label.birthday}"></label>
+                            <li class="list-group-item" id="birthday" th:text="${user.birthday}"></li>
+
+                            <label for="email" th:utext="#{label.email}">Email</label>
+                            <li class="list-group-item" id="email" th:text="${user.email}"></li>
+
+                            <label for="roles" th:utext="#{label.role}">Role</label>
+                            <li class="list-group-item" id="roles" th:each=" role:${user.roles}">
+                                <span th:text="${role.name}"></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col-lg-5 mt-5 mb-5">
+                        <p class="h4" th:utext="#{label.projects}"></p>
+                        <th:block th:if="${user.projects!=null and !#lists.isEmpty(user.projects)}">
+                            <ul class="list-group list-group-flush" th:each=" project:${user.projects}">
+                                <li class="list-group-item" th:text="${project.title}"></li>
+                            </ul>
+                        </th:block>
+                        <th:block th:if="${user.projects==null || #lists.isEmpty(user.projects)}">
+                            <h4 th:utext="#{label.projects.no.present}"></h4>
+                        </th:block>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col-lg-5 mt-5 mb-5">
+                        <p class="h4" th:utext="#{label.tasks}"></p>
+                        <th:block th:if="${tasks!=null and !tasks.empty}">
+                            <ul class="list-group list-group-flush" th:each=" task:${tasks}">
+                                <li class="list-group-item" th:text="${task.title}"></li>
+                            </ul>
+                        </th:block>
+                        <th:block th:if="${tasks==null || tasks.empty}">
+                            <h4 th:utext="#{label.tasks.no.present}"></h4>
+                        </th:block>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer th:insert="fragments/footer.html :: footer"></footer>
+
+<script th:src="@{/webjars/jquery/3.1.1/jquery.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/main.js}"></script>
+</body>
+</html>

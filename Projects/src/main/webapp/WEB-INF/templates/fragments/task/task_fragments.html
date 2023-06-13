@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title> Task Details </title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/main.css}"/>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+<!---------------------------------User projects fragment----------------------------------------------->
+<div class="col" id="listUsers" th:fragment="list_users">
+    <div class="col-lg-5 mt-5 mb-5">
+        <h4 th:utext="#{label.project.users}"></h4>
+        <th:block th:if="${users!=null and !#lists.isEmpty(users)}">
+        <select class="select-css" id="users_">
+            <option th:each=" user:${users}" th:value="${user.id}" th:text="${user.getFullName()}"></option>
+        </select>
+        <div>
+            <button type="button" class="btn btn-primary" id="change_user" th:utext="#{label.change}"></button>
+        </div>
+        </th:block>
+        <th:block th:if="${users==null || #lists.isEmpty(users)}">
+            <h4 th:utext="#{label.user.no.present}"></h4>
+        </th:block>
+    </div>
+</div>
+<script th:src="@{/webjars/jquery/3.1.1/jquery.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/main.js}"></script>
+</body>
+</html>

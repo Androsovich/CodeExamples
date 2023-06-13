@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title> Task Details </title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/main.css}"/>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+<header th:insert="fragments/header.html :: header"></header>
+
+<div class id="intro">
+    <div class id="container">
+
+        <div style="width: 970px; margin: 0 auto;">
+            <div class="row">
+                <div class="col">
+                    <div class="col-lg-5 mt-5 mb-5">
+                        <h4 th:utext="#{label.task.details}"></h4>
+                        <ul class="list-group list-group-flush" th:each=" task:${task_info}">
+
+                            <label for="task_id" th:utext="#{label.id}"></label>
+                            <li class="list-group-item" id="task_id" th:data-id="${task.id}" th:text="${task.id}"></li>
+
+                            <label for="task.title" th:utext="#{label.title}"></label>
+                            <li class="list-group-item" id="task.title" th:text="${task.title}"></li>
+
+                            <label for="task.startDate" th:utext="#{label.start.date}"></label>
+                            <li class="list-group-item" id="task.startDate" th:text="${task.startDate}"></li>
+
+                            <label for="task.endDate" th:utext="#{label.expiration.date}"></label>
+                            <li class="list-group-item" id="task.endDate" th:text="${task.endDate}"></li>
+
+                            <label for="task.executor" th:utext="#{label.executor}"></label>
+                            <li class="list-group-item" id="task.executor" th:text="${task.executor.getFullName()}"></li>
+
+                            <label for="statuses" th:utext="#{label.status}"></label>
+
+                            <select class="select-css" id="statuses">
+                                <option selected th:value="${task.status}" th:text="${task.status}"></option>
+                                <option th:each=" status: ${#strings.arraySplit( @environment.getProperty('api.statuses'), ',')}"
+                                        th:value="${status}" th:text="${status}"></option>
+                            </select>
+                        </ul>
+
+                        <div>
+                            <button type="button" class="btn btn-primary" id="view_users_project"
+                                    th:utext="#{label.change.user}"></button>
+                            <button type="button" class="btn btn-primary" id="add_comment"
+                                    th:utext="#{label.add.comment}"></button>
+                            <button type="button" style="display:none" class="btn btn-primary" id="change_status"
+                                    th:utext="#{label.change.status}"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" id="list_users"></div>
+            </div>
+            <div class="row" th:each=" task:${task_info}">
+                <h4 th:utext="#{label.comments}"></h4>
+                <ul class="list-group list-group-flush" th:each=" comment:${task.comments}">
+                    <label for="comment.content" th:text="'Comment #' + ${comment.id}"></label>
+                    <li class="list-group-item" id="comment.content" th:text="${comment.content}"></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div>
+            <div id="modal" class="modal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" th:utext="#{label.new.comment}"></h5>
+                        </div>
+                        <div class="modal-body">
+                            <label for="content" th:utext="#{label.comment}"></label>
+                            <textarea id="content" class="form-control"></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" id="modal_close"
+                                    th:utext="#{label.close}"></button>
+                            <button type="button" class="btn btn-primary" id="save_comment"
+                                    th:utext="#{label.save}"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer th:insert="fragments/footer.html :: footer"></footer>
+
+<script th:src="@{/webjars/jquery/3.1.1/jquery.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/main.js}"></script>
+</body>
+</html>

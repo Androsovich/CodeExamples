@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <title>Error page</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/main.css}"/>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body th:with="httpStatus=${T(org.springframework.http.HttpStatus).valueOf(#response.status)}">
+<header th:insert="fragments/header.html :: header"></header>
+
+<h3 th:text="|${httpStatus} - ${httpStatus.reasonPhrase}|">404</h3>
+
+<p th:utext="${errorMessage}">Error java.lang.NullPointerException</p>
+
+<a sec:authorize="isAuthenticated()" class="btn btn-secondary btn-lg active" href="user_info.html"
+   th:href="@{/api/user-info}" th:utext="#{label.back.home}">Back to Home Page</a>
+
+<a href="login.html" class="btn btn-secondary btn-lg active" th:href="@{/login}" th:utext="#{label.back.login}">Back to
+    login</a>
+
+<footer th:insert="fragments/footer.html :: footer"></footer>
+
+<script th:src="@{/webjars/jquery/3.1.1/jquery.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/main.js}"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title> Task Details </title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/main.css}"/>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+<header th:insert="fragments/header.html :: header"></header>
+
+<div class id="intro">
+    <div class id="container">
+        <div class="row">
+            <div class="col-lg-5 mt-5 mb-5">
+                <h4 th:utext="#{label.create.new.task}"></h4>
+                <label for="title" th:utext="#{label.title}"></label>
+                <input type="text" id="title" class="form-control"/>
+
+                <label for="users_" th:utext="#{label.add.user}"></label>
+                <select class="select-css" id="users_">
+                    <option th:each=" user:${users}" th:value="${user.id}" th:text="${user.getFullName()}"></option>
+                </select>
+                <div>
+                    <button type="button" class="btn btn-primary" id="create_task" th:data-project_id="${project_id}"
+                            th:utext="#{label.create}"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer th:insert="fragments/footer.html :: footer"></footer>
+
+<script th:src="@{/webjars/jquery/3.1.1/jquery.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/main.js}"></script>
+</body>
+</html>
