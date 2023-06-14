@@ -1,0 +1,1322 @@
+2021-10-01 22:53:19:478 [main] INFO  MainClass:51 - --------------------------------------------------------------------------
+2021-10-01 22:53:19:479 [main] INFO  MainClass:52 - start tour
+2021-10-01 22:53:19:479 [main] INFO  MainClass:53 - --------------------------------------------------------------------------
+2021-10-01 22:53:19:486 [pool-3-thread-3] INFO  Tourist:35 - Tourist [16] arrived to bus
+2021-10-01 22:53:19:486 [pool-3-thread-9] INFO  Tourist:35 - Tourist [23] arrived to bus
+2021-10-01 22:53:19:487 [pool-3-thread-10] INFO  Tourist:35 - Tourist [24] arrived to bus
+2021-10-01 22:53:19:489 [pool-3-thread-36] INFO  Tourist:35 - Tourist [50] arrived to bus
+2021-10-01 22:53:19:489 [pool-3-thread-38] INFO  Tourist:35 - Tourist [52] arrived to bus
+2021-10-01 22:53:19:489 [pool-3-thread-37] INFO  Tourist:35 - Tourist [51] arrived to bus
+2021-10-01 22:53:19:489 [pool-3-thread-32] INFO  Tourist:35 - Tourist [46] arrived to bus
+2021-10-01 22:53:19:489 [pool-3-thread-30] INFO  Tourist:35 - Tourist [44] arrived to bus
+2021-10-01 22:53:19:489 [pool-3-thread-26] INFO  Tourist:35 - Tourist [40] arrived to bus
+2021-10-01 22:53:19:489 [pool-3-thread-24] INFO  Tourist:35 - Tourist [38] arrived to bus
+2021-10-01 22:53:19:489 [pool-3-thread-22] INFO  Tourist:35 - Tourist [36] arrived to bus
+2021-10-01 22:53:19:489 [pool-3-thread-20] INFO  Tourist:35 - Tourist [34] arrived to bus
+2021-10-01 22:53:19:489 [pool-3-thread-18] INFO  Tourist:35 - Tourist [32] arrived to bus
+2021-10-01 22:53:19:488 [pool-3-thread-14] INFO  Tourist:35 - Tourist [28] arrived to bus
+2021-10-01 22:53:19:488 [pool-3-thread-12] INFO  Tourist:35 - Tourist [26] arrived to bus
+2021-10-01 22:53:19:488 [pool-3-thread-13] INFO  Tourist:35 - Tourist [27] arrived to bus
+2021-10-01 22:53:19:488 [pool-3-thread-7] INFO  Tourist:35 - Tourist [21] arrived to bus
+2021-10-01 22:53:19:488 [pool-3-thread-40] INFO  Tourist:35 - Tourist [54] arrived to bus
+2021-10-01 22:53:19:488 [pool-3-thread-35] INFO  Tourist:35 - Tourist [49] arrived to bus
+2021-10-01 22:53:19:488 [pool-3-thread-34] INFO  Tourist:35 - Tourist [48] arrived to bus
+2021-10-01 22:53:19:488 [pool-3-thread-33] INFO  Tourist:35 - Tourist [47] arrived to bus
+2021-10-01 22:53:19:488 [pool-3-thread-29] INFO  Tourist:35 - Tourist [43] arrived to bus
+2021-10-01 22:53:19:488 [pool-3-thread-28] INFO  Tourist:35 - Tourist [42] arrived to bus
+2021-10-01 22:53:19:488 [pool-3-thread-27] INFO  Tourist:35 - Tourist [41] arrived to bus
+2021-10-01 22:53:19:487 [pool-3-thread-19] INFO  Tourist:35 - Tourist [33] arrived to bus
+2021-10-01 22:53:19:487 [pool-3-thread-23] INFO  Tourist:35 - Tourist [37] arrived to bus
+2021-10-01 22:53:19:487 [pool-3-thread-21] INFO  Tourist:35 - Tourist [35] arrived to bus
+2021-10-01 22:53:19:487 [pool-3-thread-1] INFO  Tourist:35 - Tourist [14] arrived to bus
+2021-10-01 22:53:19:487 [pool-3-thread-2] INFO  Tourist:35 - Tourist [15] arrived to bus
+2021-10-01 22:53:19:486 [pool-3-thread-11] INFO  Tourist:35 - Tourist [25] arrived to bus
+2021-10-01 22:53:19:487 [pool-3-thread-16] INFO  Tourist:35 - Tourist [30] arrived to bus
+2021-10-01 22:53:19:487 [pool-3-thread-4] INFO  Tourist:35 - Tourist [18] arrived to bus
+2021-10-01 22:53:19:488 [pool-3-thread-39] INFO  Tourist:35 - Tourist [53] arrived to bus
+2021-10-01 22:53:19:488 [pool-3-thread-8] INFO  Tourist:35 - Tourist [22] arrived to bus
+2021-10-01 22:53:19:489 [pool-3-thread-6] INFO  Tourist:35 - Tourist [20] arrived to bus
+2021-10-01 22:53:19:489 [pool-3-thread-25] INFO  Tourist:35 - Tourist [39] arrived to bus
+2021-10-01 22:53:19:489 [pool-3-thread-31] INFO  Tourist:35 - Tourist [45] arrived to bus
+2021-10-01 22:53:19:487 [pool-3-thread-5] INFO  Tourist:35 - Tourist [19] arrived to bus
+2021-10-01 22:53:19:487 [pool-3-thread-17] INFO  Tourist:35 - Tourist [31] arrived to bus
+2021-10-01 22:53:19:486 [pool-3-thread-15] INFO  Tourist:35 - Tourist [29] arrived to bus
+2021-10-01 22:53:20:501 [Thread-1] INFO  Manager:92 - all the tourists got on the bus, and it goes
+2021-10-01 22:53:20:501 [Thread-1] INFO  Manager:93 - ---------------------------first stop Prague----------------------------
+2021-10-01 22:53:21:506 [pool-3-thread-36] INFO  Prague:23 - tourist [50]  took a beer and started drinking
+2021-10-01 22:53:21:506 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:22:507 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:22:507 [pool-3-thread-9] INFO  Prague:23 - tourist [23]  took a beer and started drinking
+2021-10-01 22:53:23:507 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:23:507 [pool-3-thread-7] INFO  Prague:23 - tourist [21]  took a beer and started drinking
+2021-10-01 22:53:24:508 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:24:508 [pool-3-thread-12] INFO  Prague:23 - tourist [26]  took a beer and started drinking
+2021-10-01 22:53:25:164 [pool-3-thread-9] INFO  Prague:25 - tourist [23] drank dark Czech beer : Time meal : 2657 ms
+2021-10-01 22:53:25:509 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:25:509 [pool-3-thread-10] INFO  Prague:23 - tourist [24]  took a beer and started drinking
+2021-10-01 22:53:25:741 [pool-3-thread-36] INFO  Prague:25 - tourist [50] drank dark Czech beer : Time meal : 4235 ms
+2021-10-01 22:53:26:510 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:26:510 [pool-3-thread-15] INFO  Prague:23 - tourist [29]  took a beer and started drinking
+2021-10-01 22:53:27:384 [pool-3-thread-7] INFO  Prague:25 - tourist [21] drank dark Czech beer : Time meal : 3876 ms
+2021-10-01 22:53:27:510 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:27:510 [pool-3-thread-1] INFO  Prague:23 - tourist [14]  took a beer and started drinking
+2021-10-01 22:53:28:511 [pool-3-thread-27] INFO  Prague:23 - tourist [41]  took a beer and started drinking
+2021-10-01 22:53:28:511 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:28:632 [pool-3-thread-12] INFO  Prague:25 - tourist [26] drank dark Czech beer : Time meal : 4123 ms
+2021-10-01 22:53:28:829 [pool-3-thread-10] INFO  Prague:25 - tourist [24] drank dark Czech beer : Time meal : 3319 ms
+2021-10-01 22:53:29:512 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:29:512 [pool-3-thread-8] INFO  Prague:23 - tourist [22]  took a beer and started drinking
+2021-10-01 22:53:30:218 [pool-3-thread-1] INFO  Prague:25 - tourist [14] drank dark Czech beer : Time meal : 2707 ms
+2021-10-01 22:53:30:512 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:30:512 [pool-3-thread-2] INFO  Prague:23 - tourist [15]  took a beer and started drinking
+2021-10-01 22:53:30:966 [pool-3-thread-27] INFO  Prague:25 - tourist [41] drank dark Czech beer : Time meal : 2454 ms
+2021-10-01 22:53:31:329 [pool-3-thread-15] INFO  Prague:25 - tourist [29] drank dark Czech beer : Time meal : 4819 ms
+2021-10-01 22:53:31:512 [pool-3-thread-28] INFO  Prague:23 - tourist [42]  took a beer and started drinking
+2021-10-01 22:53:31:512 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:31:791 [pool-3-thread-2] INFO  Prague:25 - tourist [15] drank dark Czech beer : Time meal : 1278 ms
+2021-10-01 22:53:32:513 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:32:513 [pool-3-thread-29] INFO  Prague:23 - tourist [43]  took a beer and started drinking
+2021-10-01 22:53:33:513 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:33:513 [pool-3-thread-3] INFO  Prague:23 - tourist [16]  took a beer and started drinking
+2021-10-01 22:53:34:117 [pool-3-thread-8] INFO  Prague:25 - tourist [22] drank dark Czech beer : Time meal : 4605 ms
+2021-10-01 22:53:34:139 [pool-3-thread-28] INFO  Prague:25 - tourist [42] drank dark Czech beer : Time meal : 2626 ms
+2021-10-01 22:53:34:513 [pool-3-thread-19] INFO  Prague:23 - tourist [33]  took a beer and started drinking
+2021-10-01 22:53:34:513 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:35:514 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:35:514 [pool-3-thread-33] INFO  Prague:23 - tourist [47]  took a beer and started drinking
+2021-10-01 22:53:36:021 [pool-3-thread-3] INFO  Prague:25 - tourist [16] drank dark Czech beer : Time meal : 2507 ms
+2021-10-01 22:53:36:514 [pool-3-thread-34] INFO  Prague:23 - tourist [48]  took a beer and started drinking
+2021-10-01 22:53:36:514 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:36:613 [pool-3-thread-29] INFO  Prague:25 - tourist [43] drank dark Czech beer : Time meal : 4100 ms
+2021-10-01 22:53:37:515 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:37:515 [pool-3-thread-14] INFO  Prague:23 - tourist [28]  took a beer and started drinking
+2021-10-01 22:53:37:613 [pool-3-thread-33] INFO  Prague:25 - tourist [47] drank dark Czech beer : Time meal : 2099 ms
+2021-10-01 22:53:38:515 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:38:515 [pool-3-thread-24] INFO  Prague:23 - tourist [38]  took a beer and started drinking
+2021-10-01 22:53:39:306 [pool-3-thread-19] INFO  Prague:25 - tourist [33] drank dark Czech beer : Time meal : 4792 ms
+2021-10-01 22:53:39:495 [pool-3-thread-34] INFO  Prague:25 - tourist [48] drank dark Czech beer : Time meal : 2980 ms
+2021-10-01 22:53:39:516 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:39:516 [pool-3-thread-40] INFO  Prague:23 - tourist [54]  took a beer and started drinking
+2021-10-01 22:53:39:856 [pool-3-thread-14] INFO  Prague:25 - tourist [28] drank dark Czech beer : Time meal : 2341 ms
+2021-10-01 22:53:40:516 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:40:516 [pool-3-thread-35] INFO  Prague:23 - tourist [49]  took a beer and started drinking
+2021-10-01 22:53:41:516 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:41:516 [pool-3-thread-20] INFO  Prague:23 - tourist [34]  took a beer and started drinking
+2021-10-01 22:53:42:315 [pool-3-thread-24] INFO  Prague:25 - tourist [38] drank dark Czech beer : Time meal : 3800 ms
+2021-10-01 22:53:42:517 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:42:517 [pool-3-thread-26] INFO  Prague:23 - tourist [40]  took a beer and started drinking
+2021-10-01 22:53:43:314 [pool-3-thread-40] INFO  Prague:25 - tourist [54] drank dark Czech beer : Time meal : 3798 ms
+2021-10-01 22:53:43:350 [pool-3-thread-35] INFO  Prague:25 - tourist [49] drank dark Czech beer : Time meal : 2833 ms
+2021-10-01 22:53:43:517 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:43:517 [pool-3-thread-22] INFO  Prague:23 - tourist [36]  took a beer and started drinking
+2021-10-01 22:53:44:014 [pool-3-thread-20] INFO  Prague:25 - tourist [34] drank dark Czech beer : Time meal : 2497 ms
+2021-10-01 22:53:44:518 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:44:518 [pool-3-thread-5] INFO  Prague:23 - tourist [19]  took a beer and started drinking
+2021-10-01 22:53:45:295 [pool-3-thread-22] INFO  Prague:25 - tourist [36] drank dark Czech beer : Time meal : 1778 ms
+2021-10-01 22:53:45:519 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:45:519 [pool-3-thread-30] INFO  Prague:23 - tourist [44]  took a beer and started drinking
+2021-10-01 22:53:46:216 [pool-3-thread-26] INFO  Prague:25 - tourist [40] drank dark Czech beer : Time meal : 3698 ms
+2021-10-01 22:53:46:519 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:46:519 [pool-3-thread-32] INFO  Prague:23 - tourist [46]  took a beer and started drinking
+2021-10-01 22:53:47:519 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:47:519 [pool-3-thread-17] INFO  Prague:23 - tourist [31]  took a beer and started drinking
+2021-10-01 22:53:47:589 [pool-3-thread-32] INFO  Prague:25 - tourist [46] drank dark Czech beer : Time meal : 1070 ms
+2021-10-01 22:53:47:734 [pool-3-thread-5] INFO  Prague:25 - tourist [19] drank dark Czech beer : Time meal : 3215 ms
+2021-10-01 22:53:48:519 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:48:519 [pool-3-thread-39] INFO  Prague:23 - tourist [53]  took a beer and started drinking
+2021-10-01 22:53:49:519 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:49:519 [pool-3-thread-31] INFO  Prague:23 - tourist [45]  took a beer and started drinking
+2021-10-01 22:53:50:202 [pool-3-thread-30] INFO  Prague:25 - tourist [44] drank dark Czech beer : Time meal : 4683 ms
+2021-10-01 22:53:50:519 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:50:519 [pool-3-thread-37] INFO  Prague:23 - tourist [51]  took a beer and started drinking
+2021-10-01 22:53:50:788 [pool-3-thread-17] INFO  Prague:25 - tourist [31] drank dark Czech beer : Time meal : 3269 ms
+2021-10-01 22:53:51:353 [pool-3-thread-39] INFO  Prague:25 - tourist [53] drank dark Czech beer : Time meal : 2834 ms
+2021-10-01 22:53:51:520 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:51:520 [pool-3-thread-4] INFO  Prague:23 - tourist [18]  took a beer and started drinking
+2021-10-01 22:53:52:520 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:52:520 [pool-3-thread-16] INFO  Prague:23 - tourist [30]  took a beer and started drinking
+2021-10-01 22:53:52:765 [pool-3-thread-31] INFO  Prague:25 - tourist [45] drank dark Czech beer : Time meal : 3245 ms
+2021-10-01 22:53:53:491 [pool-3-thread-37] INFO  Prague:25 - tourist [51] drank dark Czech beer : Time meal : 2971 ms
+2021-10-01 22:53:53:520 [pool-3-thread-25] INFO  Prague:23 - tourist [39]  took a beer and started drinking
+2021-10-01 22:53:53:520 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:54:501 [pool-3-thread-16] INFO  Prague:25 - tourist [30] drank dark Czech beer : Time meal : 1981 ms
+2021-10-01 22:53:54:520 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:54:520 [pool-3-thread-18] INFO  Prague:23 - tourist [32]  took a beer and started drinking
+2021-10-01 22:53:54:866 [pool-3-thread-4] INFO  Prague:25 - tourist [18] drank dark Czech beer : Time meal : 3346 ms
+2021-10-01 22:53:55:521 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:55:521 [pool-3-thread-11] INFO  Prague:23 - tourist [25]  took a beer and started drinking
+2021-10-01 22:53:56:521 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:56:521 [pool-3-thread-21] INFO  Prague:23 - tourist [35]  took a beer and started drinking
+2021-10-01 22:53:56:798 [pool-3-thread-18] INFO  Prague:25 - tourist [32] drank dark Czech beer : Time meal : 2277 ms
+2021-10-01 22:53:57:522 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:57:522 [pool-3-thread-6] INFO  Prague:23 - tourist [20]  took a beer and started drinking
+2021-10-01 22:53:57:524 [pool-3-thread-25] INFO  Prague:25 - tourist [39] drank dark Czech beer : Time meal : 4004 ms
+2021-10-01 22:53:58:522 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:58:522 [pool-3-thread-38] INFO  Prague:23 - tourist [52]  took a beer and started drinking
+2021-10-01 22:53:58:538 [pool-3-thread-11] INFO  Prague:25 - tourist [25] drank dark Czech beer : Time meal : 3016 ms
+2021-10-01 22:53:59:521 [pool-3-thread-6] INFO  Prague:25 - tourist [20] drank dark Czech beer : Time meal : 1998 ms
+2021-10-01 22:53:59:523 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:53:59:523 [pool-3-thread-23] INFO  Prague:23 - tourist [37]  took a beer and started drinking
+2021-10-01 22:54:00:523 [Thread-1] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:54:00:523 [pool-3-thread-13] INFO  Prague:23 - tourist [27]  took a beer and started drinking
+2021-10-01 22:54:00:796 [pool-3-thread-21] INFO  Prague:25 - tourist [35] drank dark Czech beer : Time meal : 4275 ms
+2021-10-01 22:54:01:984 [pool-3-thread-23] INFO  Prague:25 - tourist [37] drank dark Czech beer : Time meal : 2461 ms
+2021-10-01 22:54:02:883 [pool-3-thread-38] INFO  Prague:25 - tourist [52] drank dark Czech beer : Time meal : 4360 ms
+2021-10-01 22:54:04:734 [pool-3-thread-13] INFO  Prague:25 - tourist [27] drank dark Czech beer : Time meal : 4211 ms
+2021-10-01 22:54:05:526 [Thread-1] INFO  Manager:95 - ------------------------end of excursion in  Prague---------------------
+2021-10-01 22:54:05:736 [Thread-2] INFO  Manager:99 - --------------------second stop Paris-------------------------------------
+2021-10-01 22:54:06:743 [pool-3-thread-25] INFO  Paris:28 - tourist [39] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-38] INFO  Paris:28 - tourist [52] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-16] INFO  Paris:28 - tourist [30] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-17] INFO  Paris:28 - tourist [31] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-11] INFO  Paris:28 - tourist [25] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-21] INFO  Paris:28 - tourist [35] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-23] INFO  Paris:28 - tourist [37] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-39] INFO  Paris:28 - tourist [53] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-4] INFO  Paris:28 - tourist [18] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-22] INFO  Paris:28 - tourist [36] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-35] INFO  Paris:28 - tourist [49] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-6] INFO  Paris:28 - tourist [20] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-5] INFO  Paris:28 - tourist [19] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-40] INFO  Paris:28 - tourist [54] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-18] INFO  Paris:28 - tourist [32] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-34] INFO  Paris:28 - tourist [48] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-29] INFO  Paris:28 - tourist [43] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-31] INFO  Paris:28 - tourist [45] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-28] INFO  Paris:28 - tourist [42] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-33] INFO  Paris:28 - tourist [47] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-30] INFO  Paris:28 - tourist [44] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-15] INFO  Paris:28 - tourist [29] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-37] INFO  Paris:28 - tourist [51] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-10] INFO  Paris:28 - tourist [24] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-26] INFO  Paris:28 - tourist [40] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-27] INFO  Paris:28 - tourist [41] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-9] INFO  Paris:28 - tourist [23] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-32] INFO  Paris:28 - tourist [46] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-14] INFO  Paris:28 - tourist [28] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-24] INFO  Paris:28 - tourist [38] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-19] INFO  Paris:28 - tourist [33] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-8] INFO  Paris:28 - tourist [22] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-20] INFO  Paris:28 - tourist [34] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-3] INFO  Paris:28 - tourist [16] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-12] INFO  Paris:28 - tourist [26] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-7] INFO  Paris:28 - tourist [21] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-1] INFO  Paris:28 - tourist [14] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-36] INFO  Paris:28 - tourist [50] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-13] INFO  Paris:28 - tourist [27] goes to Louvre
+2021-10-01 22:54:06:743 [pool-3-thread-2] INFO  Paris:28 - tourist [15] goes to Louvre
+2021-10-01 22:54:07:753 [pool-3-thread-17] INFO  Paris:45 - next tourist [31] goes to the picture
+2021-10-01 22:54:07:753 [pool-3-thread-38] INFO  Paris:45 - next tourist [52] goes to the picture
+2021-10-01 22:54:07:753 [pool-3-thread-6] INFO  Paris:45 - next tourist [20] goes to the picture
+2021-10-01 22:54:07:753 [pool-3-thread-25] INFO  Paris:45 - next tourist [39] goes to the picture
+2021-10-01 22:54:07:753 [pool-3-thread-16] INFO  Paris:45 - next tourist [30] goes to the picture
+2021-10-01 22:54:08:763 [pool-3-thread-16] INFO  Paris:47 - tourist [30] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:08:763 [pool-3-thread-25] INFO  Paris:47 - tourist [39] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:08:763 [pool-3-thread-38] INFO  Paris:47 - tourist [52] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:08:763 [pool-3-thread-17] INFO  Paris:47 - tourist [31] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:08:763 [pool-3-thread-16] INFO  Paris:33 - tourist [30] got out of the Louvre and got on the bus : queue threads - 35
+2021-10-01 22:54:08:763 [pool-3-thread-6] INFO  Paris:47 - tourist [20] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:09:765 [pool-3-thread-11] INFO  Paris:45 - next tourist [25] goes to the picture
+2021-10-01 22:54:10:776 [pool-3-thread-11] INFO  Paris:47 - tourist [25] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:10:776 [pool-3-thread-25] INFO  Paris:33 - tourist [39] got out of the Louvre and got on the bus : queue threads - 34
+2021-10-01 22:54:11:783 [pool-3-thread-21] INFO  Paris:45 - next tourist [35] goes to the picture
+2021-10-01 22:54:12:791 [pool-3-thread-38] INFO  Paris:33 - tourist [52] got out of the Louvre and got on the bus : queue threads - 33
+2021-10-01 22:54:12:791 [pool-3-thread-21] INFO  Paris:47 - tourist [35] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:13:797 [pool-3-thread-18] INFO  Paris:45 - next tourist [32] goes to the picture
+2021-10-01 22:54:14:804 [pool-3-thread-17] INFO  Paris:33 - tourist [31] got out of the Louvre and got on the bus : queue threads - 32
+2021-10-01 22:54:14:804 [pool-3-thread-18] INFO  Paris:47 - tourist [32] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:15:810 [pool-3-thread-23] INFO  Paris:45 - next tourist [37] goes to the picture
+2021-10-01 22:54:16:820 [pool-3-thread-6] INFO  Paris:33 - tourist [20] got out of the Louvre and got on the bus : queue threads - 31
+2021-10-01 22:54:16:820 [pool-3-thread-23] INFO  Paris:47 - tourist [37] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:17:824 [pool-3-thread-4] INFO  Paris:45 - next tourist [18] goes to the picture
+2021-10-01 22:54:18:833 [pool-3-thread-11] INFO  Paris:33 - tourist [25] got out of the Louvre and got on the bus : queue threads - 30
+2021-10-01 22:54:18:833 [pool-3-thread-4] INFO  Paris:47 - tourist [18] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:19:839 [pool-3-thread-22] INFO  Paris:45 - next tourist [36] goes to the picture
+2021-10-01 22:54:20:843 [pool-3-thread-21] INFO  Paris:33 - tourist [35] got out of the Louvre and got on the bus : queue threads - 29
+2021-10-01 22:54:20:843 [pool-3-thread-22] INFO  Paris:47 - tourist [36] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:21:850 [pool-3-thread-35] INFO  Paris:45 - next tourist [49] goes to the picture
+2021-10-01 22:54:22:859 [pool-3-thread-18] INFO  Paris:33 - tourist [32] got out of the Louvre and got on the bus : queue threads - 28
+2021-10-01 22:54:22:859 [pool-3-thread-35] INFO  Paris:47 - tourist [49] see the Gioconda : tourists near picture - 4
+2021-10-01 22:54:23:863 [pool-3-thread-5] INFO  Paris:45 - next tourist [19] goes to the picture
+2021-10-01 22:54:24:868 [pool-3-thread-23] INFO  Paris:33 - tourist [37] got out of the Louvre and got on the bus : queue threads - 27
+2021-10-01 22:54:24:868 [pool-3-thread-5] INFO  Paris:47 - tourist [19] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:25:872 [pool-3-thread-40] INFO  Paris:45 - next tourist [54] goes to the picture
+2021-10-01 22:54:26:876 [pool-3-thread-4] INFO  Paris:33 - tourist [18] got out of the Louvre and got on the bus : queue threads - 26
+2021-10-01 22:54:26:876 [pool-3-thread-40] INFO  Paris:47 - tourist [54] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:27:883 [pool-3-thread-34] INFO  Paris:45 - next tourist [48] goes to the picture
+2021-10-01 22:54:28:883 [pool-3-thread-34] INFO  Paris:47 - tourist [48] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:28:883 [pool-3-thread-22] INFO  Paris:33 - tourist [36] got out of the Louvre and got on the bus : queue threads - 25
+2021-10-01 22:54:29:890 [pool-3-thread-39] INFO  Paris:45 - next tourist [53] goes to the picture
+2021-10-01 22:54:30:898 [pool-3-thread-39] INFO  Paris:47 - tourist [53] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:30:898 [pool-3-thread-35] INFO  Paris:33 - tourist [49] got out of the Louvre and got on the bus : queue threads - 24
+2021-10-01 22:54:31:906 [pool-3-thread-29] INFO  Paris:45 - next tourist [43] goes to the picture
+2021-10-01 22:54:32:913 [pool-3-thread-5] INFO  Paris:33 - tourist [19] got out of the Louvre and got on the bus : queue threads - 23
+2021-10-01 22:54:32:913 [pool-3-thread-29] INFO  Paris:47 - tourist [43] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:33:917 [pool-3-thread-28] INFO  Paris:45 - next tourist [42] goes to the picture
+2021-10-01 22:54:34:929 [pool-3-thread-28] INFO  Paris:47 - tourist [42] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:34:929 [pool-3-thread-40] INFO  Paris:33 - tourist [54] got out of the Louvre and got on the bus : queue threads - 22
+2021-10-01 22:54:35:938 [pool-3-thread-33] INFO  Paris:45 - next tourist [47] goes to the picture
+2021-10-01 22:54:36:948 [pool-3-thread-34] INFO  Paris:33 - tourist [48] got out of the Louvre and got on the bus : queue threads - 21
+2021-10-01 22:54:36:948 [pool-3-thread-33] INFO  Paris:47 - tourist [47] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:37:954 [pool-3-thread-15] INFO  Paris:45 - next tourist [29] goes to the picture
+2021-10-01 22:54:38:961 [pool-3-thread-15] INFO  Paris:47 - tourist [29] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:38:961 [pool-3-thread-39] INFO  Paris:33 - tourist [53] got out of the Louvre and got on the bus : queue threads - 20
+2021-10-01 22:54:39:970 [pool-3-thread-10] INFO  Paris:45 - next tourist [24] goes to the picture
+2021-10-01 22:54:40:977 [pool-3-thread-10] INFO  Paris:47 - tourist [24] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:40:977 [pool-3-thread-29] INFO  Paris:33 - tourist [43] got out of the Louvre and got on the bus : queue threads - 19
+2021-10-01 22:54:41:987 [pool-3-thread-9] INFO  Paris:45 - next tourist [23] goes to the picture
+2021-10-01 22:54:42:992 [pool-3-thread-9] INFO  Paris:47 - tourist [23] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:42:992 [pool-3-thread-28] INFO  Paris:33 - tourist [42] got out of the Louvre and got on the bus : queue threads - 18
+2021-10-01 22:54:43:995 [pool-3-thread-27] INFO  Paris:45 - next tourist [41] goes to the picture
+2021-10-01 22:54:45:007 [pool-3-thread-33] INFO  Paris:33 - tourist [47] got out of the Louvre and got on the bus : queue threads - 17
+2021-10-01 22:54:45:007 [pool-3-thread-27] INFO  Paris:47 - tourist [41] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:46:014 [pool-3-thread-31] INFO  Paris:45 - next tourist [45] goes to the picture
+2021-10-01 22:54:47:028 [pool-3-thread-15] INFO  Paris:33 - tourist [29] got out of the Louvre and got on the bus : queue threads - 16
+2021-10-01 22:54:47:028 [pool-3-thread-31] INFO  Paris:47 - tourist [45] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:48:037 [pool-3-thread-30] INFO  Paris:45 - next tourist [44] goes to the picture
+2021-10-01 22:54:49:047 [pool-3-thread-30] INFO  Paris:47 - tourist [44] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:49:047 [pool-3-thread-10] INFO  Paris:33 - tourist [24] got out of the Louvre and got on the bus : queue threads - 15
+2021-10-01 22:54:50:054 [pool-3-thread-37] INFO  Paris:45 - next tourist [51] goes to the picture
+2021-10-01 22:54:51:062 [pool-3-thread-9] INFO  Paris:33 - tourist [23] got out of the Louvre and got on the bus : queue threads - 14
+2021-10-01 22:54:51:062 [pool-3-thread-37] INFO  Paris:47 - tourist [51] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:52:070 [pool-3-thread-26] INFO  Paris:45 - next tourist [40] goes to the picture
+2021-10-01 22:54:53:079 [pool-3-thread-26] INFO  Paris:47 - tourist [40] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:53:079 [pool-3-thread-27] INFO  Paris:33 - tourist [41] got out of the Louvre and got on the bus : queue threads - 13
+2021-10-01 22:54:54:085 [pool-3-thread-32] INFO  Paris:45 - next tourist [46] goes to the picture
+2021-10-01 22:54:55:090 [pool-3-thread-32] INFO  Paris:47 - tourist [46] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:55:090 [pool-3-thread-31] INFO  Paris:33 - tourist [45] got out of the Louvre and got on the bus : queue threads - 12
+2021-10-01 22:54:56:096 [pool-3-thread-14] INFO  Paris:45 - next tourist [28] goes to the picture
+2021-10-01 22:54:57:103 [pool-3-thread-30] INFO  Paris:33 - tourist [44] got out of the Louvre and got on the bus : queue threads - 11
+2021-10-01 22:54:57:103 [pool-3-thread-14] INFO  Paris:47 - tourist [28] see the Gioconda : tourists near picture - 5
+2021-10-01 22:54:58:105 [pool-3-thread-24] INFO  Paris:45 - next tourist [38] goes to the picture
+2021-10-01 22:54:59:115 [pool-3-thread-37] INFO  Paris:33 - tourist [51] got out of the Louvre and got on the bus : queue threads - 10
+2021-10-01 22:54:59:115 [pool-3-thread-24] INFO  Paris:47 - tourist [38] see the Gioconda : tourists near picture - 5
+2021-10-01 22:55:00:126 [pool-3-thread-8] INFO  Paris:45 - next tourist [22] goes to the picture
+2021-10-01 22:55:01:132 [pool-3-thread-26] INFO  Paris:33 - tourist [40] got out of the Louvre and got on the bus : queue threads - 9
+2021-10-01 22:55:01:132 [pool-3-thread-8] INFO  Paris:47 - tourist [22] see the Gioconda : tourists near picture - 5
+2021-10-01 22:55:02:133 [pool-3-thread-19] INFO  Paris:45 - next tourist [33] goes to the picture
+2021-10-01 22:55:03:140 [pool-3-thread-32] INFO  Paris:33 - tourist [46] got out of the Louvre and got on the bus : queue threads - 8
+2021-10-01 22:55:03:140 [pool-3-thread-19] INFO  Paris:47 - tourist [33] see the Gioconda : tourists near picture - 4
+2021-10-01 22:55:04:148 [pool-3-thread-20] INFO  Paris:45 - next tourist [34] goes to the picture
+2021-10-01 22:55:05:156 [pool-3-thread-14] INFO  Paris:33 - tourist [28] got out of the Louvre and got on the bus : queue threads - 7
+2021-10-01 22:55:05:156 [pool-3-thread-20] INFO  Paris:47 - tourist [34] see the Gioconda : tourists near picture - 5
+2021-10-01 22:55:06:166 [pool-3-thread-3] INFO  Paris:45 - next tourist [16] goes to the picture
+2021-10-01 22:55:07:173 [pool-3-thread-24] INFO  Paris:33 - tourist [38] got out of the Louvre and got on the bus : queue threads - 6
+2021-10-01 22:55:07:173 [pool-3-thread-3] INFO  Paris:47 - tourist [16] see the Gioconda : tourists near picture - 5
+2021-10-01 22:55:08:179 [pool-3-thread-12] INFO  Paris:45 - next tourist [26] goes to the picture
+2021-10-01 22:55:09:184 [pool-3-thread-12] INFO  Paris:47 - tourist [26] see the Gioconda : tourists near picture - 5
+2021-10-01 22:55:09:184 [pool-3-thread-8] INFO  Paris:33 - tourist [22] got out of the Louvre and got on the bus : queue threads - 5
+2021-10-01 22:55:10:192 [pool-3-thread-7] INFO  Paris:45 - next tourist [21] goes to the picture
+2021-10-01 22:55:11:201 [pool-3-thread-19] INFO  Paris:33 - tourist [33] got out of the Louvre and got on the bus : queue threads - 4
+2021-10-01 22:55:11:201 [pool-3-thread-7] INFO  Paris:47 - tourist [21] see the Gioconda : tourists near picture - 4
+2021-10-01 22:55:12:208 [pool-3-thread-1] INFO  Paris:45 - next tourist [14] goes to the picture
+2021-10-01 22:55:13:216 [pool-3-thread-20] INFO  Paris:33 - tourist [34] got out of the Louvre and got on the bus : queue threads - 3
+2021-10-01 22:55:13:216 [pool-3-thread-1] INFO  Paris:47 - tourist [14] see the Gioconda : tourists near picture - 5
+2021-10-01 22:55:14:222 [pool-3-thread-13] INFO  Paris:45 - next tourist [27] goes to the picture
+2021-10-01 22:55:15:229 [pool-3-thread-3] INFO  Paris:33 - tourist [16] got out of the Louvre and got on the bus : queue threads - 2
+2021-10-01 22:55:15:229 [pool-3-thread-13] INFO  Paris:47 - tourist [27] see the Gioconda : tourists near picture - 5
+2021-10-01 22:55:16:235 [pool-3-thread-2] INFO  Paris:45 - next tourist [15] goes to the picture
+2021-10-01 22:55:17:241 [pool-3-thread-12] INFO  Paris:33 - tourist [26] got out of the Louvre and got on the bus : queue threads - 1
+2021-10-01 22:55:17:241 [pool-3-thread-2] INFO  Paris:47 - tourist [15] see the Gioconda : tourists near picture - 5
+2021-10-01 22:55:18:249 [pool-3-thread-36] INFO  Paris:45 - next tourist [50] goes to the picture
+2021-10-01 22:55:19:252 [pool-3-thread-7] INFO  Paris:33 - tourist [21] got out of the Louvre and got on the bus : queue threads - 0
+2021-10-01 22:55:19:252 [pool-3-thread-36] INFO  Paris:47 - tourist [50] see the Gioconda : tourists near picture - 5
+2021-10-01 22:55:21:265 [pool-3-thread-1] INFO  Paris:33 - tourist [14] got out of the Louvre and got on the bus : queue threads - 0
+2021-10-01 22:55:23:277 [pool-3-thread-13] INFO  Paris:33 - tourist [27] got out of the Louvre and got on the bus : queue threads - 0
+2021-10-01 22:55:25:285 [pool-3-thread-2] INFO  Paris:33 - tourist [15] got out of the Louvre and got on the bus : queue threads - 0
+2021-10-01 22:55:27:295 [pool-3-thread-36] INFO  Paris:33 - tourist [50] got out of the Louvre and got on the bus : queue threads - 0
+2021-10-01 22:55:29:306 [pool-3-thread-4] INFO  Rome:59 - tourist [18] goes to the restaurant (Pizza)
+2021-10-01 22:55:29:306 [pool-3-thread-25] INFO  Rome:65 - tourist [39] goes to the restaurant (Pasta)
+2021-10-01 22:55:29:306 [pool-3-thread-16] INFO  Rome:59 - tourist [30] goes to the restaurant (Pizza)
+2021-10-01 22:55:29:306 [pool-3-thread-18] INFO  Rome:59 - tourist [32] goes to the restaurant (Pizza)
+2021-10-01 22:55:29:306 [Thread-3] INFO  Manager:106 - ---------------------third stop Rome-------------------------------------
+2021-10-01 22:55:29:306 [pool-3-thread-6] INFO  Rome:59 - tourist [20] goes to the restaurant (Pizza)
+2021-10-01 22:55:29:306 [pool-3-thread-21] INFO  Rome:65 - tourist [35] goes to the restaurant (Pasta)
+2021-10-01 22:55:29:306 [pool-3-thread-22] INFO  Rome:59 - tourist [36] goes to the restaurant (Pizza)
+2021-10-01 22:55:29:306 [pool-3-thread-23] INFO  Rome:65 - tourist [37] goes to the restaurant (Pasta)
+2021-10-01 22:55:29:306 [pool-3-thread-17] INFO  Rome:65 - tourist [31] goes to the restaurant (Pasta)
+2021-10-01 22:55:29:306 [pool-3-thread-31] INFO  Rome:65 - tourist [45] goes to the restaurant (Pasta)
+2021-10-01 22:55:29:306 [pool-3-thread-40] INFO  Rome:59 - tourist [54] goes to the restaurant (Pizza)
+2021-10-01 22:55:29:306 [pool-3-thread-11] INFO  Rome:65 - tourist [25] goes to the restaurant (Pasta)
+2021-10-01 22:55:29:306 [pool-3-thread-35] INFO  Rome:65 - tourist [49] goes to the restaurant (Pasta)
+2021-10-01 22:55:29:307 [Thread-2] INFO  Manager:101 - ----------------end of excursion in  Paris--------------------------------
+2021-10-01 22:55:29:306 [pool-3-thread-10] INFO  Rome:59 - tourist [24] goes to the restaurant (Pizza)
+2021-10-01 22:55:29:306 [pool-3-thread-29] INFO  Rome:65 - tourist [43] goes to the restaurant (Pasta)
+2021-10-01 22:55:29:306 [pool-3-thread-28] INFO  Rome:59 - tourist [42] goes to the restaurant (Pizza)
+2021-10-01 22:55:29:306 [pool-3-thread-15] INFO  Rome:65 - tourist [29] goes to the restaurant (Pasta)
+2021-10-01 22:55:29:306 [pool-3-thread-27] INFO  Rome:65 - tourist [41] goes to the restaurant (Pasta)
+2021-10-01 22:55:29:306 [pool-3-thread-39] INFO  Rome:65 - tourist [53] goes to the restaurant (Pasta)
+2021-10-01 22:55:29:306 [pool-3-thread-9] INFO  Rome:65 - tourist [23] goes to the restaurant (Pasta)
+2021-10-01 22:55:29:306 [pool-3-thread-33] INFO  Rome:65 - tourist [47] goes to the restaurant (Pasta)
+2021-10-01 22:55:29:306 [pool-3-thread-34] INFO  Rome:59 - tourist [48] goes to the restaurant (Pizza)
+2021-10-01 22:55:29:306 [pool-3-thread-5] INFO  Rome:65 - tourist [19] goes to the restaurant (Pasta)
+2021-10-01 22:55:29:307 [pool-3-thread-30] INFO  Rome:59 - tourist [44] goes to the restaurant (Pizza)
+2021-10-01 22:55:29:307 [pool-3-thread-37] INFO  Rome:65 - tourist [51] goes to the restaurant (Pasta)
+2021-10-01 22:55:29:307 [pool-3-thread-32] INFO  Rome:59 - tourist [46] goes to the restaurant (Pizza)
+2021-10-01 22:55:29:307 [pool-3-thread-19] INFO  Rome:65 - tourist [33] goes to the restaurant (Pasta)
+2021-10-01 22:55:29:307 [pool-3-thread-26] INFO  Rome:59 - tourist [40] goes to the restaurant (Pizza)
+2021-10-01 22:55:29:307 [pool-3-thread-24] INFO  Rome:59 - tourist [38] goes to the restaurant (Pizza)
+2021-10-01 22:55:29:307 [pool-3-thread-20] INFO  Rome:59 - tourist [34] goes to the restaurant (Pizza)
+2021-10-01 22:55:29:307 [pool-3-thread-3] INFO  Rome:65 - tourist [16] goes to the restaurant (Pasta)
+2021-10-01 22:55:29:307 [pool-3-thread-13] INFO  Rome:65 - tourist [27] goes to the restaurant (Pasta)
+2021-10-01 22:55:29:307 [pool-3-thread-8] INFO  Rome:59 - tourist [22] goes to the restaurant (Pizza)
+2021-10-01 22:55:29:307 [pool-3-thread-2] INFO  Rome:59 - tourist [15] goes to the restaurant (Pizza)
+2021-10-01 22:55:29:307 [pool-3-thread-12] INFO  Rome:59 - tourist [26] goes to the restaurant (Pizza)
+2021-10-01 22:55:29:307 [pool-3-thread-38] INFO  Rome:59 - tourist [52] goes to the restaurant (Pizza)
+2021-10-01 22:55:29:307 [pool-3-thread-1] INFO  Rome:65 - tourist [14] goes to the restaurant (Pasta)
+2021-10-01 22:55:29:307 [pool-3-thread-7] INFO  Rome:65 - tourist [21] goes to the restaurant (Pasta)
+2021-10-01 22:55:29:307 [pool-3-thread-36] INFO  Rome:59 - tourist [50] goes to the restaurant (Pizza)
+2021-10-01 22:55:29:307 [pool-3-thread-14] INFO  Rome:59 - tourist [28] goes to the restaurant (Pizza)
+2021-10-01 22:55:30:308 [pool-3-thread-40] INFO  Rome:23 - ########################## Service tourists in a restaurant Pizza ##############################
+2021-10-01 22:55:30:308 [pool-3-thread-15] INFO  Rome:27 -  ######################### Service tourists in a restaurant Pasta ##############################
+2021-10-01 22:55:30:308 [pool-3-thread-40] INFO  Rome:84 - tourist [54] started eating Pizza [38] in a restaurant (Pizza)
+2021-10-01 22:55:30:308 [pool-3-thread-15] INFO  Rome:93 - tourist [29] started eating Pasta [39] in a restaurant (Pasta)
+2021-10-01 22:55:30:308 [pool-3-thread-32] INFO  Rome:84 - tourist [46] started eating Pizza [36] in a restaurant (Pizza)
+2021-10-01 22:55:30:308 [pool-3-thread-37] INFO  Rome:93 - tourist [51] started eating Pasta [37] in a restaurant (Pasta)
+2021-10-01 22:55:30:308 [pool-3-thread-10] INFO  Rome:84 - tourist [24] started eating Pizza [34] in a restaurant (Pizza)
+2021-10-01 22:55:30:308 [pool-3-thread-28] INFO  Rome:84 - tourist [42] started eating Pizza [32] in a restaurant (Pizza)
+2021-10-01 22:55:30:308 [pool-3-thread-11] INFO  Rome:93 - tourist [25] started eating Pasta [35] in a restaurant (Pasta)
+2021-10-01 22:55:30:308 [pool-3-thread-35] INFO  Rome:93 - tourist [49] started eating Pasta [33] in a restaurant (Pasta)
+2021-10-01 22:55:30:308 [pool-3-thread-34] INFO  Rome:84 - tourist [48] started eating Pizza [30] in a restaurant (Pizza)
+2021-10-01 22:55:30:308 [pool-3-thread-29] INFO  Rome:93 - tourist [43] started eating Pasta [31] in a restaurant (Pasta)
+2021-10-01 22:55:31:379 [pool-3-thread-32] INFO  Rome:86 - tourist [46]  ate Pizza [36] and got on the bus : meal time 1070 ms 
+2021-10-01 22:55:32:935 [pool-3-thread-28] INFO  Rome:86 - tourist [42]  ate Pizza [32] and got on the bus : meal time 2626 ms 
+2021-10-01 22:55:33:142 [pool-3-thread-35] INFO  Rome:95 - tourist [49]  ate Pasta [33] and got on the bus : meal time 2833 ms 
+2021-10-01 22:55:33:280 [pool-3-thread-37] INFO  Rome:95 - tourist [51]  ate Pasta [37] and got on the bus : meal time 2971 ms 
+2021-10-01 22:55:33:289 [pool-3-thread-34] INFO  Rome:86 - tourist [48]  ate Pizza [30] and got on the bus : meal time 2980 ms 
+2021-10-01 22:55:33:325 [pool-3-thread-11] INFO  Rome:95 - tourist [25]  ate Pasta [35] and got on the bus : meal time 3016 ms 
+2021-10-01 22:55:33:628 [pool-3-thread-10] INFO  Rome:86 - tourist [24]  ate Pizza [34] and got on the bus : meal time 3319 ms 
+2021-10-01 22:55:34:107 [pool-3-thread-40] INFO  Rome:86 - tourist [54]  ate Pizza [38] and got on the bus : meal time 3798 ms 
+2021-10-01 22:55:34:107 [pool-3-thread-26] INFO  Rome:23 - ########################## Service tourists in a restaurant Pizza ##############################
+2021-10-01 22:55:34:107 [pool-3-thread-26] INFO  Rome:84 - tourist [40] started eating Pizza [28] in a restaurant (Pizza)
+2021-10-01 22:55:34:107 [pool-3-thread-16] INFO  Rome:84 - tourist [30] started eating Pizza [26] in a restaurant (Pizza)
+2021-10-01 22:55:34:107 [pool-3-thread-22] INFO  Rome:84 - tourist [36] started eating Pizza [22] in a restaurant (Pizza)
+2021-10-01 22:55:34:107 [pool-3-thread-4] INFO  Rome:84 - tourist [18] started eating Pizza [24] in a restaurant (Pizza)
+2021-10-01 22:55:34:107 [pool-3-thread-24] INFO  Rome:84 - tourist [38] started eating Pizza [20] in a restaurant (Pizza)
+2021-10-01 22:55:34:409 [pool-3-thread-29] INFO  Rome:95 - tourist [43]  ate Pasta [31] and got on the bus : meal time 4100 ms 
+2021-10-01 22:55:35:128 [pool-3-thread-15] INFO  Rome:95 - tourist [29]  ate Pasta [39] and got on the bus : meal time 4819 ms 
+2021-10-01 22:55:35:128 [pool-3-thread-5] INFO  Rome:27 -  ######################### Service tourists in a restaurant Pasta ##############################
+2021-10-01 22:55:35:128 [pool-3-thread-5] INFO  Rome:93 - tourist [19] started eating Pasta [29] in a restaurant (Pasta)
+2021-10-01 22:55:35:128 [pool-3-thread-27] INFO  Rome:93 - tourist [41] started eating Pasta [27] in a restaurant (Pasta)
+2021-10-01 22:55:35:128 [pool-3-thread-9] INFO  Rome:93 - tourist [23] started eating Pasta [23] in a restaurant (Pasta)
+2021-10-01 22:55:35:128 [pool-3-thread-39] INFO  Rome:93 - tourist [53] started eating Pasta [25] in a restaurant (Pasta)
+2021-10-01 22:55:35:128 [pool-3-thread-33] INFO  Rome:93 - tourist [47] started eating Pasta [21] in a restaurant (Pasta)
+2021-10-01 22:55:35:886 [pool-3-thread-22] INFO  Rome:86 - tourist [36]  ate Pizza [22] and got on the bus : meal time 1778 ms 
+2021-10-01 22:55:36:089 [pool-3-thread-16] INFO  Rome:86 - tourist [30]  ate Pizza [26] and got on the bus : meal time 1981 ms 
+2021-10-01 22:55:37:228 [pool-3-thread-33] INFO  Rome:95 - tourist [47]  ate Pasta [21] and got on the bus : meal time 2099 ms 
+2021-10-01 22:55:37:454 [pool-3-thread-4] INFO  Rome:86 - tourist [18]  ate Pizza [24] and got on the bus : meal time 3346 ms 
+2021-10-01 22:55:37:583 [pool-3-thread-27] INFO  Rome:95 - tourist [41]  ate Pasta [27] and got on the bus : meal time 2454 ms 
+2021-10-01 22:55:37:786 [pool-3-thread-9] INFO  Rome:95 - tourist [23]  ate Pasta [23] and got on the bus : meal time 2657 ms 
+2021-10-01 22:55:37:806 [pool-3-thread-26] INFO  Rome:86 - tourist [40]  ate Pizza [28] and got on the bus : meal time 3698 ms 
+2021-10-01 22:55:37:908 [pool-3-thread-24] INFO  Rome:86 - tourist [38]  ate Pizza [20] and got on the bus : meal time 3800 ms 
+2021-10-01 22:55:37:908 [pool-3-thread-38] INFO  Rome:23 - ########################## Service tourists in a restaurant Pizza ##############################
+2021-10-01 22:55:37:908 [pool-3-thread-38] INFO  Rome:84 - tourist [52] started eating Pizza [18] in a restaurant (Pizza)
+2021-10-01 22:55:37:908 [pool-3-thread-20] INFO  Rome:84 - tourist [34] started eating Pizza [16] in a restaurant (Pizza)
+2021-10-01 22:55:37:908 [pool-3-thread-8] INFO  Rome:84 - tourist [22] started eating Pizza [14] in a restaurant (Pizza)
+2021-10-01 22:55:37:908 [pool-3-thread-2] INFO  Rome:84 - tourist [15] started eating Pizza [10] in a restaurant (Pizza)
+2021-10-01 22:55:37:908 [pool-3-thread-12] INFO  Rome:84 - tourist [26] started eating Pizza [12] in a restaurant (Pizza)
+2021-10-01 22:55:37:962 [pool-3-thread-39] INFO  Rome:95 - tourist [53]  ate Pasta [25] and got on the bus : meal time 2834 ms 
+2021-10-01 22:55:38:344 [pool-3-thread-5] INFO  Rome:95 - tourist [19]  ate Pasta [29] and got on the bus : meal time 3215 ms 
+2021-10-01 22:55:38:344 [pool-3-thread-3] INFO  Rome:27 -  ######################### Service tourists in a restaurant Pasta ##############################
+2021-10-01 22:55:38:344 [pool-3-thread-3] INFO  Rome:93 - tourist [16] started eating Pasta [19] in a restaurant (Pasta)
+2021-10-01 22:55:38:344 [pool-3-thread-21] INFO  Rome:93 - tourist [35] started eating Pasta [17] in a restaurant (Pasta)
+2021-10-01 22:55:38:344 [pool-3-thread-23] INFO  Rome:93 - tourist [37] started eating Pasta [15] in a restaurant (Pasta)
+2021-10-01 22:55:38:344 [pool-3-thread-17] INFO  Rome:93 - tourist [31] started eating Pasta [13] in a restaurant (Pasta)
+2021-10-01 22:55:38:344 [pool-3-thread-19] INFO  Rome:93 - tourist [33] started eating Pasta [11] in a restaurant (Pasta)
+2021-10-01 22:55:39:186 [pool-3-thread-2] INFO  Rome:86 - tourist [15]  ate Pizza [10] and got on the bus : meal time 1278 ms 
+2021-10-01 22:55:40:406 [pool-3-thread-20] INFO  Rome:86 - tourist [34]  ate Pizza [16] and got on the bus : meal time 2497 ms 
+2021-10-01 22:55:40:806 [pool-3-thread-23] INFO  Rome:95 - tourist [37]  ate Pasta [15] and got on the bus : meal time 2461 ms 
+2021-10-01 22:55:40:851 [pool-3-thread-3] INFO  Rome:95 - tourist [16]  ate Pasta [19] and got on the bus : meal time 2507 ms 
+2021-10-01 22:55:41:613 [pool-3-thread-17] INFO  Rome:95 - tourist [31]  ate Pasta [13] and got on the bus : meal time 3269 ms 
+2021-10-01 22:55:42:032 [pool-3-thread-12] INFO  Rome:86 - tourist [26]  ate Pizza [12] and got on the bus : meal time 4123 ms 
+2021-10-01 22:55:42:269 [pool-3-thread-38] INFO  Rome:86 - tourist [52]  ate Pizza [18] and got on the bus : meal time 4360 ms 
+2021-10-01 22:55:42:514 [pool-3-thread-8] INFO  Rome:86 - tourist [22]  ate Pizza [14] and got on the bus : meal time 4605 ms 
+2021-10-01 22:55:42:514 [pool-3-thread-6] INFO  Rome:23 - ########################## Service tourists in a restaurant Pizza ##############################
+2021-10-01 22:55:42:514 [pool-3-thread-6] INFO  Rome:84 - tourist [20] started eating Pizza [8] in a restaurant (Pizza)
+2021-10-01 22:55:42:514 [pool-3-thread-30] INFO  Rome:84 - tourist [44] started eating Pizza [2] in a restaurant (Pizza)
+2021-10-01 22:55:42:514 [pool-3-thread-36] INFO  Rome:84 - tourist [50] started eating Pizza [6] in a restaurant (Pizza)
+2021-10-01 22:55:42:514 [pool-3-thread-14] INFO  Rome:84 - tourist [28] started eating Pizza [4] in a restaurant (Pizza)
+2021-10-01 22:55:42:514 [pool-3-thread-18] INFO  Rome:84 - tourist [32] started eating Pizza [0] in a restaurant (Pizza)
+2021-10-01 22:55:42:620 [pool-3-thread-21] INFO  Rome:95 - tourist [35]  ate Pasta [17] and got on the bus : meal time 4275 ms 
+2021-10-01 22:55:43:136 [pool-3-thread-19] INFO  Rome:95 - tourist [33]  ate Pasta [11] and got on the bus : meal time 4792 ms 
+2021-10-01 22:55:43:136 [pool-3-thread-25] INFO  Rome:27 -  ######################### Service tourists in a restaurant Pasta ##############################
+2021-10-01 22:55:43:136 [pool-3-thread-25] INFO  Rome:93 - tourist [39] started eating Pasta [9] in a restaurant (Pasta)
+2021-10-01 22:55:43:136 [pool-3-thread-1] INFO  Rome:93 - tourist [14] started eating Pasta [5] in a restaurant (Pasta)
+2021-10-01 22:55:43:136 [pool-3-thread-13] INFO  Rome:93 - tourist [27] started eating Pasta [7] in a restaurant (Pasta)
+2021-10-01 22:55:43:136 [pool-3-thread-7] INFO  Rome:93 - tourist [21] started eating Pasta [3] in a restaurant (Pasta)
+2021-10-01 22:55:43:136 [pool-3-thread-31] INFO  Rome:93 - tourist [45] started eating Pasta [1] in a restaurant (Pasta)
+2021-10-01 22:55:44:512 [pool-3-thread-6] INFO  Rome:86 - tourist [20]  ate Pizza [8] and got on the bus : meal time 1998 ms 
+2021-10-01 22:55:44:791 [pool-3-thread-18] INFO  Rome:86 - tourist [32]  ate Pizza [0] and got on the bus : meal time 2277 ms 
+2021-10-01 22:55:44:855 [pool-3-thread-14] INFO  Rome:86 - tourist [28]  ate Pizza [4] and got on the bus : meal time 2341 ms 
+2021-10-01 22:55:45:843 [pool-3-thread-1] INFO  Rome:95 - tourist [14]  ate Pasta [5] and got on the bus : meal time 2707 ms 
+2021-10-01 22:55:46:381 [pool-3-thread-31] INFO  Rome:95 - tourist [45]  ate Pasta [1] and got on the bus : meal time 3245 ms 
+2021-10-01 22:55:46:749 [pool-3-thread-36] INFO  Rome:86 - tourist [50]  ate Pizza [6] and got on the bus : meal time 4235 ms 
+2021-10-01 22:55:47:012 [pool-3-thread-7] INFO  Rome:95 - tourist [21]  ate Pasta [3] and got on the bus : meal time 3876 ms 
+2021-10-01 22:55:47:140 [pool-3-thread-25] INFO  Rome:95 - tourist [39]  ate Pasta [9] and got on the bus : meal time 4004 ms 
+2021-10-01 22:55:47:197 [pool-3-thread-30] INFO  Rome:86 - tourist [44]  ate Pizza [2] and got on the bus : meal time 4683 ms 
+2021-10-01 22:55:47:347 [pool-3-thread-13] INFO  Rome:95 - tourist [27]  ate Pasta [7] and got on the bus : meal time 4211 ms 
+2021-10-01 22:55:47:347 [Thread-3] INFO  Manager:109 - ----------------end of excursion in  Rome--------------------------------
+2021-10-01 22:55:48:358 [Thread-4] INFO  Manager:113 - ------------------------fourth stop Spain---------------------------------
+2021-10-01 22:55:49:361 [pool-3-thread-26] INFO  Spain:20 - tourist [40] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-37] INFO  Spain:20 - tourist [51] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-2] INFO  Spain:20 - tourist [15] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-8] INFO  Spain:20 - tourist [22] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-32] INFO  Spain:20 - tourist [46] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-38] INFO  Spain:20 - tourist [52] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-3] INFO  Spain:20 - tourist [16] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-24] INFO  Spain:20 - tourist [38] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-20] INFO  Spain:20 - tourist [34] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-6] INFO  Spain:20 - tourist [20] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-35] INFO  Spain:20 - tourist [49] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-19] INFO  Spain:20 - tourist [33] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-13] INFO  Spain:20 - tourist [27] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-28] INFO  Spain:20 - tourist [42] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-10] INFO  Spain:20 - tourist [24] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-34] INFO  Spain:20 - tourist [48] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-12] INFO  Spain:20 - tourist [26] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-14] INFO  Spain:20 - tourist [28] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-11] INFO  Spain:20 - tourist [25] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-40] INFO  Spain:20 - tourist [54] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-18] INFO  Spain:20 - tourist [32] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-22] INFO  Spain:20 - tourist [36] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-29] INFO  Spain:20 - tourist [43] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-1] INFO  Spain:20 - tourist [14] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-4] INFO  Spain:20 - tourist [18] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-30] INFO  Spain:20 - tourist [44] arrived to bitch 
+2021-10-01 22:55:49:362 [pool-3-thread-15] INFO  Spain:20 - tourist [29] arrived to bitch 
+2021-10-01 22:55:49:362 [pool-3-thread-33] INFO  Spain:20 - tourist [47] arrived to bitch 
+2021-10-01 22:55:49:362 [pool-3-thread-7] INFO  Spain:20 - tourist [21] arrived to bitch 
+2021-10-01 22:55:49:361 [pool-3-thread-31] INFO  Spain:20 - tourist [45] arrived to bitch 
+2021-10-01 22:55:49:362 [pool-3-thread-16] INFO  Spain:20 - tourist [30] arrived to bitch 
+2021-10-01 22:55:49:362 [pool-3-thread-27] INFO  Spain:20 - tourist [41] arrived to bitch 
+2021-10-01 22:55:49:362 [pool-3-thread-5] INFO  Spain:20 - tourist [19] arrived to bitch 
+2021-10-01 22:55:49:362 [pool-3-thread-25] INFO  Spain:20 - tourist [39] arrived to bitch 
+2021-10-01 22:55:49:362 [pool-3-thread-9] INFO  Spain:20 - tourist [23] arrived to bitch 
+2021-10-01 22:55:49:362 [pool-3-thread-23] INFO  Spain:20 - tourist [37] arrived to bitch 
+2021-10-01 22:55:49:362 [pool-3-thread-39] INFO  Spain:20 - tourist [53] arrived to bitch 
+2021-10-01 22:55:49:362 [pool-3-thread-36] INFO  Spain:20 - tourist [50] arrived to bitch 
+2021-10-01 22:55:49:362 [pool-3-thread-17] INFO  Spain:20 - tourist [31] arrived to bitch 
+2021-10-01 22:55:49:362 [pool-3-thread-21] INFO  Spain:20 - tourist [35] arrived to bitch 
+2021-10-01 22:55:50:432 [pool-3-thread-32] INFO  Spain:24 - tourist [46] rest  time : 1070 ms 
+2021-10-01 22:55:50:432 [pool-3-thread-32] INFO  Tourist:60 - transfer photo from pool-3-thread-32 completed: result : null
+2021-10-01 22:55:50:432 [Thread-4] INFO  Manager:86 - transfer : number of photos : 7 
+2021-10-01 22:55:50:640 [pool-3-thread-2] INFO  Spain:24 - tourist [15] rest  time : 1278 ms 
+2021-10-01 22:55:50:640 [pool-3-thread-2] INFO  Tourist:60 - transfer photo from pool-3-thread-2 completed: result : null
+2021-10-01 22:55:50:640 [Thread-4] INFO  Manager:86 - transfer : number of photos : 7 
+2021-10-01 22:55:51:142 [pool-3-thread-22] INFO  Spain:24 - tourist [36] rest  time : 1778 ms 
+2021-10-01 22:55:51:142 [pool-3-thread-22] INFO  Tourist:60 - transfer photo from pool-3-thread-22 completed: result : null
+2021-10-01 22:55:51:142 [Thread-4] INFO  Manager:86 - transfer : number of photos : 10 
+2021-10-01 22:55:51:345 [pool-3-thread-16] INFO  Spain:24 - tourist [30] rest  time : 1981 ms 
+2021-10-01 22:55:51:345 [pool-3-thread-16] INFO  Tourist:60 - transfer photo from pool-3-thread-16 completed: result : null
+2021-10-01 22:55:51:345 [Thread-4] INFO  Manager:86 - transfer : number of photos : 15 
+2021-10-01 22:55:51:361 [pool-3-thread-6] INFO  Spain:24 - tourist [20] rest  time : 1998 ms 
+2021-10-01 22:55:51:361 [pool-3-thread-6] INFO  Tourist:60 - transfer photo from pool-3-thread-6 completed: result : null
+2021-10-01 22:55:51:361 [Thread-4] INFO  Manager:86 - transfer : number of photos : 9 
+2021-10-01 22:55:51:462 [pool-3-thread-33] INFO  Spain:24 - tourist [47] rest  time : 2099 ms 
+2021-10-01 22:55:51:462 [pool-3-thread-33] INFO  Tourist:60 - transfer photo from pool-3-thread-33 completed: result : null
+2021-10-01 22:55:51:462 [Thread-4] INFO  Manager:86 - transfer : number of photos : 12 
+2021-10-01 22:55:51:640 [pool-3-thread-18] INFO  Spain:24 - tourist [32] rest  time : 2277 ms 
+2021-10-01 22:55:51:640 [pool-3-thread-18] INFO  Tourist:60 - transfer photo from pool-3-thread-18 completed: result : null
+2021-10-01 22:55:51:640 [Thread-4] INFO  Manager:86 - transfer : number of photos : 15 
+2021-10-01 22:55:51:703 [pool-3-thread-14] INFO  Spain:24 - tourist [28] rest  time : 2341 ms 
+2021-10-01 22:55:51:703 [pool-3-thread-14] INFO  Tourist:60 - transfer photo from pool-3-thread-14 completed: result : null
+2021-10-01 22:55:51:703 [Thread-4] INFO  Manager:86 - transfer : number of photos : 9 
+2021-10-01 22:55:51:817 [pool-3-thread-27] INFO  Spain:24 - tourist [41] rest  time : 2454 ms 
+2021-10-01 22:55:51:817 [pool-3-thread-27] INFO  Tourist:60 - transfer photo from pool-3-thread-27 completed: result : null
+2021-10-01 22:55:51:817 [Thread-4] INFO  Manager:86 - transfer : number of photos : 9 
+2021-10-01 22:55:51:824 [pool-3-thread-23] INFO  Spain:24 - tourist [37] rest  time : 2461 ms 
+2021-10-01 22:55:51:824 [pool-3-thread-23] INFO  Tourist:60 - transfer photo from pool-3-thread-23 completed: result : null
+2021-10-01 22:55:51:824 [Thread-4] INFO  Manager:86 - transfer : number of photos : 8 
+2021-10-01 22:55:51:859 [pool-3-thread-20] INFO  Spain:24 - tourist [34] rest  time : 2497 ms 
+2021-10-01 22:55:51:859 [pool-3-thread-20] INFO  Tourist:60 - transfer photo from pool-3-thread-20 completed: result : null
+2021-10-01 22:55:51:859 [Thread-4] INFO  Manager:86 - transfer : number of photos : 14 
+2021-10-01 22:55:51:869 [pool-3-thread-3] INFO  Spain:24 - tourist [16] rest  time : 2507 ms 
+2021-10-01 22:55:51:869 [pool-3-thread-3] INFO  Tourist:60 - transfer photo from pool-3-thread-3 completed: result : null
+2021-10-01 22:55:51:869 [Thread-4] INFO  Manager:86 - transfer : number of photos : 13 
+2021-10-01 22:55:51:988 [pool-3-thread-28] INFO  Spain:24 - tourist [42] rest  time : 2626 ms 
+2021-10-01 22:55:51:988 [pool-3-thread-28] INFO  Tourist:60 - transfer photo from pool-3-thread-28 completed: result : null
+2021-10-01 22:55:51:988 [Thread-4] INFO  Manager:86 - transfer : number of photos : 10 
+2021-10-01 22:55:52:020 [pool-3-thread-9] INFO  Spain:24 - tourist [23] rest  time : 2657 ms 
+2021-10-01 22:55:52:020 [pool-3-thread-9] INFO  Tourist:60 - transfer photo from pool-3-thread-9 completed: result : null
+2021-10-01 22:55:52:020 [Thread-4] INFO  Manager:86 - transfer : number of photos : 13 
+2021-10-01 22:55:52:071 [pool-3-thread-1] INFO  Spain:24 - tourist [14] rest  time : 2707 ms 
+2021-10-01 22:55:52:071 [pool-3-thread-1] INFO  Tourist:60 - transfer photo from pool-3-thread-1 completed: result : null
+2021-10-01 22:55:52:071 [Thread-4] INFO  Manager:86 - transfer : number of photos : 11 
+2021-10-01 22:55:52:196 [pool-3-thread-35] INFO  Spain:24 - tourist [49] rest  time : 2833 ms 
+2021-10-01 22:55:52:196 [pool-3-thread-35] INFO  Tourist:60 - transfer photo from pool-3-thread-35 completed: result : null
+2021-10-01 22:55:52:196 [Thread-4] INFO  Manager:86 - transfer : number of photos : 8 
+2021-10-01 22:55:52:198 [pool-3-thread-39] INFO  Spain:24 - tourist [53] rest  time : 2834 ms 
+2021-10-01 22:55:52:198 [pool-3-thread-39] INFO  Tourist:60 - transfer photo from pool-3-thread-39 completed: result : null
+2021-10-01 22:55:52:198 [Thread-4] INFO  Manager:86 - transfer : number of photos : 9 
+2021-10-01 22:55:52:333 [pool-3-thread-37] INFO  Spain:24 - tourist [51] rest  time : 2971 ms 
+2021-10-01 22:55:52:333 [pool-3-thread-37] INFO  Tourist:60 - transfer photo from pool-3-thread-37 completed: result : null
+2021-10-01 22:55:52:333 [Thread-4] INFO  Manager:86 - transfer : number of photos : 11 
+2021-10-01 22:55:52:343 [pool-3-thread-34] INFO  Spain:24 - tourist [48] rest  time : 2980 ms 
+2021-10-01 22:55:52:343 [pool-3-thread-34] INFO  Tourist:60 - transfer photo from pool-3-thread-34 completed: result : null
+2021-10-01 22:55:52:343 [Thread-4] INFO  Manager:86 - transfer : number of photos : 9 
+2021-10-01 22:55:52:378 [pool-3-thread-11] INFO  Spain:24 - tourist [25] rest  time : 3016 ms 
+2021-10-01 22:55:52:378 [pool-3-thread-11] INFO  Tourist:60 - transfer photo from pool-3-thread-11 completed: result : null
+2021-10-01 22:55:52:378 [Thread-4] INFO  Manager:86 - transfer : number of photos : 13 
+2021-10-01 22:55:52:578 [pool-3-thread-5] INFO  Spain:24 - tourist [19] rest  time : 3215 ms 
+2021-10-01 22:55:52:578 [pool-3-thread-5] INFO  Tourist:60 - transfer photo from pool-3-thread-5 completed: result : null
+2021-10-01 22:55:52:578 [Thread-4] INFO  Manager:86 - transfer : number of photos : 10 
+2021-10-01 22:55:52:608 [pool-3-thread-31] INFO  Spain:24 - tourist [45] rest  time : 3245 ms 
+2021-10-01 22:55:52:608 [pool-3-thread-31] INFO  Tourist:60 - transfer photo from pool-3-thread-31 completed: result : null
+2021-10-01 22:55:52:608 [Thread-4] INFO  Manager:86 - transfer : number of photos : 12 
+2021-10-01 22:55:52:632 [pool-3-thread-17] INFO  Spain:24 - tourist [31] rest  time : 3269 ms 
+2021-10-01 22:55:52:632 [pool-3-thread-17] INFO  Tourist:60 - transfer photo from pool-3-thread-17 completed: result : null
+2021-10-01 22:55:52:632 [Thread-4] INFO  Manager:86 - transfer : number of photos : 8 
+2021-10-01 22:55:52:681 [pool-3-thread-10] INFO  Spain:24 - tourist [24] rest  time : 3319 ms 
+2021-10-01 22:55:52:681 [pool-3-thread-10] INFO  Tourist:60 - transfer photo from pool-3-thread-10 completed: result : null
+2021-10-01 22:55:52:681 [Thread-4] INFO  Manager:86 - transfer : number of photos : 8 
+2021-10-01 22:55:52:709 [pool-3-thread-4] INFO  Spain:24 - tourist [18] rest  time : 3346 ms 
+2021-10-01 22:55:52:709 [pool-3-thread-4] INFO  Tourist:60 - transfer photo from pool-3-thread-4 completed: result : null
+2021-10-01 22:55:52:709 [Thread-4] INFO  Manager:86 - transfer : number of photos : 13 
+2021-10-01 22:55:53:060 [pool-3-thread-26] INFO  Spain:24 - tourist [40] rest  time : 3698 ms 
+2021-10-01 22:55:53:060 [pool-3-thread-26] INFO  Tourist:60 - transfer photo from pool-3-thread-26 completed: result : null
+2021-10-01 22:55:53:060 [Thread-4] INFO  Manager:86 - transfer : number of photos : 10 
+2021-10-01 22:55:53:160 [pool-3-thread-40] INFO  Spain:24 - tourist [54] rest  time : 3798 ms 
+2021-10-01 22:55:53:160 [pool-3-thread-40] INFO  Tourist:60 - transfer photo from pool-3-thread-40 completed: result : null
+2021-10-01 22:55:53:160 [Thread-4] INFO  Manager:86 - transfer : number of photos : 14 
+2021-10-01 22:55:53:162 [pool-3-thread-24] INFO  Spain:24 - tourist [38] rest  time : 3800 ms 
+2021-10-01 22:55:53:162 [pool-3-thread-24] INFO  Tourist:60 - transfer photo from pool-3-thread-24 completed: result : null
+2021-10-01 22:55:53:162 [Thread-4] INFO  Manager:86 - transfer : number of photos : 7 
+2021-10-01 22:55:53:239 [pool-3-thread-7] INFO  Spain:24 - tourist [21] rest  time : 3876 ms 
+2021-10-01 22:55:53:239 [pool-3-thread-7] INFO  Tourist:60 - transfer photo from pool-3-thread-7 completed: result : null
+2021-10-01 22:55:53:239 [Thread-4] INFO  Manager:86 - transfer : number of photos : 15 
+2021-10-01 22:55:53:368 [pool-3-thread-25] INFO  Spain:24 - tourist [39] rest  time : 4004 ms 
+2021-10-01 22:55:53:368 [pool-3-thread-25] INFO  Tourist:60 - transfer photo from pool-3-thread-25 completed: result : null
+2021-10-01 22:55:53:368 [Thread-4] INFO  Manager:86 - transfer : number of photos : 10 
+2021-10-01 22:55:53:463 [pool-3-thread-29] INFO  Spain:24 - tourist [43] rest  time : 4100 ms 
+2021-10-01 22:55:53:463 [pool-3-thread-29] INFO  Tourist:60 - transfer photo from pool-3-thread-29 completed: result : null
+2021-10-01 22:55:53:463 [Thread-4] INFO  Manager:86 - transfer : number of photos : 16 
+2021-10-01 22:55:53:486 [pool-3-thread-12] INFO  Spain:24 - tourist [26] rest  time : 4123 ms 
+2021-10-01 22:55:53:486 [pool-3-thread-12] INFO  Tourist:60 - transfer photo from pool-3-thread-12 completed: result : null
+2021-10-01 22:55:53:486 [Thread-4] INFO  Manager:86 - transfer : number of photos : 11 
+2021-10-01 22:55:53:573 [pool-3-thread-13] INFO  Spain:24 - tourist [27] rest  time : 4211 ms 
+2021-10-01 22:55:53:573 [pool-3-thread-13] INFO  Tourist:60 - transfer photo from pool-3-thread-13 completed: result : null
+2021-10-01 22:55:53:573 [Thread-4] INFO  Manager:86 - transfer : number of photos : 14 
+2021-10-01 22:55:53:597 [pool-3-thread-36] INFO  Spain:24 - tourist [50] rest  time : 4235 ms 
+2021-10-01 22:55:53:597 [pool-3-thread-36] INFO  Tourist:60 - transfer photo from pool-3-thread-36 completed: result : null
+2021-10-01 22:55:53:597 [Thread-4] INFO  Manager:86 - transfer : number of photos : 10 
+2021-10-01 22:55:53:637 [pool-3-thread-21] INFO  Spain:24 - tourist [35] rest  time : 4275 ms 
+2021-10-01 22:55:53:637 [pool-3-thread-21] INFO  Tourist:60 - transfer photo from pool-3-thread-21 completed: result : null
+2021-10-01 22:55:53:637 [Thread-4] INFO  Manager:86 - transfer : number of photos : 11 
+2021-10-01 22:55:53:723 [pool-3-thread-38] INFO  Spain:24 - tourist [52] rest  time : 4360 ms 
+2021-10-01 22:55:53:723 [pool-3-thread-38] INFO  Tourist:60 - transfer photo from pool-3-thread-38 completed: result : null
+2021-10-01 22:55:53:723 [Thread-4] INFO  Manager:86 - transfer : number of photos : 11 
+2021-10-01 22:55:53:968 [pool-3-thread-8] INFO  Spain:24 - tourist [22] rest  time : 4605 ms 
+2021-10-01 22:55:53:968 [pool-3-thread-8] INFO  Tourist:60 - transfer photo from pool-3-thread-8 completed: result : null
+2021-10-01 22:55:53:968 [Thread-4] INFO  Manager:86 - transfer : number of photos : 12 
+2021-10-01 22:55:54:046 [pool-3-thread-30] INFO  Spain:24 - tourist [44] rest  time : 4683 ms 
+2021-10-01 22:55:54:046 [pool-3-thread-30] INFO  Tourist:60 - transfer photo from pool-3-thread-30 completed: result : null
+2021-10-01 22:55:54:046 [Thread-4] INFO  Manager:86 - transfer : number of photos : 8 
+2021-10-01 22:55:54:155 [pool-3-thread-19] INFO  Spain:24 - tourist [33] rest  time : 4792 ms 
+2021-10-01 22:55:54:155 [pool-3-thread-19] INFO  Tourist:60 - transfer photo from pool-3-thread-19 completed: result : null
+2021-10-01 22:55:54:155 [Thread-4] INFO  Manager:86 - transfer : number of photos : 8 
+2021-10-01 22:55:54:182 [pool-3-thread-15] INFO  Spain:24 - tourist [29] rest  time : 4819 ms 
+2021-10-01 22:55:54:182 [pool-3-thread-15] INFO  Tourist:60 - transfer photo from pool-3-thread-15 completed: result : null
+2021-10-01 22:55:54:182 [Thread-4] INFO  Manager:86 - transfer : number of photos : 7 
+2021-10-01 22:55:54:182 [Thread-4] INFO  Manager:116 - ################ Total photo tourists  in Cloud : 427  ####################
+2021-10-01 22:55:54:182 [Thread-4] INFO  Manager:117 - ----------------end of holiday in Spain------------------------------------
+2021-10-01 22:55:55:191 [pool-3-thread-40] INFO  Tourist:46 - Tourist [54] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-38] INFO  Tourist:46 - Tourist [52] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-29] INFO  Tourist:46 - Tourist [43] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-8] INFO  Tourist:46 - Tourist [22] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-21] INFO  Tourist:46 - Tourist [35] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-4] INFO  Tourist:46 - Tourist [18] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-30] INFO  Tourist:46 - Tourist [44] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-10] INFO  Tourist:46 - Tourist [24] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-36] INFO  Tourist:46 - Tourist [50] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-17] INFO  Tourist:46 - Tourist [31] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-5] INFO  Tourist:46 - Tourist [19] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-11] INFO  Tourist:46 - Tourist [25] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-12] INFO  Tourist:46 - Tourist [26] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-34] INFO  Tourist:46 - Tourist [48] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-39] INFO  Tourist:46 - Tourist [53] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-13] INFO  Tourist:46 - Tourist [27] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-35] INFO  Tourist:46 - Tourist [49] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-24] INFO  Tourist:46 - Tourist [38] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-25] INFO  Tourist:46 - Tourist [39] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-9] INFO  Tourist:46 - Tourist [23] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-27] INFO  Tourist:46 - Tourist [41] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-28] INFO  Tourist:46 - Tourist [42] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-33] INFO  Tourist:46 - Tourist [47] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-23] INFO  Tourist:46 - Tourist [37] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-16] INFO  Tourist:46 - Tourist [30] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-31] INFO  Tourist:46 - Tourist [45] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-7] INFO  Tourist:46 - Tourist [21] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-26] INFO  Tourist:46 - Tourist [40] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-15] INFO  Tourist:46 - Tourist [29] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-3] INFO  Tourist:46 - Tourist [16] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-37] INFO  Tourist:46 - Tourist [51] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-22] INFO  Tourist:46 - Tourist [36] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-14] INFO  Tourist:46 - Tourist [28] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-20] INFO  Tourist:46 - Tourist [34] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-1] INFO  Tourist:46 - Tourist [14] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-18] INFO  Tourist:46 - Tourist [32] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-6] INFO  Tourist:46 - Tourist [20] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-2] INFO  Tourist:46 - Tourist [15] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-32] INFO  Tourist:46 - Tourist [46] arrived to last station and leave bus
+2021-10-01 22:55:55:191 [pool-3-thread-19] INFO  Tourist:46 - Tourist [33] arrived to last station and leave bus
+2021-10-01 22:55:55:192 [main] INFO  MainClass:51 - --------------------------------------------------------------------------
+2021-10-01 22:55:55:192 [main] INFO  MainClass:52 - start tour
+2021-10-01 22:55:55:192 [main] INFO  MainClass:53 - --------------------------------------------------------------------------
+2021-10-01 22:55:55:192 [pool-3-thread-38] INFO  Tourist:35 - Tourist [52] arrived to bus
+2021-10-01 22:55:55:192 [pool-3-thread-29] INFO  Tourist:35 - Tourist [43] arrived to bus
+2021-10-01 22:55:55:192 [pool-3-thread-21] INFO  Tourist:35 - Tourist [35] arrived to bus
+2021-10-01 22:55:55:192 [pool-3-thread-8] INFO  Tourist:35 - Tourist [22] arrived to bus
+2021-10-01 22:55:55:192 [pool-3-thread-4] INFO  Tourist:35 - Tourist [18] arrived to bus
+2021-10-01 22:55:55:192 [pool-3-thread-40] INFO  Tourist:35 - Tourist [54] arrived to bus
+2021-10-01 22:55:55:192 [pool-3-thread-30] INFO  Tourist:35 - Tourist [44] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-10] INFO  Tourist:35 - Tourist [24] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-36] INFO  Tourist:35 - Tourist [50] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-17] INFO  Tourist:35 - Tourist [31] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-12] INFO  Tourist:35 - Tourist [26] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-11] INFO  Tourist:35 - Tourist [25] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-5] INFO  Tourist:35 - Tourist [19] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-34] INFO  Tourist:35 - Tourist [48] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-39] INFO  Tourist:35 - Tourist [53] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-13] INFO  Tourist:35 - Tourist [27] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-24] INFO  Tourist:35 - Tourist [38] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-35] INFO  Tourist:35 - Tourist [49] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-25] INFO  Tourist:35 - Tourist [39] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-27] INFO  Tourist:35 - Tourist [41] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-9] INFO  Tourist:35 - Tourist [23] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-23] INFO  Tourist:35 - Tourist [37] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-28] INFO  Tourist:35 - Tourist [42] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-16] INFO  Tourist:35 - Tourist [30] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-33] INFO  Tourist:35 - Tourist [47] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-31] INFO  Tourist:35 - Tourist [45] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-7] INFO  Tourist:35 - Tourist [21] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-15] INFO  Tourist:35 - Tourist [29] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-26] INFO  Tourist:35 - Tourist [40] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-3] INFO  Tourist:35 - Tourist [16] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-37] INFO  Tourist:35 - Tourist [51] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-14] INFO  Tourist:35 - Tourist [28] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-22] INFO  Tourist:35 - Tourist [36] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-20] INFO  Tourist:35 - Tourist [34] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-6] INFO  Tourist:35 - Tourist [20] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-2] INFO  Tourist:35 - Tourist [15] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-18] INFO  Tourist:35 - Tourist [32] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-32] INFO  Tourist:35 - Tourist [46] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-1] INFO  Tourist:35 - Tourist [14] arrived to bus
+2021-10-01 22:55:55:193 [pool-3-thread-19] INFO  Tourist:35 - Tourist [33] arrived to bus
+2021-10-01 22:55:57:208 [Thread-5] INFO  Manager:92 - all the tourists got on the bus, and it goes
+2021-10-01 22:55:57:208 [Thread-5] INFO  Manager:93 - ---------------------------first stop Prague----------------------------
+2021-10-01 22:55:58:215 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:55:58:215 [pool-3-thread-38] INFO  Prague:23 - tourist [52]  took a beer and started drinking
+2021-10-01 22:55:59:227 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:55:59:227 [pool-3-thread-39] INFO  Prague:23 - tourist [53]  took a beer and started drinking
+2021-10-01 22:56:00:234 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:00:234 [pool-3-thread-5] INFO  Prague:23 - tourist [19]  took a beer and started drinking
+2021-10-01 22:56:00:894 [pool-3-thread-39] INFO  Prague:25 - tourist [53] drank dark Czech beer : Time meal : 1666 ms
+2021-10-01 22:56:01:235 [pool-3-thread-8] INFO  Prague:23 - tourist [22]  took a beer and started drinking
+2021-10-01 22:56:01:235 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:01:694 [pool-3-thread-38] INFO  Prague:25 - tourist [52] drank dark Czech beer : Time meal : 3470 ms
+2021-10-01 22:56:02:235 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:02:235 [pool-3-thread-32] INFO  Prague:23 - tourist [46]  took a beer and started drinking
+2021-10-01 22:56:03:236 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:03:236 [pool-3-thread-11] INFO  Prague:23 - tourist [25]  took a beer and started drinking
+2021-10-01 22:56:03:447 [pool-3-thread-8] INFO  Prague:25 - tourist [22] drank dark Czech beer : Time meal : 2212 ms
+2021-10-01 22:56:04:236 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:04:236 [pool-3-thread-17] INFO  Prague:23 - tourist [31]  took a beer and started drinking
+2021-10-01 22:56:04:819 [pool-3-thread-5] INFO  Prague:25 - tourist [19] drank dark Czech beer : Time meal : 4584 ms
+2021-10-01 22:56:05:237 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:05:237 [pool-3-thread-1] INFO  Prague:23 - tourist [14]  took a beer and started drinking
+2021-10-01 22:56:05:524 [pool-3-thread-32] INFO  Prague:25 - tourist [46] drank dark Czech beer : Time meal : 3289 ms
+2021-10-01 22:56:06:237 [pool-3-thread-2] INFO  Prague:23 - tourist [15]  took a beer and started drinking
+2021-10-01 22:56:06:237 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:07:147 [pool-3-thread-17] INFO  Prague:25 - tourist [31] drank dark Czech beer : Time meal : 2910 ms
+2021-10-01 22:56:07:238 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:07:238 [pool-3-thread-10] INFO  Prague:23 - tourist [24]  took a beer and started drinking
+2021-10-01 22:56:07:763 [pool-3-thread-11] INFO  Prague:25 - tourist [25] drank dark Czech beer : Time meal : 4527 ms
+2021-10-01 22:56:08:238 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:08:238 [pool-3-thread-40] INFO  Prague:23 - tourist [54]  took a beer and started drinking
+2021-10-01 22:56:09:223 [pool-3-thread-1] INFO  Prague:25 - tourist [14] drank dark Czech beer : Time meal : 3986 ms
+2021-10-01 22:56:09:238 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:09:238 [pool-3-thread-20] INFO  Prague:23 - tourist [34]  took a beer and started drinking
+2021-10-01 22:56:09:772 [pool-3-thread-2] INFO  Prague:25 - tourist [15] drank dark Czech beer : Time meal : 3534 ms
+2021-10-01 22:56:10:239 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:10:239 [pool-3-thread-6] INFO  Prague:23 - tourist [20]  took a beer and started drinking
+2021-10-01 22:56:11:151 [pool-3-thread-40] INFO  Prague:25 - tourist [54] drank dark Czech beer : Time meal : 2913 ms
+2021-10-01 22:56:11:209 [pool-3-thread-10] INFO  Prague:25 - tourist [24] drank dark Czech beer : Time meal : 3971 ms
+2021-10-01 22:56:11:239 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:11:239 [pool-3-thread-4] INFO  Prague:23 - tourist [18]  took a beer and started drinking
+2021-10-01 22:56:12:240 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:12:240 [pool-3-thread-21] INFO  Prague:23 - tourist [35]  took a beer and started drinking
+2021-10-01 22:56:12:745 [pool-3-thread-20] INFO  Prague:25 - tourist [34] drank dark Czech beer : Time meal : 3506 ms
+2021-10-01 22:56:12:833 [pool-3-thread-4] INFO  Prague:25 - tourist [18] drank dark Czech beer : Time meal : 1594 ms
+2021-10-01 22:56:13:240 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:13:240 [pool-3-thread-14] INFO  Prague:23 - tourist [28]  took a beer and started drinking
+2021-10-01 22:56:13:442 [pool-3-thread-6] INFO  Prague:25 - tourist [20] drank dark Czech beer : Time meal : 3203 ms
+2021-10-01 22:56:14:109 [pool-3-thread-21] INFO  Prague:25 - tourist [35] drank dark Czech beer : Time meal : 1869 ms
+2021-10-01 22:56:14:241 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:14:241 [pool-3-thread-26] INFO  Prague:23 - tourist [40]  took a beer and started drinking
+2021-10-01 22:56:15:242 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:15:242 [pool-3-thread-29] INFO  Prague:23 - tourist [43]  took a beer and started drinking
+2021-10-01 22:56:16:242 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:16:242 [pool-3-thread-22] INFO  Prague:23 - tourist [36]  took a beer and started drinking
+2021-10-01 22:56:16:668 [pool-3-thread-14] INFO  Prague:25 - tourist [28] drank dark Czech beer : Time meal : 3427 ms
+2021-10-01 22:56:17:022 [pool-3-thread-29] INFO  Prague:25 - tourist [43] drank dark Czech beer : Time meal : 1780 ms
+2021-10-01 22:56:17:243 [pool-3-thread-37] INFO  Prague:23 - tourist [51]  took a beer and started drinking
+2021-10-01 22:56:17:243 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:17:761 [pool-3-thread-26] INFO  Prague:25 - tourist [40] drank dark Czech beer : Time meal : 3519 ms
+2021-10-01 22:56:18:244 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:18:244 [pool-3-thread-15] INFO  Prague:23 - tourist [29]  took a beer and started drinking
+2021-10-01 22:56:18:848 [pool-3-thread-37] INFO  Prague:25 - tourist [51] drank dark Czech beer : Time meal : 1604 ms
+2021-10-01 22:56:19:244 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:19:244 [pool-3-thread-3] INFO  Prague:23 - tourist [16]  took a beer and started drinking
+2021-10-01 22:56:19:618 [pool-3-thread-15] INFO  Prague:25 - tourist [29] drank dark Czech beer : Time meal : 1373 ms
+2021-10-01 22:56:20:090 [pool-3-thread-22] INFO  Prague:25 - tourist [36] drank dark Czech beer : Time meal : 3847 ms
+2021-10-01 22:56:20:244 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:20:244 [pool-3-thread-33] INFO  Prague:23 - tourist [47]  took a beer and started drinking
+2021-10-01 22:56:21:244 [pool-3-thread-16] INFO  Prague:23 - tourist [30]  took a beer and started drinking
+2021-10-01 22:56:21:244 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:21:262 [pool-3-thread-3] INFO  Prague:25 - tourist [16] drank dark Czech beer : Time meal : 2017 ms
+2021-10-01 22:56:22:245 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:22:245 [pool-3-thread-7] INFO  Prague:23 - tourist [21]  took a beer and started drinking
+2021-10-01 22:56:23:087 [pool-3-thread-33] INFO  Prague:25 - tourist [47] drank dark Czech beer : Time meal : 2842 ms
+2021-10-01 22:56:23:245 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:23:245 [pool-3-thread-24] INFO  Prague:23 - tourist [38]  took a beer and started drinking
+2021-10-01 22:56:24:252 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:24:252 [pool-3-thread-28] INFO  Prague:23 - tourist [42]  took a beer and started drinking
+2021-10-01 22:56:25:083 [pool-3-thread-24] INFO  Prague:25 - tourist [38] drank dark Czech beer : Time meal : 1837 ms
+2021-10-01 22:56:25:185 [pool-3-thread-7] INFO  Prague:25 - tourist [21] drank dark Czech beer : Time meal : 2940 ms
+2021-10-01 22:56:25:253 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:25:253 [pool-3-thread-31] INFO  Prague:23 - tourist [45]  took a beer and started drinking
+2021-10-01 22:56:25:925 [pool-3-thread-16] INFO  Prague:25 - tourist [30] drank dark Czech beer : Time meal : 4680 ms
+2021-10-01 22:56:26:253 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:26:253 [pool-3-thread-27] INFO  Prague:23 - tourist [41]  took a beer and started drinking
+2021-10-01 22:56:27:249 [pool-3-thread-31] INFO  Prague:25 - tourist [45] drank dark Czech beer : Time meal : 1996 ms
+2021-10-01 22:56:27:253 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:27:253 [pool-3-thread-9] INFO  Prague:23 - tourist [23]  took a beer and started drinking
+2021-10-01 22:56:28:198 [pool-3-thread-27] INFO  Prague:25 - tourist [41] drank dark Czech beer : Time meal : 1944 ms
+2021-10-01 22:56:28:253 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:28:253 [pool-3-thread-25] INFO  Prague:23 - tourist [39]  took a beer and started drinking
+2021-10-01 22:56:28:607 [pool-3-thread-28] INFO  Prague:25 - tourist [42] drank dark Czech beer : Time meal : 4355 ms
+2021-10-01 22:56:29:254 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:29:254 [pool-3-thread-13] INFO  Prague:23 - tourist [27]  took a beer and started drinking
+2021-10-01 22:56:30:254 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:30:254 [pool-3-thread-23] INFO  Prague:23 - tourist [37]  took a beer and started drinking
+2021-10-01 22:56:31:236 [pool-3-thread-13] INFO  Prague:25 - tourist [27] drank dark Czech beer : Time meal : 1982 ms
+2021-10-01 22:56:31:254 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:31:254 [pool-3-thread-35] INFO  Prague:23 - tourist [49]  took a beer and started drinking
+2021-10-01 22:56:31:318 [pool-3-thread-9] INFO  Prague:25 - tourist [23] drank dark Czech beer : Time meal : 4064 ms
+2021-10-01 22:56:31:964 [pool-3-thread-23] INFO  Prague:25 - tourist [37] drank dark Czech beer : Time meal : 1709 ms
+2021-10-01 22:56:32:254 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:32:254 [pool-3-thread-12] INFO  Prague:23 - tourist [26]  took a beer and started drinking
+2021-10-01 22:56:32:852 [pool-3-thread-25] INFO  Prague:25 - tourist [39] drank dark Czech beer : Time meal : 4598 ms
+2021-10-01 22:56:33:153 [pool-3-thread-35] INFO  Prague:25 - tourist [49] drank dark Czech beer : Time meal : 1899 ms
+2021-10-01 22:56:33:254 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:33:254 [pool-3-thread-30] INFO  Prague:23 - tourist [44]  took a beer and started drinking
+2021-10-01 22:56:34:255 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:34:255 [pool-3-thread-34] INFO  Prague:23 - tourist [48]  took a beer and started drinking
+2021-10-01 22:56:35:255 [pool-3-thread-18] INFO  Prague:23 - tourist [32]  took a beer and started drinking
+2021-10-01 22:56:35:255 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:35:341 [pool-3-thread-30] INFO  Prague:25 - tourist [44] drank dark Czech beer : Time meal : 2085 ms
+2021-10-01 22:56:36:256 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:36:256 [pool-3-thread-19] INFO  Prague:23 - tourist [33]  took a beer and started drinking
+2021-10-01 22:56:36:466 [pool-3-thread-12] INFO  Prague:25 - tourist [26] drank dark Czech beer : Time meal : 4211 ms
+2021-10-01 22:56:37:256 [Thread-5] INFO  Prague:39 - brewer put the beer
+2021-10-01 22:56:37:256 [pool-3-thread-36] INFO  Prague:23 - tourist [50]  took a beer and started drinking
+2021-10-01 22:56:37:720 [pool-3-thread-34] INFO  Prague:25 - tourist [48] drank dark Czech beer : Time meal : 3464 ms
+2021-10-01 22:56:39:764 [pool-3-thread-18] INFO  Prague:25 - tourist [32] drank dark Czech beer : Time meal : 4509 ms
+2021-10-01 22:56:40:868 [pool-3-thread-36] INFO  Prague:25 - tourist [50] drank dark Czech beer : Time meal : 3611 ms
+2021-10-01 22:56:40:884 [pool-3-thread-19] INFO  Prague:25 - tourist [33] drank dark Czech beer : Time meal : 4628 ms
+2021-10-01 22:56:41:257 [Thread-5] INFO  Manager:95 - ------------------------end of excursion in  Prague---------------------
+2021-10-01 22:56:41:885 [Thread-6] INFO  Manager:99 - --------------------second stop Paris-------------------------------------
+2021-10-01 22:56:42:893 [pool-3-thread-35] INFO  Paris:28 - tourist [49] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-25] INFO  Paris:28 - tourist [39] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-16] INFO  Paris:28 - tourist [30] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-23] INFO  Paris:28 - tourist [37] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-36] INFO  Paris:28 - tourist [50] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-34] INFO  Paris:28 - tourist [48] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-9] INFO  Paris:28 - tourist [23] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-18] INFO  Paris:28 - tourist [32] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-12] INFO  Paris:28 - tourist [26] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-27] INFO  Paris:28 - tourist [41] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-28] INFO  Paris:28 - tourist [42] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-30] INFO  Paris:28 - tourist [44] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-15] INFO  Paris:28 - tourist [29] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-31] INFO  Paris:28 - tourist [45] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-33] INFO  Paris:28 - tourist [47] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-13] INFO  Paris:28 - tourist [27] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-29] INFO  Paris:28 - tourist [43] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-22] INFO  Paris:28 - tourist [36] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-4] INFO  Paris:28 - tourist [18] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-21] INFO  Paris:28 - tourist [35] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-24] INFO  Paris:28 - tourist [38] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-10] INFO  Paris:28 - tourist [24] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-37] INFO  Paris:28 - tourist [51] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-7] INFO  Paris:28 - tourist [21] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-3] INFO  Paris:28 - tourist [16] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-11] INFO  Paris:28 - tourist [25] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-40] INFO  Paris:28 - tourist [54] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-5] INFO  Paris:28 - tourist [19] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-17] INFO  Paris:28 - tourist [31] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-39] INFO  Paris:28 - tourist [53] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-6] INFO  Paris:28 - tourist [20] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-26] INFO  Paris:28 - tourist [40] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-14] INFO  Paris:28 - tourist [28] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-20] INFO  Paris:28 - tourist [34] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-2] INFO  Paris:28 - tourist [15] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-1] INFO  Paris:28 - tourist [14] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-32] INFO  Paris:28 - tourist [46] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-8] INFO  Paris:28 - tourist [22] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-38] INFO  Paris:28 - tourist [52] goes to Louvre
+2021-10-01 22:56:42:893 [pool-3-thread-19] INFO  Paris:28 - tourist [33] goes to Louvre
+2021-10-01 22:56:43:900 [pool-3-thread-35] INFO  Paris:45 - next tourist [49] goes to the picture
+2021-10-01 22:56:43:900 [pool-3-thread-25] INFO  Paris:45 - next tourist [39] goes to the picture
+2021-10-01 22:56:43:900 [pool-3-thread-12] INFO  Paris:45 - next tourist [26] goes to the picture
+2021-10-01 22:56:43:900 [pool-3-thread-36] INFO  Paris:45 - next tourist [50] goes to the picture
+2021-10-01 22:56:43:900 [pool-3-thread-16] INFO  Paris:45 - next tourist [30] goes to the picture
+2021-10-01 22:56:44:908 [pool-3-thread-25] INFO  Paris:47 - tourist [39] see the Gioconda : tourists near picture - 5
+2021-10-01 22:56:44:908 [pool-3-thread-35] INFO  Paris:47 - tourist [49] see the Gioconda : tourists near picture - 5
+2021-10-01 22:56:44:908 [pool-3-thread-12] INFO  Paris:47 - tourist [26] see the Gioconda : tourists near picture - 5
+2021-10-01 22:56:44:908 [pool-3-thread-36] INFO  Paris:47 - tourist [50] see the Gioconda : tourists near picture - 5
+2021-10-01 22:56:44:908 [pool-3-thread-25] INFO  Paris:33 - tourist [39] got out of the Louvre and got on the bus : queue threads - 35
+2021-10-01 22:56:44:908 [pool-3-thread-16] INFO  Paris:47 - tourist [30] see the Gioconda : tourists near picture - 5
+2021-10-01 22:56:45:915 [pool-3-thread-23] INFO  Paris:45 - next tourist [37] goes to the picture
+2021-10-01 22:56:46:923 [pool-3-thread-35] INFO  Paris:33 - tourist [49] got out of the Louvre and got on the bus : queue threads - 34
+2021-10-01 22:56:46:923 [pool-3-thread-23] INFO  Paris:47 - tourist [37] see the Gioconda : tourists near picture - 5
+2021-10-01 22:56:47:932 [pool-3-thread-30] INFO  Paris:45 - next tourist [44] goes to the picture
+2021-10-01 22:56:48:940 [pool-3-thread-12] INFO  Paris:33 - tourist [26] got out of the Louvre and got on the bus : queue threads - 33
+2021-10-01 22:56:48:940 [pool-3-thread-30] INFO  Paris:47 - tourist [44] see the Gioconda : tourists near picture - 5
+2021-10-01 22:56:49:944 [pool-3-thread-34] INFO  Paris:45 - next tourist [48] goes to the picture
+2021-10-01 22:56:50:957 [pool-3-thread-36] INFO  Paris:33 - tourist [50] got out of the Louvre and got on the bus : queue threads - 32
+2021-10-01 22:56:50:957 [pool-3-thread-34] INFO  Paris:47 - tourist [48] see the Gioconda : tourists near picture - 5
+2021-10-01 22:56:51:972 [pool-3-thread-9] INFO  Paris:45 - next tourist [23] goes to the picture
+2021-10-01 22:56:52:985 [pool-3-thread-9] INFO  Paris:47 - tourist [23] see the Gioconda : tourists near picture - 5
+2021-10-01 22:56:52:985 [pool-3-thread-16] INFO  Paris:33 - tourist [30] got out of the Louvre and got on the bus : queue threads - 31
+2021-10-01 22:56:53:996 [pool-3-thread-27] INFO  Paris:45 - next tourist [41] goes to the picture
+2021-10-01 22:56:55:010 [pool-3-thread-23] INFO  Paris:33 - tourist [37] got out of the Louvre and got on the bus : queue threads - 30
+2021-10-01 22:56:55:010 [pool-3-thread-27] INFO  Paris:47 - tourist [41] see the Gioconda : tourists near picture - 5
+2021-10-01 22:56:56:022 [pool-3-thread-28] INFO  Paris:45 - next tourist [42] goes to the picture
+2021-10-01 22:56:57:036 [pool-3-thread-30] INFO  Paris:33 - tourist [44] got out of the Louvre and got on the bus : queue threads - 29
+2021-10-01 22:56:57:036 [pool-3-thread-28] INFO  Paris:47 - tourist [42] see the Gioconda : tourists near picture - 4
+2021-10-01 22:56:58:050 [pool-3-thread-15] INFO  Paris:45 - next tourist [29] goes to the picture
+2021-10-01 22:56:59:063 [pool-3-thread-34] INFO  Paris:33 - tourist [48] got out of the Louvre and got on the bus : queue threads - 28
+2021-10-01 22:56:59:063 [pool-3-thread-15] INFO  Paris:47 - tourist [29] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:00:073 [pool-3-thread-33] INFO  Paris:45 - next tourist [47] goes to the picture
+2021-10-01 22:57:01:084 [pool-3-thread-33] INFO  Paris:47 - tourist [47] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:01:084 [pool-3-thread-9] INFO  Paris:33 - tourist [23] got out of the Louvre and got on the bus : queue threads - 27
+2021-10-01 22:57:02:089 [pool-3-thread-22] INFO  Paris:45 - next tourist [36] goes to the picture
+2021-10-01 22:57:03:100 [pool-3-thread-27] INFO  Paris:33 - tourist [41] got out of the Louvre and got on the bus : queue threads - 26
+2021-10-01 22:57:03:100 [pool-3-thread-22] INFO  Paris:47 - tourist [36] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:04:106 [pool-3-thread-29] INFO  Paris:45 - next tourist [43] goes to the picture
+2021-10-01 22:57:05:111 [pool-3-thread-29] INFO  Paris:47 - tourist [43] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:05:111 [pool-3-thread-28] INFO  Paris:33 - tourist [42] got out of the Louvre and got on the bus : queue threads - 25
+2021-10-01 22:57:06:119 [pool-3-thread-4] INFO  Paris:45 - next tourist [18] goes to the picture
+2021-10-01 22:57:07:132 [pool-3-thread-4] INFO  Paris:47 - tourist [18] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:07:132 [pool-3-thread-15] INFO  Paris:33 - tourist [29] got out of the Louvre and got on the bus : queue threads - 24
+2021-10-01 22:57:08:140 [pool-3-thread-21] INFO  Paris:45 - next tourist [35] goes to the picture
+2021-10-01 22:57:09:155 [pool-3-thread-21] INFO  Paris:47 - tourist [35] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:09:155 [pool-3-thread-33] INFO  Paris:33 - tourist [47] got out of the Louvre and got on the bus : queue threads - 23
+2021-10-01 22:57:10:162 [pool-3-thread-10] INFO  Paris:45 - next tourist [24] goes to the picture
+2021-10-01 22:57:11:167 [pool-3-thread-10] INFO  Paris:47 - tourist [24] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:11:167 [pool-3-thread-22] INFO  Paris:33 - tourist [36] got out of the Louvre and got on the bus : queue threads - 22
+2021-10-01 22:57:12:172 [pool-3-thread-11] INFO  Paris:45 - next tourist [25] goes to the picture
+2021-10-01 22:57:13:176 [pool-3-thread-29] INFO  Paris:33 - tourist [43] got out of the Louvre and got on the bus : queue threads - 21
+2021-10-01 22:57:13:176 [pool-3-thread-11] INFO  Paris:47 - tourist [25] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:14:184 [pool-3-thread-40] INFO  Paris:45 - next tourist [54] goes to the picture
+2021-10-01 22:57:15:188 [pool-3-thread-4] INFO  Paris:33 - tourist [18] got out of the Louvre and got on the bus : queue threads - 20
+2021-10-01 22:57:15:188 [pool-3-thread-40] INFO  Paris:47 - tourist [54] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:16:195 [pool-3-thread-5] INFO  Paris:45 - next tourist [19] goes to the picture
+2021-10-01 22:57:17:199 [pool-3-thread-21] INFO  Paris:33 - tourist [35] got out of the Louvre and got on the bus : queue threads - 19
+2021-10-01 22:57:17:199 [pool-3-thread-5] INFO  Paris:47 - tourist [19] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:18:207 [pool-3-thread-17] INFO  Paris:45 - next tourist [31] goes to the picture
+2021-10-01 22:57:19:213 [pool-3-thread-17] INFO  Paris:47 - tourist [31] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:19:213 [pool-3-thread-10] INFO  Paris:33 - tourist [24] got out of the Louvre and got on the bus : queue threads - 18
+2021-10-01 22:57:20:218 [pool-3-thread-39] INFO  Paris:45 - next tourist [53] goes to the picture
+2021-10-01 22:57:21:222 [pool-3-thread-39] INFO  Paris:47 - tourist [53] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:21:222 [pool-3-thread-11] INFO  Paris:33 - tourist [25] got out of the Louvre and got on the bus : queue threads - 17
+2021-10-01 22:57:22:227 [pool-3-thread-31] INFO  Paris:45 - next tourist [45] goes to the picture
+2021-10-01 22:57:23:232 [pool-3-thread-31] INFO  Paris:47 - tourist [45] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:23:232 [pool-3-thread-40] INFO  Paris:33 - tourist [54] got out of the Louvre and got on the bus : queue threads - 16
+2021-10-01 22:57:24:239 [pool-3-thread-18] INFO  Paris:45 - next tourist [32] goes to the picture
+2021-10-01 22:57:25:244 [pool-3-thread-5] INFO  Paris:33 - tourist [19] got out of the Louvre and got on the bus : queue threads - 15
+2021-10-01 22:57:25:244 [pool-3-thread-18] INFO  Paris:47 - tourist [32] see the Gioconda : tourists near picture - 4
+2021-10-01 22:57:26:249 [pool-3-thread-13] INFO  Paris:45 - next tourist [27] goes to the picture
+2021-10-01 22:57:27:258 [pool-3-thread-17] INFO  Paris:33 - tourist [31] got out of the Louvre and got on the bus : queue threads - 14
+2021-10-01 22:57:27:258 [pool-3-thread-13] INFO  Paris:47 - tourist [27] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:28:267 [pool-3-thread-7] INFO  Paris:45 - next tourist [21] goes to the picture
+2021-10-01 22:57:29:277 [pool-3-thread-39] INFO  Paris:33 - tourist [53] got out of the Louvre and got on the bus : queue threads - 13
+2021-10-01 22:57:29:277 [pool-3-thread-7] INFO  Paris:47 - tourist [21] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:30:284 [pool-3-thread-3] INFO  Paris:45 - next tourist [16] goes to the picture
+2021-10-01 22:57:31:292 [pool-3-thread-3] INFO  Paris:47 - tourist [16] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:31:292 [pool-3-thread-31] INFO  Paris:33 - tourist [45] got out of the Louvre and got on the bus : queue threads - 12
+2021-10-01 22:57:32:295 [pool-3-thread-24] INFO  Paris:45 - next tourist [38] goes to the picture
+2021-10-01 22:57:33:300 [pool-3-thread-18] INFO  Paris:33 - tourist [32] got out of the Louvre and got on the bus : queue threads - 11
+2021-10-01 22:57:33:300 [pool-3-thread-24] INFO  Paris:47 - tourist [38] see the Gioconda : tourists near picture - 4
+2021-10-01 22:57:34:303 [pool-3-thread-37] INFO  Paris:45 - next tourist [51] goes to the picture
+2021-10-01 22:57:35:310 [pool-3-thread-37] INFO  Paris:47 - tourist [51] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:35:310 [pool-3-thread-13] INFO  Paris:33 - tourist [27] got out of the Louvre and got on the bus : queue threads - 10
+2021-10-01 22:57:36:319 [pool-3-thread-6] INFO  Paris:45 - next tourist [20] goes to the picture
+2021-10-01 22:57:37:323 [pool-3-thread-7] INFO  Paris:33 - tourist [21] got out of the Louvre and got on the bus : queue threads - 9
+2021-10-01 22:57:37:323 [pool-3-thread-6] INFO  Paris:47 - tourist [20] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:38:338 [pool-3-thread-26] INFO  Paris:45 - next tourist [40] goes to the picture
+2021-10-01 22:57:39:349 [pool-3-thread-26] INFO  Paris:47 - tourist [40] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:39:349 [pool-3-thread-3] INFO  Paris:33 - tourist [16] got out of the Louvre and got on the bus : queue threads - 8
+2021-10-01 22:57:40:353 [pool-3-thread-14] INFO  Paris:45 - next tourist [28] goes to the picture
+2021-10-01 22:57:41:359 [pool-3-thread-24] INFO  Paris:33 - tourist [38] got out of the Louvre and got on the bus : queue threads - 7
+2021-10-01 22:57:41:359 [pool-3-thread-14] INFO  Paris:47 - tourist [28] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:42:366 [pool-3-thread-20] INFO  Paris:45 - next tourist [34] goes to the picture
+2021-10-01 22:57:43:372 [pool-3-thread-20] INFO  Paris:47 - tourist [34] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:43:372 [pool-3-thread-37] INFO  Paris:33 - tourist [51] got out of the Louvre and got on the bus : queue threads - 6
+2021-10-01 22:57:44:380 [pool-3-thread-1] INFO  Paris:45 - next tourist [14] goes to the picture
+2021-10-01 22:57:45:386 [pool-3-thread-1] INFO  Paris:47 - tourist [14] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:45:386 [pool-3-thread-6] INFO  Paris:33 - tourist [20] got out of the Louvre and got on the bus : queue threads - 5
+2021-10-01 22:57:46:394 [pool-3-thread-2] INFO  Paris:45 - next tourist [15] goes to the picture
+2021-10-01 22:57:47:404 [pool-3-thread-2] INFO  Paris:47 - tourist [15] see the Gioconda : tourists near picture - 4
+2021-10-01 22:57:47:404 [pool-3-thread-26] INFO  Paris:33 - tourist [40] got out of the Louvre and got on the bus : queue threads - 4
+2021-10-01 22:57:48:418 [pool-3-thread-32] INFO  Paris:45 - next tourist [46] goes to the picture
+2021-10-01 22:57:49:420 [pool-3-thread-14] INFO  Paris:33 - tourist [28] got out of the Louvre and got on the bus : queue threads - 3
+2021-10-01 22:57:49:420 [pool-3-thread-32] INFO  Paris:47 - tourist [46] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:50:428 [pool-3-thread-8] INFO  Paris:45 - next tourist [22] goes to the picture
+2021-10-01 22:57:51:437 [pool-3-thread-20] INFO  Paris:33 - tourist [34] got out of the Louvre and got on the bus : queue threads - 2
+2021-10-01 22:57:51:437 [pool-3-thread-8] INFO  Paris:47 - tourist [22] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:52:441 [pool-3-thread-38] INFO  Paris:45 - next tourist [52] goes to the picture
+2021-10-01 22:57:53:449 [pool-3-thread-1] INFO  Paris:33 - tourist [14] got out of the Louvre and got on the bus : queue threads - 1
+2021-10-01 22:57:53:449 [pool-3-thread-38] INFO  Paris:47 - tourist [52] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:54:455 [pool-3-thread-19] INFO  Paris:45 - next tourist [33] goes to the picture
+2021-10-01 22:57:55:459 [pool-3-thread-2] INFO  Paris:33 - tourist [15] got out of the Louvre and got on the bus : queue threads - 0
+2021-10-01 22:57:55:459 [pool-3-thread-19] INFO  Paris:47 - tourist [33] see the Gioconda : tourists near picture - 5
+2021-10-01 22:57:57:478 [pool-3-thread-32] INFO  Paris:33 - tourist [46] got out of the Louvre and got on the bus : queue threads - 0
+2021-10-01 22:57:59:491 [pool-3-thread-8] INFO  Paris:33 - tourist [22] got out of the Louvre and got on the bus : queue threads - 0
+2021-10-01 22:58:01:504 [pool-3-thread-38] INFO  Paris:33 - tourist [52] got out of the Louvre and got on the bus : queue threads - 0
+2021-10-01 22:58:03:511 [pool-3-thread-19] INFO  Paris:33 - tourist [33] got out of the Louvre and got on the bus : queue threads - 0
+2021-10-01 22:58:05:525 [pool-3-thread-25] INFO  Rome:65 - tourist [39] goes to the restaurant (Pasta)
+2021-10-01 22:58:05:525 [pool-3-thread-35] INFO  Rome:65 - tourist [49] goes to the restaurant (Pasta)
+2021-10-01 22:58:05:525 [Thread-7] INFO  Manager:106 - ---------------------third stop Rome-------------------------------------
+2021-10-01 22:58:05:525 [pool-3-thread-9] INFO  Rome:65 - tourist [23] goes to the restaurant (Pasta)
+2021-10-01 22:58:05:525 [pool-3-thread-36] INFO  Rome:59 - tourist [50] goes to the restaurant (Pizza)
+2021-10-01 22:58:05:525 [pool-3-thread-12] INFO  Rome:59 - tourist [26] goes to the restaurant (Pizza)
+2021-10-01 22:58:05:525 [pool-3-thread-16] INFO  Rome:59 - tourist [30] goes to the restaurant (Pizza)
+2021-10-01 22:58:05:525 [pool-3-thread-23] INFO  Rome:65 - tourist [37] goes to the restaurant (Pasta)
+2021-10-01 22:58:05:525 [pool-3-thread-34] INFO  Rome:59 - tourist [48] goes to the restaurant (Pizza)
+2021-10-01 22:58:05:525 [pool-3-thread-31] INFO  Rome:65 - tourist [45] goes to the restaurant (Pasta)
+2021-10-01 22:58:05:525 [pool-3-thread-28] INFO  Rome:59 - tourist [42] goes to the restaurant (Pizza)
+2021-10-01 22:58:05:525 [pool-3-thread-15] INFO  Rome:65 - tourist [29] goes to the restaurant (Pasta)
+2021-10-01 22:58:05:525 [pool-3-thread-29] INFO  Rome:65 - tourist [43] goes to the restaurant (Pasta)
+2021-10-01 22:58:05:525 [pool-3-thread-13] INFO  Rome:65 - tourist [27] goes to the restaurant (Pasta)
+2021-10-01 22:58:05:525 [pool-3-thread-18] INFO  Rome:59 - tourist [32] goes to the restaurant (Pizza)
+2021-10-01 22:58:05:525 [pool-3-thread-33] INFO  Rome:65 - tourist [47] goes to the restaurant (Pasta)
+2021-10-01 22:58:05:525 [pool-3-thread-27] INFO  Rome:65 - tourist [41] goes to the restaurant (Pasta)
+2021-10-01 22:58:05:525 [pool-3-thread-30] INFO  Rome:59 - tourist [44] goes to the restaurant (Pizza)
+2021-10-01 22:58:05:525 [pool-3-thread-22] INFO  Rome:59 - tourist [36] goes to the restaurant (Pizza)
+2021-10-01 22:58:05:525 [pool-3-thread-7] INFO  Rome:65 - tourist [21] goes to the restaurant (Pasta)
+2021-10-01 22:58:05:525 [pool-3-thread-21] INFO  Rome:65 - tourist [35] goes to the restaurant (Pasta)
+2021-10-01 22:58:05:525 [pool-3-thread-3] INFO  Rome:65 - tourist [16] goes to the restaurant (Pasta)
+2021-10-01 22:58:05:525 [pool-3-thread-4] INFO  Rome:59 - tourist [18] goes to the restaurant (Pizza)
+2021-10-01 22:58:05:525 [pool-3-thread-40] INFO  Rome:59 - tourist [54] goes to the restaurant (Pizza)
+2021-10-01 22:58:05:525 [pool-3-thread-24] INFO  Rome:59 - tourist [38] goes to the restaurant (Pizza)
+2021-10-01 22:58:05:525 [pool-3-thread-10] INFO  Rome:59 - tourist [24] goes to the restaurant (Pizza)
+2021-10-01 22:58:05:525 [pool-3-thread-5] INFO  Rome:65 - tourist [19] goes to the restaurant (Pasta)
+2021-10-01 22:58:05:525 [pool-3-thread-6] INFO  Rome:59 - tourist [20] goes to the restaurant (Pizza)
+2021-10-01 22:58:05:525 [pool-3-thread-11] INFO  Rome:65 - tourist [25] goes to the restaurant (Pasta)
+2021-10-01 22:58:05:525 [pool-3-thread-39] INFO  Rome:65 - tourist [53] goes to the restaurant (Pasta)
+2021-10-01 22:58:05:525 [pool-3-thread-37] INFO  Rome:65 - tourist [51] goes to the restaurant (Pasta)
+2021-10-01 22:58:05:525 [pool-3-thread-14] INFO  Rome:59 - tourist [28] goes to the restaurant (Pizza)
+2021-10-01 22:58:05:525 [pool-3-thread-17] INFO  Rome:65 - tourist [31] goes to the restaurant (Pasta)
+2021-10-01 22:58:05:525 [pool-3-thread-8] INFO  Rome:59 - tourist [22] goes to the restaurant (Pizza)
+2021-10-01 22:58:05:525 [pool-3-thread-26] INFO  Rome:59 - tourist [40] goes to the restaurant (Pizza)
+2021-10-01 22:58:05:525 [pool-3-thread-20] INFO  Rome:59 - tourist [34] goes to the restaurant (Pizza)
+2021-10-01 22:58:05:525 [pool-3-thread-38] INFO  Rome:59 - tourist [52] goes to the restaurant (Pizza)
+2021-10-01 22:58:05:525 [pool-3-thread-19] INFO  Rome:65 - tourist [33] goes to the restaurant (Pasta)
+2021-10-01 22:58:05:525 [pool-3-thread-32] INFO  Rome:59 - tourist [46] goes to the restaurant (Pizza)
+2021-10-01 22:58:05:525 [Thread-6] INFO  Manager:101 - ----------------end of excursion in  Paris--------------------------------
+2021-10-01 22:58:05:525 [pool-3-thread-2] INFO  Rome:59 - tourist [15] goes to the restaurant (Pizza)
+2021-10-01 22:58:05:525 [pool-3-thread-1] INFO  Rome:65 - tourist [14] goes to the restaurant (Pasta)
+2021-10-01 22:58:06:531 [pool-3-thread-13] INFO  Rome:27 -  ######################### Service tourists in a restaurant Pasta ##############################
+2021-10-01 22:58:06:531 [pool-3-thread-16] INFO  Rome:23 - ########################## Service tourists in a restaurant Pizza ##############################
+2021-10-01 22:58:06:531 [pool-3-thread-13] INFO  Rome:93 - tourist [27] started eating Pasta [39] in a restaurant (Pasta)
+2021-10-01 22:58:06:531 [pool-3-thread-35] INFO  Rome:93 - tourist [49] started eating Pasta [37] in a restaurant (Pasta)
+2021-10-01 22:58:06:531 [pool-3-thread-25] INFO  Rome:93 - tourist [39] started eating Pasta [35] in a restaurant (Pasta)
+2021-10-01 22:58:06:531 [pool-3-thread-2] INFO  Rome:84 - tourist [15] started eating Pizza [36] in a restaurant (Pizza)
+2021-10-01 22:58:06:531 [pool-3-thread-16] INFO  Rome:84 - tourist [30] started eating Pizza [38] in a restaurant (Pizza)
+2021-10-01 22:58:06:531 [pool-3-thread-1] INFO  Rome:93 - tourist [14] started eating Pasta [33] in a restaurant (Pasta)
+2021-10-01 22:58:06:531 [pool-3-thread-36] INFO  Rome:84 - tourist [50] started eating Pizza [34] in a restaurant (Pizza)
+2021-10-01 22:58:06:531 [pool-3-thread-18] INFO  Rome:84 - tourist [32] started eating Pizza [30] in a restaurant (Pizza)
+2021-10-01 22:58:06:531 [pool-3-thread-12] INFO  Rome:84 - tourist [26] started eating Pizza [32] in a restaurant (Pizza)
+2021-10-01 22:58:06:531 [pool-3-thread-31] INFO  Rome:93 - tourist [45] started eating Pasta [31] in a restaurant (Pasta)
+2021-10-01 22:58:08:431 [pool-3-thread-35] INFO  Rome:95 - tourist [49]  ate Pasta [37] and got on the bus : meal time 1899 ms 
+2021-10-01 22:58:08:514 [pool-3-thread-13] INFO  Rome:95 - tourist [27]  ate Pasta [39] and got on the bus : meal time 1982 ms 
+2021-10-01 22:58:08:528 [pool-3-thread-31] INFO  Rome:95 - tourist [45]  ate Pasta [31] and got on the bus : meal time 1996 ms 
+2021-10-01 22:58:10:066 [pool-3-thread-2] INFO  Rome:86 - tourist [15]  ate Pizza [36] and got on the bus : meal time 3534 ms 
+2021-10-01 22:58:10:143 [pool-3-thread-36] INFO  Rome:86 - tourist [50]  ate Pizza [34] and got on the bus : meal time 3611 ms 
+2021-10-01 22:58:10:518 [pool-3-thread-1] INFO  Rome:95 - tourist [14]  ate Pasta [33] and got on the bus : meal time 3986 ms 
+2021-10-01 22:58:10:743 [pool-3-thread-12] INFO  Rome:86 - tourist [26]  ate Pizza [32] and got on the bus : meal time 4211 ms 
+2021-10-01 22:58:11:041 [pool-3-thread-18] INFO  Rome:86 - tourist [32]  ate Pizza [30] and got on the bus : meal time 4509 ms 
+2021-10-01 22:58:11:130 [pool-3-thread-25] INFO  Rome:95 - tourist [39]  ate Pasta [35] and got on the bus : meal time 4598 ms 
+2021-10-01 22:58:11:130 [pool-3-thread-19] INFO  Rome:27 -  ######################### Service tourists in a restaurant Pasta ##############################
+2021-10-01 22:58:11:130 [pool-3-thread-19] INFO  Rome:93 - tourist [33] started eating Pasta [29] in a restaurant (Pasta)
+2021-10-01 22:58:11:130 [pool-3-thread-9] INFO  Rome:93 - tourist [23] started eating Pasta [27] in a restaurant (Pasta)
+2021-10-01 22:58:11:130 [pool-3-thread-7] INFO  Rome:93 - tourist [21] started eating Pasta [25] in a restaurant (Pasta)
+2021-10-01 22:58:11:130 [pool-3-thread-3] INFO  Rome:93 - tourist [16] started eating Pasta [23] in a restaurant (Pasta)
+2021-10-01 22:58:11:130 [pool-3-thread-37] INFO  Rome:93 - tourist [51] started eating Pasta [21] in a restaurant (Pasta)
+2021-10-01 22:58:11:212 [pool-3-thread-16] INFO  Rome:86 - tourist [30]  ate Pizza [38] and got on the bus : meal time 4680 ms 
+2021-10-01 22:58:11:212 [pool-3-thread-8] INFO  Rome:23 - ########################## Service tourists in a restaurant Pizza ##############################
+2021-10-01 22:58:11:212 [pool-3-thread-8] INFO  Rome:84 - tourist [22] started eating Pizza [28] in a restaurant (Pizza)
+2021-10-01 22:58:11:212 [pool-3-thread-30] INFO  Rome:84 - tourist [44] started eating Pizza [26] in a restaurant (Pizza)
+2021-10-01 22:58:11:212 [pool-3-thread-24] INFO  Rome:84 - tourist [38] started eating Pizza [24] in a restaurant (Pizza)
+2021-10-01 22:58:11:212 [pool-3-thread-6] INFO  Rome:84 - tourist [20] started eating Pizza [22] in a restaurant (Pizza)
+2021-10-01 22:58:11:212 [pool-3-thread-14] INFO  Rome:84 - tourist [28] started eating Pizza [20] in a restaurant (Pizza)
+2021-10-01 22:58:12:735 [pool-3-thread-37] INFO  Rome:95 - tourist [51]  ate Pasta [21] and got on the bus : meal time 1604 ms 
+2021-10-01 22:58:13:050 [pool-3-thread-24] INFO  Rome:86 - tourist [38]  ate Pizza [24] and got on the bus : meal time 1837 ms 
+2021-10-01 22:58:13:148 [pool-3-thread-3] INFO  Rome:95 - tourist [16]  ate Pasta [23] and got on the bus : meal time 2017 ms 
+2021-10-01 22:58:13:298 [pool-3-thread-30] INFO  Rome:86 - tourist [44]  ate Pizza [26] and got on the bus : meal time 2085 ms 
+2021-10-01 22:58:13:425 [pool-3-thread-8] INFO  Rome:86 - tourist [22]  ate Pizza [28] and got on the bus : meal time 2212 ms 
+2021-10-01 22:58:14:070 [pool-3-thread-7] INFO  Rome:95 - tourist [21]  ate Pasta [25] and got on the bus : meal time 2940 ms 
+2021-10-01 22:58:14:415 [pool-3-thread-6] INFO  Rome:86 - tourist [20]  ate Pizza [22] and got on the bus : meal time 3203 ms 
+2021-10-01 22:58:14:639 [pool-3-thread-14] INFO  Rome:86 - tourist [28]  ate Pizza [20] and got on the bus : meal time 3427 ms 
+2021-10-01 22:58:14:639 [pool-3-thread-34] INFO  Rome:23 - ########################## Service tourists in a restaurant Pizza ##############################
+2021-10-01 22:58:14:639 [pool-3-thread-34] INFO  Rome:84 - tourist [48] started eating Pizza [18] in a restaurant (Pizza)
+2021-10-01 22:58:14:639 [pool-3-thread-26] INFO  Rome:84 - tourist [40] started eating Pizza [16] in a restaurant (Pizza)
+2021-10-01 22:58:14:639 [pool-3-thread-20] INFO  Rome:84 - tourist [34] started eating Pizza [14] in a restaurant (Pizza)
+2021-10-01 22:58:14:639 [pool-3-thread-38] INFO  Rome:84 - tourist [52] started eating Pizza [12] in a restaurant (Pizza)
+2021-10-01 22:58:14:639 [pool-3-thread-32] INFO  Rome:84 - tourist [46] started eating Pizza [10] in a restaurant (Pizza)
+2021-10-01 22:58:15:195 [pool-3-thread-9] INFO  Rome:95 - tourist [23]  ate Pasta [27] and got on the bus : meal time 4064 ms 
+2021-10-01 22:58:15:758 [pool-3-thread-19] INFO  Rome:95 - tourist [33]  ate Pasta [29] and got on the bus : meal time 4628 ms 
+2021-10-01 22:58:15:758 [pool-3-thread-27] INFO  Rome:27 -  ######################### Service tourists in a restaurant Pasta ##############################
+2021-10-01 22:58:15:758 [pool-3-thread-27] INFO  Rome:93 - tourist [41] started eating Pasta [19] in a restaurant (Pasta)
+2021-10-01 22:58:15:758 [pool-3-thread-23] INFO  Rome:93 - tourist [37] started eating Pasta [17] in a restaurant (Pasta)
+2021-10-01 22:58:15:758 [pool-3-thread-15] INFO  Rome:93 - tourist [29] started eating Pasta [15] in a restaurant (Pasta)
+2021-10-01 22:58:15:758 [pool-3-thread-29] INFO  Rome:93 - tourist [43] started eating Pasta [13] in a restaurant (Pasta)
+2021-10-01 22:58:15:758 [pool-3-thread-33] INFO  Rome:93 - tourist [47] started eating Pasta [11] in a restaurant (Pasta)
+2021-10-01 22:58:17:132 [pool-3-thread-15] INFO  Rome:95 - tourist [29]  ate Pasta [15] and got on the bus : meal time 1373 ms 
+2021-10-01 22:58:17:467 [pool-3-thread-23] INFO  Rome:95 - tourist [37]  ate Pasta [17] and got on the bus : meal time 1709 ms 
+2021-10-01 22:58:17:539 [pool-3-thread-29] INFO  Rome:95 - tourist [43]  ate Pasta [13] and got on the bus : meal time 1780 ms 
+2021-10-01 22:58:17:702 [pool-3-thread-27] INFO  Rome:95 - tourist [41]  ate Pasta [19] and got on the bus : meal time 1944 ms 
+2021-10-01 22:58:17:929 [pool-3-thread-32] INFO  Rome:86 - tourist [46]  ate Pizza [10] and got on the bus : meal time 3289 ms 
+2021-10-01 22:58:18:104 [pool-3-thread-34] INFO  Rome:86 - tourist [48]  ate Pizza [18] and got on the bus : meal time 3464 ms 
+2021-10-01 22:58:18:110 [pool-3-thread-38] INFO  Rome:86 - tourist [52]  ate Pizza [12] and got on the bus : meal time 3470 ms 
+2021-10-01 22:58:18:146 [pool-3-thread-20] INFO  Rome:86 - tourist [34]  ate Pizza [14] and got on the bus : meal time 3506 ms 
+2021-10-01 22:58:18:159 [pool-3-thread-26] INFO  Rome:86 - tourist [40]  ate Pizza [16] and got on the bus : meal time 3519 ms 
+2021-10-01 22:58:18:159 [pool-3-thread-40] INFO  Rome:23 - ########################## Service tourists in a restaurant Pizza ##############################
+2021-10-01 22:58:18:159 [pool-3-thread-40] INFO  Rome:84 - tourist [54] started eating Pizza [8] in a restaurant (Pizza)
+2021-10-01 22:58:18:159 [pool-3-thread-28] INFO  Rome:84 - tourist [42] started eating Pizza [6] in a restaurant (Pizza)
+2021-10-01 22:58:18:159 [pool-3-thread-22] INFO  Rome:84 - tourist [36] started eating Pizza [4] in a restaurant (Pizza)
+2021-10-01 22:58:18:159 [pool-3-thread-4] INFO  Rome:84 - tourist [18] started eating Pizza [2] in a restaurant (Pizza)
+2021-10-01 22:58:18:159 [pool-3-thread-10] INFO  Rome:84 - tourist [24] started eating Pizza [0] in a restaurant (Pizza)
+2021-10-01 22:58:18:601 [pool-3-thread-33] INFO  Rome:95 - tourist [47]  ate Pasta [11] and got on the bus : meal time 2842 ms 
+2021-10-01 22:58:18:601 [pool-3-thread-17] INFO  Rome:27 -  ######################### Service tourists in a restaurant Pasta ##############################
+2021-10-01 22:58:18:601 [pool-3-thread-17] INFO  Rome:93 - tourist [31] started eating Pasta [9] in a restaurant (Pasta)
+2021-10-01 22:58:18:601 [pool-3-thread-21] INFO  Rome:93 - tourist [35] started eating Pasta [7] in a restaurant (Pasta)
+2021-10-01 22:58:18:601 [pool-3-thread-5] INFO  Rome:93 - tourist [19] started eating Pasta [5] in a restaurant (Pasta)
+2021-10-01 22:58:18:601 [pool-3-thread-11] INFO  Rome:93 - tourist [25] started eating Pasta [3] in a restaurant (Pasta)
+2021-10-01 22:58:18:601 [pool-3-thread-39] INFO  Rome:93 - tourist [53] started eating Pasta [1] in a restaurant (Pasta)
+2021-10-01 22:58:19:753 [pool-3-thread-4] INFO  Rome:86 - tourist [18]  ate Pizza [2] and got on the bus : meal time 1594 ms 
+2021-10-01 22:58:20:268 [pool-3-thread-39] INFO  Rome:95 - tourist [53]  ate Pasta [1] and got on the bus : meal time 1666 ms 
+2021-10-01 22:58:20:471 [pool-3-thread-21] INFO  Rome:95 - tourist [35]  ate Pasta [7] and got on the bus : meal time 1869 ms 
+2021-10-01 22:58:21:073 [pool-3-thread-40] INFO  Rome:86 - tourist [54]  ate Pizza [8] and got on the bus : meal time 2913 ms 
+2021-10-01 22:58:21:512 [pool-3-thread-17] INFO  Rome:95 - tourist [31]  ate Pasta [9] and got on the bus : meal time 2910 ms 
+2021-10-01 22:58:22:007 [pool-3-thread-22] INFO  Rome:86 - tourist [36]  ate Pizza [4] and got on the bus : meal time 3847 ms 
+2021-10-01 22:58:22:131 [pool-3-thread-10] INFO  Rome:86 - tourist [24]  ate Pizza [0] and got on the bus : meal time 3971 ms 
+2021-10-01 22:58:22:515 [pool-3-thread-28] INFO  Rome:86 - tourist [42]  ate Pizza [6] and got on the bus : meal time 4355 ms 
+2021-10-01 22:58:23:129 [pool-3-thread-11] INFO  Rome:95 - tourist [25]  ate Pasta [3] and got on the bus : meal time 4527 ms 
+2021-10-01 22:58:23:186 [pool-3-thread-5] INFO  Rome:95 - tourist [19]  ate Pasta [5] and got on the bus : meal time 4584 ms 
+2021-10-01 22:58:23:186 [Thread-7] INFO  Manager:109 - ----------------end of excursion in  Rome--------------------------------
+2021-10-01 22:58:24:197 [Thread-8] INFO  Manager:113 - ------------------------fourth stop Spain---------------------------------
+2021-10-01 22:58:25:204 [pool-3-thread-31] INFO  Spain:20 - tourist [45] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-13] INFO  Spain:20 - tourist [27] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-2] INFO  Spain:20 - tourist [15] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-36] INFO  Spain:20 - tourist [50] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-12] INFO  Spain:20 - tourist [26] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-25] INFO  Spain:20 - tourist [39] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-1] INFO  Spain:20 - tourist [14] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-18] INFO  Spain:20 - tourist [32] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-5] INFO  Spain:20 - tourist [19] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-26] INFO  Spain:20 - tourist [40] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-20] INFO  Spain:20 - tourist [34] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-3] INFO  Spain:20 - tourist [16] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-37] INFO  Spain:20 - tourist [51] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-24] INFO  Spain:20 - tourist [38] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-35] INFO  Spain:20 - tourist [49] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-30] INFO  Spain:20 - tourist [44] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-19] INFO  Spain:20 - tourist [33] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-16] INFO  Spain:20 - tourist [30] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-9] INFO  Spain:20 - tourist [23] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-29] INFO  Spain:20 - tourist [43] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-6] INFO  Spain:20 - tourist [20] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-8] INFO  Spain:20 - tourist [22] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-15] INFO  Spain:20 - tourist [29] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-27] INFO  Spain:20 - tourist [41] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-7] INFO  Spain:20 - tourist [21] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-14] INFO  Spain:20 - tourist [28] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-32] INFO  Spain:20 - tourist [46] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-40] INFO  Spain:20 - tourist [54] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-23] INFO  Spain:20 - tourist [37] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-11] INFO  Spain:20 - tourist [25] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-21] INFO  Spain:20 - tourist [35] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-39] INFO  Spain:20 - tourist [53] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-10] INFO  Spain:20 - tourist [24] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-34] INFO  Spain:20 - tourist [48] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-17] INFO  Spain:20 - tourist [31] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-28] INFO  Spain:20 - tourist [42] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-4] INFO  Spain:20 - tourist [18] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-38] INFO  Spain:20 - tourist [52] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-22] INFO  Spain:20 - tourist [36] arrived to bitch 
+2021-10-01 22:58:25:204 [pool-3-thread-33] INFO  Spain:20 - tourist [47] arrived to bitch 
+2021-10-01 22:58:26:578 [pool-3-thread-15] INFO  Spain:24 - tourist [29] rest  time : 1373 ms 
+2021-10-01 22:58:26:578 [pool-3-thread-15] INFO  Tourist:60 - transfer photo from pool-3-thread-15 completed: result : null
+2021-10-01 22:58:26:578 [Thread-8] INFO  Manager:86 - transfer : number of photos : 13 
+2021-10-01 22:58:26:798 [pool-3-thread-4] INFO  Spain:24 - tourist [18] rest  time : 1594 ms 
+2021-10-01 22:58:26:798 [pool-3-thread-4] INFO  Tourist:60 - transfer photo from pool-3-thread-4 completed: result : null
+2021-10-01 22:58:26:798 [Thread-8] INFO  Manager:86 - transfer : number of photos : 9 
+2021-10-01 22:58:26:808 [pool-3-thread-37] INFO  Spain:24 - tourist [51] rest  time : 1604 ms 
+2021-10-01 22:58:26:808 [pool-3-thread-37] INFO  Tourist:60 - transfer photo from pool-3-thread-37 completed: result : null
+2021-10-01 22:58:26:808 [Thread-8] INFO  Manager:86 - transfer : number of photos : 12 
+2021-10-01 22:58:26:870 [pool-3-thread-39] INFO  Spain:24 - tourist [53] rest  time : 1666 ms 
+2021-10-01 22:58:26:870 [pool-3-thread-39] INFO  Tourist:60 - transfer photo from pool-3-thread-39 completed: result : null
+2021-10-01 22:58:26:870 [Thread-8] INFO  Manager:86 - transfer : number of photos : 11 
+2021-10-01 22:58:26:913 [pool-3-thread-23] INFO  Spain:24 - tourist [37] rest  time : 1709 ms 
+2021-10-01 22:58:26:913 [pool-3-thread-23] INFO  Tourist:60 - transfer photo from pool-3-thread-23 completed: result : null
+2021-10-01 22:58:26:913 [Thread-8] INFO  Manager:86 - transfer : number of photos : 11 
+2021-10-01 22:58:26:984 [pool-3-thread-29] INFO  Spain:24 - tourist [43] rest  time : 1780 ms 
+2021-10-01 22:58:26:984 [pool-3-thread-29] INFO  Tourist:60 - transfer photo from pool-3-thread-29 completed: result : null
+2021-10-01 22:58:26:984 [Thread-8] INFO  Manager:86 - transfer : number of photos : 6 
+2021-10-01 22:58:27:042 [pool-3-thread-24] INFO  Spain:24 - tourist [38] rest  time : 1837 ms 
+2021-10-01 22:58:27:042 [pool-3-thread-24] INFO  Tourist:60 - transfer photo from pool-3-thread-24 completed: result : null
+2021-10-01 22:58:27:042 [Thread-8] INFO  Manager:86 - transfer : number of photos : 10 
+2021-10-01 22:58:27:074 [pool-3-thread-21] INFO  Spain:24 - tourist [35] rest  time : 1869 ms 
+2021-10-01 22:58:27:074 [pool-3-thread-21] INFO  Tourist:60 - transfer photo from pool-3-thread-21 completed: result : null
+2021-10-01 22:58:27:074 [Thread-8] INFO  Manager:86 - transfer : number of photos : 7 
+2021-10-01 22:58:27:104 [pool-3-thread-35] INFO  Spain:24 - tourist [49] rest  time : 1899 ms 
+2021-10-01 22:58:27:104 [pool-3-thread-35] INFO  Tourist:60 - transfer photo from pool-3-thread-35 completed: result : null
+2021-10-01 22:58:27:104 [Thread-8] INFO  Manager:86 - transfer : number of photos : 10 
+2021-10-01 22:58:27:149 [pool-3-thread-27] INFO  Spain:24 - tourist [41] rest  time : 1944 ms 
+2021-10-01 22:58:27:149 [pool-3-thread-27] INFO  Tourist:60 - transfer photo from pool-3-thread-27 completed: result : null
+2021-10-01 22:58:27:149 [Thread-8] INFO  Manager:86 - transfer : number of photos : 15 
+2021-10-01 22:58:27:186 [pool-3-thread-13] INFO  Spain:24 - tourist [27] rest  time : 1982 ms 
+2021-10-01 22:58:27:186 [pool-3-thread-13] INFO  Tourist:60 - transfer photo from pool-3-thread-13 completed: result : null
+2021-10-01 22:58:27:186 [Thread-8] INFO  Manager:86 - transfer : number of photos : 10 
+2021-10-01 22:58:27:201 [pool-3-thread-31] INFO  Spain:24 - tourist [45] rest  time : 1996 ms 
+2021-10-01 22:58:27:201 [pool-3-thread-31] INFO  Tourist:60 - transfer photo from pool-3-thread-31 completed: result : null
+2021-10-01 22:58:27:201 [Thread-8] INFO  Manager:86 - transfer : number of photos : 10 
+2021-10-01 22:58:27:222 [pool-3-thread-3] INFO  Spain:24 - tourist [16] rest  time : 2017 ms 
+2021-10-01 22:58:27:222 [pool-3-thread-3] INFO  Tourist:60 - transfer photo from pool-3-thread-3 completed: result : null
+2021-10-01 22:58:27:222 [Thread-8] INFO  Manager:86 - transfer : number of photos : 8 
+2021-10-01 22:58:27:289 [pool-3-thread-30] INFO  Spain:24 - tourist [44] rest  time : 2085 ms 
+2021-10-01 22:58:27:289 [pool-3-thread-30] INFO  Tourist:60 - transfer photo from pool-3-thread-30 completed: result : null
+2021-10-01 22:58:27:289 [Thread-8] INFO  Manager:86 - transfer : number of photos : 8 
+2021-10-01 22:58:27:417 [pool-3-thread-8] INFO  Spain:24 - tourist [22] rest  time : 2212 ms 
+2021-10-01 22:58:27:417 [pool-3-thread-8] INFO  Tourist:60 - transfer photo from pool-3-thread-8 completed: result : null
+2021-10-01 22:58:27:417 [Thread-8] INFO  Manager:86 - transfer : number of photos : 10 
+2021-10-01 22:58:28:048 [pool-3-thread-33] INFO  Spain:24 - tourist [47] rest  time : 2842 ms 
+2021-10-01 22:58:28:048 [pool-3-thread-33] INFO  Tourist:60 - transfer photo from pool-3-thread-33 completed: result : null
+2021-10-01 22:58:28:048 [Thread-8] INFO  Manager:86 - transfer : number of photos : 8 
+2021-10-01 22:58:28:115 [pool-3-thread-17] INFO  Spain:24 - tourist [31] rest  time : 2910 ms 
+2021-10-01 22:58:28:115 [pool-3-thread-17] INFO  Tourist:60 - transfer photo from pool-3-thread-17 completed: result : null
+2021-10-01 22:58:28:115 [Thread-8] INFO  Manager:86 - transfer : number of photos : 13 
+2021-10-01 22:58:28:118 [pool-3-thread-40] INFO  Spain:24 - tourist [54] rest  time : 2913 ms 
+2021-10-01 22:58:28:118 [pool-3-thread-40] INFO  Tourist:60 - transfer photo from pool-3-thread-40 completed: result : null
+2021-10-01 22:58:28:118 [Thread-8] INFO  Manager:86 - transfer : number of photos : 9 
+2021-10-01 22:58:28:145 [pool-3-thread-7] INFO  Spain:24 - tourist [21] rest  time : 2940 ms 
+2021-10-01 22:58:28:145 [pool-3-thread-7] INFO  Tourist:60 - transfer photo from pool-3-thread-7 completed: result : null
+2021-10-01 22:58:28:145 [Thread-8] INFO  Manager:86 - transfer : number of photos : 10 
+2021-10-01 22:58:28:407 [pool-3-thread-6] INFO  Spain:24 - tourist [20] rest  time : 3203 ms 
+2021-10-01 22:58:28:407 [pool-3-thread-6] INFO  Tourist:60 - transfer photo from pool-3-thread-6 completed: result : null
+2021-10-01 22:58:28:407 [Thread-8] INFO  Manager:86 - transfer : number of photos : 10 
+2021-10-01 22:58:28:493 [pool-3-thread-32] INFO  Spain:24 - tourist [46] rest  time : 3289 ms 
+2021-10-01 22:58:28:493 [pool-3-thread-32] INFO  Tourist:60 - transfer photo from pool-3-thread-32 completed: result : null
+2021-10-01 22:58:28:493 [Thread-8] INFO  Manager:86 - transfer : number of photos : 7 
+2021-10-01 22:58:28:632 [pool-3-thread-14] INFO  Spain:24 - tourist [28] rest  time : 3427 ms 
+2021-10-01 22:58:28:632 [pool-3-thread-14] INFO  Tourist:60 - transfer photo from pool-3-thread-14 completed: result : null
+2021-10-01 22:58:28:632 [Thread-8] INFO  Manager:86 - transfer : number of photos : 13 
+2021-10-01 22:58:28:669 [pool-3-thread-34] INFO  Spain:24 - tourist [48] rest  time : 3464 ms 
+2021-10-01 22:58:28:669 [pool-3-thread-34] INFO  Tourist:60 - transfer photo from pool-3-thread-34 completed: result : null
+2021-10-01 22:58:28:669 [Thread-8] INFO  Manager:86 - transfer : number of photos : 13 
+2021-10-01 22:58:28:675 [pool-3-thread-38] INFO  Spain:24 - tourist [52] rest  time : 3470 ms 
+2021-10-01 22:58:28:675 [pool-3-thread-38] INFO  Tourist:60 - transfer photo from pool-3-thread-38 completed: result : null
+2021-10-01 22:58:28:675 [Thread-8] INFO  Manager:86 - transfer : number of photos : 8 
+2021-10-01 22:58:28:710 [pool-3-thread-20] INFO  Spain:24 - tourist [34] rest  time : 3506 ms 
+2021-10-01 22:58:28:710 [pool-3-thread-20] INFO  Tourist:60 - transfer photo from pool-3-thread-20 completed: result : null
+2021-10-01 22:58:28:710 [Thread-8] INFO  Manager:86 - transfer : number of photos : 13 
+2021-10-01 22:58:28:723 [pool-3-thread-26] INFO  Spain:24 - tourist [40] rest  time : 3519 ms 
+2021-10-01 22:58:28:723 [pool-3-thread-26] INFO  Tourist:60 - transfer photo from pool-3-thread-26 completed: result : null
+2021-10-01 22:58:28:723 [Thread-8] INFO  Manager:86 - transfer : number of photos : 9 
+2021-10-01 22:58:28:738 [pool-3-thread-2] INFO  Spain:24 - tourist [15] rest  time : 3534 ms 
+2021-10-01 22:58:28:738 [pool-3-thread-2] INFO  Tourist:60 - transfer photo from pool-3-thread-2 completed: result : null
+2021-10-01 22:58:28:738 [Thread-8] INFO  Manager:86 - transfer : number of photos : 8 
+2021-10-01 22:58:28:815 [pool-3-thread-36] INFO  Spain:24 - tourist [50] rest  time : 3611 ms 
+2021-10-01 22:58:28:815 [pool-3-thread-36] INFO  Tourist:60 - transfer photo from pool-3-thread-36 completed: result : null
+2021-10-01 22:58:28:815 [Thread-8] INFO  Manager:86 - transfer : number of photos : 10 
+2021-10-01 22:58:29:052 [pool-3-thread-22] INFO  Spain:24 - tourist [36] rest  time : 3847 ms 
+2021-10-01 22:58:29:052 [pool-3-thread-22] INFO  Tourist:60 - transfer photo from pool-3-thread-22 completed: result : null
+2021-10-01 22:58:29:052 [Thread-8] INFO  Manager:86 - transfer : number of photos : 11 
+2021-10-01 22:58:29:175 [pool-3-thread-10] INFO  Spain:24 - tourist [24] rest  time : 3971 ms 
+2021-10-01 22:58:29:175 [pool-3-thread-10] INFO  Tourist:60 - transfer photo from pool-3-thread-10 completed: result : null
+2021-10-01 22:58:29:175 [Thread-8] INFO  Manager:86 - transfer : number of photos : 14 
+2021-10-01 22:58:29:191 [pool-3-thread-1] INFO  Spain:24 - tourist [14] rest  time : 3986 ms 
+2021-10-01 22:58:29:191 [pool-3-thread-1] INFO  Tourist:60 - transfer photo from pool-3-thread-1 completed: result : null
+2021-10-01 22:58:29:191 [Thread-8] INFO  Manager:86 - transfer : number of photos : 8 
+2021-10-01 22:58:29:268 [pool-3-thread-9] INFO  Spain:24 - tourist [23] rest  time : 4064 ms 
+2021-10-01 22:58:29:268 [pool-3-thread-9] INFO  Tourist:60 - transfer photo from pool-3-thread-9 completed: result : null
+2021-10-01 22:58:29:268 [Thread-8] INFO  Manager:86 - transfer : number of photos : 7 
+2021-10-01 22:58:29:416 [pool-3-thread-12] INFO  Spain:24 - tourist [26] rest  time : 4211 ms 
+2021-10-01 22:58:29:416 [pool-3-thread-12] INFO  Tourist:60 - transfer photo from pool-3-thread-12 completed: result : null
+2021-10-01 22:58:29:416 [Thread-8] INFO  Manager:86 - transfer : number of photos : 8 
+2021-10-01 22:58:29:559 [pool-3-thread-28] INFO  Spain:24 - tourist [42] rest  time : 4355 ms 
+2021-10-01 22:58:29:559 [pool-3-thread-28] INFO  Tourist:60 - transfer photo from pool-3-thread-28 completed: result : null
+2021-10-01 22:58:29:559 [Thread-8] INFO  Manager:86 - transfer : number of photos : 14 
+2021-10-01 22:58:29:713 [pool-3-thread-18] INFO  Spain:24 - tourist [32] rest  time : 4509 ms 
+2021-10-01 22:58:29:713 [pool-3-thread-18] INFO  Tourist:60 - transfer photo from pool-3-thread-18 completed: result : null
+2021-10-01 22:58:29:713 [Thread-8] INFO  Manager:86 - transfer : number of photos : 10 
+2021-10-01 22:58:29:731 [pool-3-thread-11] INFO  Spain:24 - tourist [25] rest  time : 4527 ms 
+2021-10-01 22:58:29:731 [pool-3-thread-11] INFO  Tourist:60 - transfer photo from pool-3-thread-11 completed: result : null
+2021-10-01 22:58:29:731 [Thread-8] INFO  Manager:86 - transfer : number of photos : 9 
+2021-10-01 22:58:29:789 [pool-3-thread-5] INFO  Spain:24 - tourist [19] rest  time : 4584 ms 
+2021-10-01 22:58:29:789 [pool-3-thread-5] INFO  Tourist:60 - transfer photo from pool-3-thread-5 completed: result : null
+2021-10-01 22:58:29:789 [Thread-8] INFO  Manager:86 - transfer : number of photos : 7 
+2021-10-01 22:58:29:802 [pool-3-thread-25] INFO  Spain:24 - tourist [39] rest  time : 4598 ms 
+2021-10-01 22:58:29:802 [pool-3-thread-25] INFO  Tourist:60 - transfer photo from pool-3-thread-25 completed: result : null
+2021-10-01 22:58:29:802 [Thread-8] INFO  Manager:86 - transfer : number of photos : 6 
+2021-10-01 22:58:29:833 [pool-3-thread-19] INFO  Spain:24 - tourist [33] rest  time : 4628 ms 
+2021-10-01 22:58:29:833 [pool-3-thread-19] INFO  Tourist:60 - transfer photo from pool-3-thread-19 completed: result : null
+2021-10-01 22:58:29:833 [Thread-8] INFO  Manager:86 - transfer : number of photos : 8 
+2021-10-01 22:58:29:884 [pool-3-thread-16] INFO  Spain:24 - tourist [30] rest  time : 4680 ms 
+2021-10-01 22:58:29:884 [pool-3-thread-16] INFO  Tourist:60 - transfer photo from pool-3-thread-16 completed: result : null
+2021-10-01 22:58:29:884 [Thread-8] INFO  Manager:86 - transfer : number of photos : 14 
+2021-10-01 22:58:29:884 [Thread-8] INFO  Manager:116 - ################ Total photo tourists  in Cloud : 397  ####################
+2021-10-01 22:58:29:884 [Thread-8] INFO  Manager:117 - ----------------end of holiday in Spain------------------------------------
+2021-10-01 22:58:30:895 [pool-3-thread-16] INFO  Tourist:46 - Tourist [30] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-37] INFO  Tourist:46 - Tourist [51] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-13] INFO  Tourist:46 - Tourist [27] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-15] INFO  Tourist:46 - Tourist [29] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-24] INFO  Tourist:46 - Tourist [38] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-4] INFO  Tourist:46 - Tourist [18] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-23] INFO  Tourist:46 - Tourist [37] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-39] INFO  Tourist:46 - Tourist [53] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-3] INFO  Tourist:46 - Tourist [16] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-21] INFO  Tourist:46 - Tourist [35] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-31] INFO  Tourist:46 - Tourist [45] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-29] INFO  Tourist:46 - Tourist [43] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-35] INFO  Tourist:46 - Tourist [49] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-30] INFO  Tourist:46 - Tourist [44] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-27] INFO  Tourist:46 - Tourist [41] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-7] INFO  Tourist:46 - Tourist [21] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-33] INFO  Tourist:46 - Tourist [47] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-19] INFO  Tourist:46 - Tourist [33] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-25] INFO  Tourist:46 - Tourist [39] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-18] INFO  Tourist:46 - Tourist [32] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-12] INFO  Tourist:46 - Tourist [26] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-1] INFO  Tourist:46 - Tourist [14] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-2] INFO  Tourist:46 - Tourist [15] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-36] INFO  Tourist:46 - Tourist [50] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-5] INFO  Tourist:46 - Tourist [19] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-20] INFO  Tourist:46 - Tourist [34] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-28] INFO  Tourist:46 - Tourist [42] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-11] INFO  Tourist:46 - Tourist [25] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-26] INFO  Tourist:46 - Tourist [40] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-9] INFO  Tourist:46 - Tourist [23] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-38] INFO  Tourist:46 - Tourist [52] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-14] INFO  Tourist:46 - Tourist [28] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-10] INFO  Tourist:46 - Tourist [24] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-32] INFO  Tourist:46 - Tourist [46] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-6] INFO  Tourist:46 - Tourist [20] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-34] INFO  Tourist:46 - Tourist [48] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-17] INFO  Tourist:46 - Tourist [31] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-40] INFO  Tourist:46 - Tourist [54] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-8] INFO  Tourist:46 - Tourist [22] arrived to last station and leave bus
+2021-10-01 22:58:30:895 [pool-3-thread-22] INFO  Tourist:46 - Tourist [36] arrived to last station and leave bus
