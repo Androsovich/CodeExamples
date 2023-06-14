@@ -1,3 +1,6 @@
+Maven Task
+IntelliJ IDEA Community Edition, Java8, slf4j, Lombok (создание Maven-плагинов и профилей)
+########################################################################################
 Reflection Task                                              
 IntelliJ IDEA Community Edition, Java8 (создание repeatable-аннотации и демонстрация её
 работы)
