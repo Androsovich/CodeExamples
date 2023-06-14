@@ -1,8 +1,11 @@
-
+Reflection Task                                              
+IntelliJ IDEA Community Edition, Java8 (создание repeatable-аннотации и демонстрация её
+работы)
+########################################################################################                    
 Java 8                                                                       
 IntelliJ IDEA Community Edition, Java8, lombok, slf4j (Работа с Stream API, создание
 собственных Functional interfaces, работа с датами)                        
-##################################################################################                     
+########################################################################################                                    
 Multithreading and Concurrent(ConcurrentTask)                    
 IntelliJ IDEA Community Edition, Java8, slf4j, java.util.concurrent
 Task 1( manager )
@@ -14,7 +17,7 @@ Fork /Join Framework
 Исследование подходов для подсчета количество папок, файлов и их размеров 
 стандартными способами (Java7, Java8, parallel Stream) и Fork / Join Framework с
 порогами(100%, 50%, 25%, 10%, 1%)
-######################################################################################                                 
+########################################################################################                                              
 Projects(final task)                                             
 IntelliJ IDEA Community Edition, Java8
 Frontend- Thymeleaf, Bootstrap, JQuery(практически все действия и данные отпраляются при
