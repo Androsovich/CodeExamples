@@ -1,3 +1,8 @@
+
+Java 8                                                                       
+IntelliJ IDEA Community Edition, Java8, lombok, slf4j (Работа с Stream API, создание
+собственных Functional interfaces, работа с датами)                        
+##################################################################################                     
 Multithreading and Concurrent(ConcurrentTask)                    
 IntelliJ IDEA Community Edition, Java8, slf4j, java.util.concurrent
 Task 1( manager )
