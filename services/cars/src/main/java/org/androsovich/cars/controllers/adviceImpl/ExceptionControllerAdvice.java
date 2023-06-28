@@ -25,7 +25,7 @@ public class ExceptionControllerAdvice extends ResponseEntityExceptionHandler {
     @ExceptionHandler(HttpStatusCodeException.class)
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     public ResponseEntity<VndErrors> httpStatusException(final HttpStatusCodeException e) {
-        return error(e, HttpStatus.NOT_FOUND, e.getResponseBodyAsString());
+        return error(e, HttpStatus.INTERNAL_SERVER_ERROR, e.getResponseBodyAsString());
     }
 
     private ResponseEntity<VndErrors> error(
