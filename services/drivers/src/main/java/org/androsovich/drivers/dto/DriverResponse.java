@@ -7,7 +7,7 @@ import org.springframework.hateoas.RepresentationModel;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class DriverDTO extends RepresentationModel<DriverDTO> {
+public class DriverResponse extends RepresentationModel<DriverResponse> {
     private Long id;
     private String fullName;
     private String passport;

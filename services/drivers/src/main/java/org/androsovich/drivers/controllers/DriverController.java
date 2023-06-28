@@ -4,7 +4,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import lombok.extern.slf4j.Slf4j;
-import org.androsovich.drivers.dto.DriverDTO;
+import org.androsovich.drivers.dto.DriverResponse;
 import org.androsovich.drivers.dto.DriverRequest;
 import org.androsovich.drivers.dto.assemblers.DriverModelAssembler;
 import org.androsovich.drivers.entities.Driver;
@@ -33,15 +33,15 @@ public class DriverController {
 
     @GetMapping(params = {"page", "size"})
     @Operation(summary = "Get drivers paginated : param - page, param - size")
-    public PagedModel<DriverDTO> getPageDrivers(@RequestParam(value = "page", defaultValue = "0") @Min(0) int page,
-                                                @RequestParam(value = "size", defaultValue = "20") @Min(0) @Max(100) int size,
-                                                @RequestParam(defaultValue = "fullName") String field) {
+    public PagedModel<DriverResponse> getPageDrivers(@RequestParam(value = "page", defaultValue = "0") @Min(0) int page,
+                                                     @RequestParam(value = "size", defaultValue = "20") @Min(0) @Max(100) int size,
+                                                     @RequestParam(defaultValue = "fullName") String field) {
         return pagedResourcesAssembler.toModel(driverService.getAll(PageRequest.of(page, size, Sort.by(field))), driverModelAssembler);
     }
 
     @GetMapping("/{id}")
     @Operation(summary = "Get driver by id.")
-    public DriverDTO one(@PathVariable Long id) {
+    public DriverResponse one(@PathVariable Long id) {
         return driverModelAssembler.toModel(driverService.findById(id));
     }
 

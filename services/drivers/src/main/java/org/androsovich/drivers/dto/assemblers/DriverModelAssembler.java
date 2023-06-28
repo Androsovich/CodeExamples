@@ -1,7 +1,7 @@
 package org.androsovich.drivers.dto.assemblers;
 
 import org.androsovich.drivers.controllers.DriverController;
-import org.androsovich.drivers.dto.DriverDTO;
+import org.androsovich.drivers.dto.DriverResponse;
 import org.androsovich.drivers.entities.Driver;
 import org.modelmapper.ModelMapper;
 import org.springframework.hateoas.CollectionModel;
@@ -16,26 +16,26 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 @Component
-public class DriverModelAssembler implements RepresentationModelAssembler<Driver, DriverDTO> {
+public class DriverModelAssembler implements RepresentationModelAssembler<Driver, DriverResponse> {
     @Override
-    public CollectionModel<DriverDTO> toCollectionModel(Iterable<? extends Driver> drivers) {
+    public CollectionModel<DriverResponse> toCollectionModel(Iterable<? extends Driver> drivers) {
         ModelMapper modelMapper = new ModelMapper();
-        List<DriverDTO> driverDTOs = new ArrayList<>();
+        List<DriverResponse> driverResponses = new ArrayList<>();
 
         for (Driver driver : drivers) {
-            DriverDTO driverDTO = getDriverDtoFromDriver(driver, modelMapper);
-            driverDTOs.add(driverDTO);
+            DriverResponse driverResponse = getDriverDtoFromDriver(driver, modelMapper);
+            driverResponses.add(driverResponse);
         }
-        return CollectionModel.of(driverDTOs);
+        return CollectionModel.of(driverResponses);
     }
 
     @Override
-    public DriverDTO toModel(Driver driver) {
+    public DriverResponse toModel(Driver driver) {
         return getDriverDtoFromDriver(driver, new ModelMapper());
     }
 
-    private DriverDTO getDriverDtoFromDriver(@NonNull Driver driver, @NonNull ModelMapper mapper) {
-        DriverDTO carDto = mapper.map(driver, DriverDTO.class);
+    private DriverResponse getDriverDtoFromDriver(@NonNull Driver driver, @NonNull ModelMapper mapper) {
+        DriverResponse carDto = mapper.map(driver, DriverResponse.class);
         carDto.add(linkTo(DriverController.class).withRel("/v1/cars"));
         carDto.add(linkTo(methodOn(DriverController.class).one(driver.getId())).withSelfRel());
         return carDto;

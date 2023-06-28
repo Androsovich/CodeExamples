@@ -1,7 +1,7 @@
 package org.androsovich.drivers.dto.assemblers;
 
 import lombok.extern.slf4j.Slf4j;
-import org.androsovich.drivers.dto.DriverDTO;
+import org.androsovich.drivers.dto.DriverResponse;
 import org.androsovich.drivers.entities.Driver;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -41,12 +41,12 @@ class DriverModelAssemblerTest {
     void testMethodToModel() {
         Driver driver = new Driver("test5", "passport_5", "BC", LocalDate.of(1990, 7, 1), 7);
         driver.setId(1L);
-        DriverDTO driverDTO =  driverModelAssembler.toModel(driver);
-       assertEquals(driverDTO.getId(), driver.getId());
-       assertEquals(driverDTO.getFullName(), driver.getFullName());
-       assertEquals(driverDTO.getPassport(), driver.getPassport());
-       assertEquals(driverDTO.getDriverLicense(), driver.getDriverLicense());
-       assertEquals(driverDTO.getExperience(), driver.getExperience());
+        DriverResponse driverResponse =  driverModelAssembler.toModel(driver);
+       assertEquals(driverResponse.getId(), driver.getId());
+       assertEquals(driverResponse.getFullName(), driver.getFullName());
+       assertEquals(driverResponse.getPassport(), driver.getPassport());
+       assertEquals(driverResponse.getDriverLicense(), driver.getDriverLicense());
+       assertEquals(driverResponse.getExperience(), driver.getExperience());
 
     }
 
@@ -57,11 +57,11 @@ class DriverModelAssemblerTest {
         driver.setExperience(8);
         driver.setId(1L);
 
-        DriverDTO driverDTO =  driverModelAssembler.toModel(driver);
-        assertEquals(driverDTO.getId(), driver.getId());
-        assertEquals(driverDTO.getFullName(), driver.getFullName());
-        assertEquals(driverDTO.getExperience(), driver.getExperience());
-        assertNull(driverDTO.getDriverLicense());
-        assertNull(driverDTO.getPassport());
+        DriverResponse driverResponse =  driverModelAssembler.toModel(driver);
+        assertEquals(driverResponse.getId(), driver.getId());
+        assertEquals(driverResponse.getFullName(), driver.getFullName());
+        assertEquals(driverResponse.getExperience(), driver.getExperience());
+        assertNull(driverResponse.getDriverLicense());
+        assertNull(driverResponse.getPassport());
     }
 }
