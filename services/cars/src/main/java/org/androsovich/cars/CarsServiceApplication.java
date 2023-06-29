@@ -24,11 +24,6 @@ public class CarsServiceApplication implements CommandLineRunner {
         log.info("Service A(Cars Service) started successfully");
     }
 
-	@Bean
-	ModelMapper modelMapper() {
-		return new ModelMapper();
-	}
-
     @Override
     public void run(String... args) throws Exception {
         carRepository.saveAll(List.of(
