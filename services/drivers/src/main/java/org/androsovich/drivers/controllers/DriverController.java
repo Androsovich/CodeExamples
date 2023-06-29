@@ -10,6 +10,7 @@ import org.androsovich.drivers.dto.assemblers.DriverModelAssembler;
 import org.androsovich.drivers.entities.Driver;
 import org.androsovich.drivers.services.DriverService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.web.PagedResourcesAssembler;
@@ -21,6 +22,8 @@ import org.springframework.web.client.RestTemplate;
 @Slf4j
 @RequestMapping(value = "/v1/drivers", produces = "application/hal+json")
 public class DriverController {
+    @Autowired
+    Environment environment;
 
     @Autowired
     DriverService driverService;
@@ -60,7 +63,7 @@ public class DriverController {
     @PutMapping("/car/{carId}")
     @Operation(summary = "Connect to car-service and set driver to car.")
     public void setDriverToCar(@RequestBody DriverRequest driverRequest, @PathVariable(name = "carId") Long carId) {
-        String serviceUrl = "http://localhost:8080/v1/cars/" + carId + "/driver";
+        String serviceUrl = environment.getProperty("app.cars.service.url") + carId + environment.getProperty("url.driver.postfix");
         new RestTemplate().put(serviceUrl, driverRequest);
     }
 }
