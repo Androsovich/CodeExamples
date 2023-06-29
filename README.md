@@ -28,7 +28,7 @@ Frontend- Thymeleaf, Bootstrap, JQuery(практически все дейст�
 Backend(без использования Spring Boot) - Spring MVC, Spring Security, Spring AOP, Spring 
 DATA, Spring Test, JUnit 5, AssertJ, Lombok, Docker(dockerfile-maven-plugin), Hibernate, 
 Embedded H2, Embedded Tomcat -9, Jackson, mapStruct
-#########################################################################################
+#########################################################################################                                                                          
 Services(developing microservices)
 IntelliJ IDEA Community Edition, Java17                                                                               
 Backend - Spring Boot, Spring DATA JPA, Swagger, Embedded H2, Embedded Hibernate ,                    
