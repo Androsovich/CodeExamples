@@ -12,6 +12,7 @@
     <modules>
         <module>cars</module>
         <module>drivers</module>
+        <module>proto</module>
     </modules>
 
 </project>

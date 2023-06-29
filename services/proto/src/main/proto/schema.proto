@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package org.androsovich;
+
+option java_multiple_files = true;
+
+message Car {
+  int32 car_id = 1;
+  string vin = 2;
+  string stateNumber = 3;
+  string brand = 4;
+  string manufacturer = 5;
+  string yearOfManufacture = 7;
+  int32 driverId = 8;
+}
+
+message Driver {
+  int32 driver_id = 1;
+  string fullName = 2;
+  string passport = 3;
+  string driverLicense = 4;
+  int32 experience = 5;
+}
+
+service CarDriverService {
+  //unary - synchronous
+  rpc getDriver(Driver) returns(Driver){}
+}
