@@ -26,3 +26,7 @@ service CarDriverService {
   //unary - synchronous
   rpc getDriver(Driver) returns(Driver){}
 }
+
+service DriverCarService {
+  rpc getCarByDriver(Driver) returns(Car){}
+}
