@@ -28,5 +28,6 @@ service CarDriverService {
 }
 
 service DriverCarService {
-  rpc getCarByDriver(Driver) returns(Car){}
+  rpc getCarsByDriver(Driver) returns(stream Car){}
 }
+
