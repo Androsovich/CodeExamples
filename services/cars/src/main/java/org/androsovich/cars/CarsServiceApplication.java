@@ -3,12 +3,11 @@ package org.androsovich.cars;
 import lombok.extern.slf4j.Slf4j;
 import org.androsovich.cars.entities.Car;
 import org.androsovich.cars.repositories.CarRepository;
-import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
+
 
 import java.util.List;
 
@@ -73,7 +72,7 @@ public class CarsServiceApplication implements CommandLineRunner {
 				new Car("ds88888888ss2", "aa2"),
 				new Car("dsdsd88888sadsasd3", "aa3"),
 				new Car("dssadad8888sad4", "aa4"),
-				new Car("dssadsad88888asdasdddddsad5", "aa5"))
+				new Car("dssadsad88888asdas", "aa5"))
 		);
     }
 }
