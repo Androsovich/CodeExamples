@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="1" author="Androsovich">
+        <createTable tableName="users">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" primaryKeyName="pk_users_id"/>
+            </column>
+            <column name="first_name" type="varchar(255)"/>
+            <column name="last_name" type="varchar(255)"/>
+            <column name="user_name" type="varchar(255)"/>
+            <column name="password" type="varchar(255)"/>
+            <column name="email" type="varchar(255)"/>
+        </createTable>
+
+        <createTable tableName="roles">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" primaryKeyName="pk_roles_id"/>
+            </column>
+            <column name="name" type="varchar(25)"/>
+        </createTable>
+
+        <createTable tableName="user_roles">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" primaryKeyName="pk_user_roles_id"/>
+            </column>
+            <column name="user_id" type="bigint">
+                <constraints nullable="false" foreignKeyName="fk_users_id" references="users(id)"/>
+            </column>
+            <column name="role_id" type="bigint">
+                <constraints nullable="false" foreignKeyName="fk_roles_id" references="roles(id)"/>
+            </column>
+        </createTable>
+
+        <createTable tableName="bids">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" primaryKeyName="pk_bids_id"/>
+            </column>
+            <column name="name" type="varchar(255)"/>
+            <column name="text" type="text"/>
+            <column name="status" type="varchar(25)"/>
+            <column name="country_code" type="varchar(255)"/>
+            <column name="city_code" type="varchar(255)"/>
+            <column name="phone" type="varchar(255)"/>
+            <column name="created_time" type="TIMESTAMP"/>
+            <column name="owner_id" type="bigint">
+                <constraints nullable="false" foreignKeyName="fk_bid_owner_id" references="users(id)"/>
+            </column>
+        </createTable>
+
+        <createTable tableName="tokens">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" primaryKeyName="pk_tokens_id"/>
+            </column>
+            <column name="token" type="varchar(255)"/>
+            <column name="token_type" type="varchar(10)"/>
+            <column name="expired" type="boolean"/>
+            <column name="revoked" type="boolean"/>
+            <column name="user_id" type="bigint">
+                <constraints nullable="false" foreignKeyName="fk_token_user_id" references="users(id)"/>
+            </column>
+        </createTable>
+        <createTable tableName="privileges">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" primaryKeyName="prv_id"/>
+            </column>
+            <column name="name" type="varchar(25)"/>
+        </createTable>
+
+        <createTable tableName="roles_privileges">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" primaryKeyName="pk_roles_privileges_id"/>
+            </column>
+            <column name="privilege_id" type="bigint">
+                <constraints nullable="false" foreignKeyName="fk_privilege_id" references="privileges(id)"/>
+            </column>
+            <column name="role_id" type="bigint">
+                <constraints nullable="false" foreignKeyName="fk_prv_roles_id" references="roles(id)"/>
+            </column>
+        </createTable>
+
+        <addAutoIncrement tableName="users" columnName="id" columnDataType="bigint" startWith="1" incrementBy="1"/>
+        <addAutoIncrement tableName="roles" columnName="id" columnDataType="bigint" startWith="1" incrementBy="1"/>
+        <addAutoIncrement tableName="privileges" columnName="id" columnDataType="bigint" startWith="1" incrementBy="1"/>
+        <addAutoIncrement tableName="user_roles" columnName="id" columnDataType="bigint" startWith="1" incrementBy="1"/>
+        <addAutoIncrement tableName="roles_privileges" columnName="id" columnDataType="bigint" startWith="1" incrementBy="1"/>
+        <addAutoIncrement tableName="bids" columnName="id" columnDataType="bigint" startWith="1" incrementBy="1"/>
+        <addAutoIncrement tableName="tokens" columnName="id" columnDataType="bigint" startWith="1" incrementBy="1"/>
+        <createSequence sequenceName="hibernate_sequence" incrementBy="1" startValue="1"/>
+    </changeSet>
+
+    <changeSet id="2" author="Androsovich">
+        <insert tableName="roles">
+            <column name="name">ROLE_USER</column>
+        </insert>
+        <insert tableName="roles">
+            <column name="name">ROLE_OPERATOR</column>
+        </insert>
+        <insert tableName="roles">
+            <column name="name">ROLE_ADMIN</column>
+        </insert>
+    </changeSet>
+    <changeSet id="3" author="Androsovich" runOnChange="true">
+        <!-- id = 1 -->
+        <insert tableName="privileges">
+            <column name="name">READ:SENT</column>
+        </insert>
+        <!-- id = 2 -->
+        <insert tableName="privileges">
+            <column name="name">READ:ACCEPTED</column>
+        </insert>
+        <!-- id = 3 -->
+        <insert tableName="privileges">
+            <column name="name">READ:REJECTED</column>
+        </insert>
+        <!-- id = 4 -->
+        <insert tableName="privileges">
+            <column name="name">WRITE:DRAFT</column>
+        </insert>
+        <!-- id = 5 -->
+        <insert tableName="privileges">
+            <column name="name">UPDATE_STATUS_TO:SENT</column>
+        </insert>
+        <!-- id = 6 -->
+        <insert tableName="privileges">
+            <column name="name">UPDATE_STATUS_TO:ACCEPTED</column>
+        </insert>
+        <!-- id = 7 -->
+        <insert tableName="privileges">
+            <column name="name">UPDATE_STATUS_TO:REJECTED</column>
+        </insert>
+    </changeSet>
+    <changeSet id="4" author="Androsovich" runOnChange="true">
+        <!--USER - write DRAFT-->
+        <insert tableName="roles_privileges">
+            <column name="role_id">1</column>
+            <column name="privilege_id">4</column>
+        </insert>
+        <!--OPERATOR - read SENT-->
+        <insert tableName="roles_privileges">
+            <column name="role_id">2</column>
+            <column name="privilege_id">1</column>
+        </insert>
+        <!--ADMIN - read SENT-->
+        <insert tableName="roles_privileges">
+            <column name="role_id">3</column>
+            <column name="privilege_id">1</column>
+        </insert>
+        <!--ADMIN - read ACCEPTED-->
+        <insert tableName="roles_privileges">
+            <column name="role_id">3</column>
+            <column name="privilege_id">2</column>
+        </insert>
+        <!--ADMIN - read REJECTED-->
+        <insert tableName="roles_privileges">
+            <column name="role_id">3</column>
+            <column name="privilege_id">3</column>
+        </insert>
+        <!--USER - Status change to SENT-->
+        <insert tableName="roles_privileges">
+            <column name="role_id">1</column>
+            <column name="privilege_id">5</column>
+        </insert>
+        <!--OPERATOR - Status change to  ACCEPTED-->
+        <insert tableName="roles_privileges">
+            <column name="role_id">2</column>
+            <column name="privilege_id">6</column>
+        </insert>
+        <!--OPERATOR - Status change to  REJECTED-->
+        <insert tableName="roles_privileges">
+            <column name="role_id">2</column>
+            <column name="privilege_id">7</column>
+        </insert>
+    </changeSet>
+    <changeSet id="5" author="Androsovich" runOnChange="true">
+
+        <insert tableName="users">
+            <column name="first_name" value="John"/>
+            <column name="last_name" value="Miller"/>
+            <column name="user_name" value="werty"/>
+            <column name="password" value="$2a$12$f56gsJmbgIxutPo5QyS/Yuv1/NjdAzVIC9KmK7Xr7IFqzkUhUEKdq"/>
+            <column name="email" value="123@gmail.com"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="first_name" value="Jonny"/>
+            <column name="last_name" value="Santa"/>
+            <column name="user_name" value="werties"/>
+            <column name="password" value="$2a$12$yKwJhvtmZ5hQA.b.xQ8i2eDe.R79eEkE1hjGfgHZlbNgFaI7kVELm"/>
+            <column name="email" value="santa@gmail.com"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="first_name" value="Mark"/>
+            <column name="last_name" value="Sanchas"/>
+            <column name="user_name" value="mark"/>
+            <column name="password" value="$2a$12$1ANEBZ6EMvu1gASiOScuku9uSMj5/n5JHjOZzfpMP6dB9Oifo0k6i"/>
+            <column name="email" value="mark@gmail.com"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="first_name" value="Vasya"/>
+            <column name="last_name" value="Kysikov"/>
+            <column name="user_name" value="vasya"/>
+            <column name="password" value="$2a$12$Coh1Quld/s/IJcz4A1t1UuZV0UNfgrTsEk6i8qrkCf9.Sdr6e4tqi"/>
+            <column name="email" value="vasya@gmail.com"/>
+        </insert>
+        <!-- password ser -->
+        <insert tableName="users">
+            <column name="first_name" value="Marin"/>
+            <column name="last_name" value="Second"/>
+            <column name="user_name" value="ser"/>
+            <column name="password" value="$2a$12$qxNFDj/G199FoZQdJDf5heKHhymb6thmssgvo8bG76JAXH63Czjie"/>
+            <column name="email" value="ssxxx@gmail.com"/>
+        </insert>
+        <!-- password var -->
+        <insert tableName="users">
+            <column name="first_name" value="Petr"/>
+            <column name="last_name" value="Peterson"/>
+            <column name="user_name" value="var"/>
+            <column name="password" value="$2a$12$YGK4eI1EWM6aVDqlX740nOtqX5Y3oWI/EHo0ekaqdxGijFwsngT1K"/>
+            <column name="email" value="zxxccs22@gmail.com"/>
+        </insert>
+    </changeSet>
+    <changeSet id="6" author="Androsovich" runOnChange="true">
+        <insert tableName="user_roles">
+            <column name="user_id" value="1"/>
+            <column name="role_id" value="1"/>
+        </insert>
+        <insert tableName="user_roles">
+            <column name="user_id" value="2"/>
+            <column name="role_id" value="2"/>
+        </insert>
+        <insert tableName="user_roles">
+            <column name="user_id" value="3"/>
+            <column name="role_id" value="3"/>
+        </insert>
+        <insert tableName="user_roles">
+            <column name="user_id" value="3"/>
+            <column name="role_id" value="2"/>
+        </insert>
+        <insert tableName="user_roles">
+            <column name="user_id" value="4"/>
+            <column name="role_id" value="3"/>
+        </insert>
+        <insert tableName="user_roles">
+            <column name="user_id" value="5"/>
+            <column name="role_id" value="1"/>
+        </insert>
+        <insert tableName="user_roles">
+            <column name="user_id" value="6"/>
+            <column name="role_id" value="1"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
