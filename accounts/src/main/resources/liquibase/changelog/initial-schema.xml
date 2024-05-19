@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="create_tables" author="Androsovich" runOnChange="true">
+        <createTable tableName="users">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" primaryKeyName="pk_users_id"/>
+            </column>
+            <column name="first_name" type="varchar(255)"/>
+            <column name="last_name" type="varchar(255)"/>
+            <column name="middle_name" type="varchar(255)"/>
+            <column name="created_time" type="DATE"/>
+            <column name="login" type="varchar(100)">
+                <constraints nullable="false" unique="true"/>
+            </column>
+            <column name="password" type="varchar(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="email" type="varchar(100)" >
+                <constraints unique="true" checkConstraint="CHECK ((email IS NOT NULL) OR (phone IS NOT NULL)"/>
+            </column>
+            <column name="phone" type="varchar(50)">
+                <constraints unique="true" checkConstraint="CHECK ((email IS NOT NULL) OR (phone IS NOT NULL)"/>
+            </column>
+        </createTable>
+
+        <createTable tableName="accounts">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" primaryKeyName="pk_accounts_id"/>
+            </column>
+            <column name="user_id" type="bigint">
+                <constraints nullable="false" foreignKeyName="fk_user_id" references="users(id)"/>
+            </column>
+            <column name="balance" type="numeric">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+
+        <createTable tableName="tokens">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" primaryKeyName="pk_tokens_id"/>
+            </column>
+            <column name="token" type="varchar(255)"/>
+            <column name="token_type" type="varchar(10)"/>
+            <column name="expired" type="boolean"/>
+            <column name="revoked" type="boolean"/>
+            <column name="user_id" type="bigint">
+                <constraints nullable="false" foreignKeyName="fk_token_user_id" references="users(id)"/>
+            </column>
+        </createTable>
+
+        <addAutoIncrement tableName="users" columnName="id" columnDataType="bigint" startWith="1" incrementBy="1"/>
+        <addAutoIncrement tableName="tokens" columnName="id" columnDataType="bigint" startWith="1" incrementBy="1"/>
+        <createSequence sequenceName="hibernate_sequence" incrementBy="1" startValue="1"/>
+    </changeSet>
+</databaseChangeLog>
