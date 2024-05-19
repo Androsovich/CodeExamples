@@ -103,7 +103,9 @@ public class User extends BaseEntity implements UserDetails {
                 ", firstName= " + firstName +
                 ", lastName= " + lastName +
                 ", middleName= " + middleName +
+                ", birthday= " + birthday +
                 ", email= " + email +
+                ", phone= " + phone +
                 "]";
     }
 }
