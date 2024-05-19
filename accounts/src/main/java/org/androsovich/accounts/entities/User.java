@@ -14,7 +14,6 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import java.time.LocalDate;
 import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 
 import static org.androsovich.accounts.constants.Constants.MAX_SIZE_NAME_USER;
@@ -47,8 +46,8 @@ public class User extends BaseEntity implements UserDetails {
     private LocalDate birthday;
 
     @NotNull
-    @Column(name = "login")
-    private String login;
+    @Column(name = "user_name")
+    private String userName;
 
     @JsonIgnore
     @Column(name = "password")
@@ -75,7 +74,7 @@ public class User extends BaseEntity implements UserDetails {
 
     @Override
     public String getUsername() {
-        return login;
+        return userName;
     }
 
     @Override
