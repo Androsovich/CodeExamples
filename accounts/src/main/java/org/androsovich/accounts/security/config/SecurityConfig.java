@@ -56,6 +56,7 @@ public class SecurityConfig {
 
                         auth.requestMatchers(WHITE_LIST_URL).permitAll()
                                 .requestMatchers("/api/v1/auth/**").permitAll()
+                                .requestMatchers("/api/v1/registration/**").permitAll()
                                 .requestMatchers("/api/v1/test/**").permitAll()
                                 .requestMatchers("/error").permitAll()
                                 .requestMatchers("api/v1/users/**").authenticated()
