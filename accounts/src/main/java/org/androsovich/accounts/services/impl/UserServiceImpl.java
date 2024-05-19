@@ -24,18 +24,21 @@ public class UserServiceImpl implements UserService {
     @Override
     @Transactional
     public User save(User user) {
-        User duplicateCandidate = userRepository.findByEmail(user.getEmail());
+        User duplicateCandidate = userRepository.findByEmailOrPhone(user.getEmail(), user.getPhone());
 
         if (Objects.nonNull(duplicateCandidate)) {
-            throw new UserWithDuplicateEmailException(EMAIL_EXISTS_MESSAGE + user.getEmail());
-        }
-            duplicateCandidate = userRepository.findByPhone(user.getPhone());
 
-        if (Objects.nonNull(duplicateCandidate)) {
-            throw new UserWithDuplicatePhoneException(PHONE_EXISTS_MESSAGE + user.getPhone());
+            if (duplicateCandidate.getEmail().equals(user.getEmail())) {
+                log.error(EMAIL_EXISTS_MESSAGE + "{}", user.getEmail());
+                throw new UserWithDuplicateEmailException(EMAIL_EXISTS_MESSAGE + user.getEmail());
+            } else {
+                log.error(PHONE_EXISTS_MESSAGE + "{}", user.getPhone());
+                throw new UserWithDuplicatePhoneException(PHONE_EXISTS_MESSAGE + user.getPhone());
+            }
         }
+
         User obtainedUser = userRepository.save(user);
-        log.info("method - save: New user - {} , saved successfully.", user);
+        log.info("method - save: New user - {} , saved successfully.", obtainedUser);
         return obtainedUser;
     }
 }
