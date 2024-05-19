@@ -12,6 +12,9 @@ public class Constants {
     public static final String AUTH_USER_NOT_FOUND_ID = "User id not found in UserDetails";
 
     public static final String GENERIC_ERROR = "Generic error";
+    public static final String EMAIL_EXISTS_MESSAGE = "There is an user with that email address:";
+    public static final String PHONE_EXISTS_MESSAGE = "There is an user with that phone:";
+    public static final String VALIDATION_FAILED_MESSAGE = "Validation failed";
 
     private Constants() {
     }
