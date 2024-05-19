@@ -37,6 +37,7 @@ public class RegistrationController {
     @Operation(summary = "Adding a new user to the banking system with an account balance")
     public ResponseEntity<?> registration(@RequestBody @Valid RegistrationUserRequest request, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
+            log.error(VALIDATION_FAILED_MESSAGE);
             return ResponseEntity.badRequest().body(VALIDATION_FAILED_MESSAGE);
         }
 
