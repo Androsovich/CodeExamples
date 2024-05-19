@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.time.LocalDate;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
@@ -17,8 +19,9 @@ public class RegistrationUserRequest {
     private String lastName;
     @NotBlank(message = "Please provide a middle name")
     private String middleName;
-    @NotBlank
-    private String birthday;
+    @NotNull
+    @Past(message = "Please provide a birthday")
+    private LocalDate birthday;
     @NotBlank(message = "Please provide a username")
     private String username;
     @Size(min = 4, message = "Password must be at least 4 characters long")
@@ -29,5 +32,4 @@ public class RegistrationUserRequest {
     private String email;
     @Min(0)
     private int balance;
-
 }
