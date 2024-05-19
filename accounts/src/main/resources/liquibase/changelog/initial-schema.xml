@@ -13,7 +13,9 @@
             <column name="first_name" type="varchar(255)"/>
             <column name="last_name" type="varchar(255)"/>
             <column name="middle_name" type="varchar(255)"/>
-            <column name="created_time" type="DATE"/>
+            <column name="birthday" type="DATE">
+                <constraints nullable="false"/>
+            </column>
             <column name="login" type="varchar(100)">
                 <constraints nullable="false" unique="true"/>
             </column>
@@ -54,6 +56,7 @@
         </createTable>
 
         <addAutoIncrement tableName="users" columnName="id" columnDataType="bigint" startWith="1" incrementBy="1"/>
+        <addAutoIncrement tableName="accounts" columnName="id" columnDataType="bigint" startWith="1" incrementBy="1"/>
         <addAutoIncrement tableName="tokens" columnName="id" columnDataType="bigint" startWith="1" incrementBy="1"/>
         <createSequence sequenceName="hibernate_sequence" incrementBy="1" startValue="1"/>
     </changeSet>
