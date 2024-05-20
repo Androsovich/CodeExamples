@@ -1,4 +1,4 @@
-package org.androsovich.accounts.controllers;
+package org.androsovich.accounts.controllers.registration;
 
 import io.swagger.v3.oas.annotations.Operation;
 import jakarta.validation.Valid;
@@ -6,7 +6,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.androsovich.accounts.dto.ErrorResponse;
 import org.androsovich.accounts.dto.RegistrationUserRequest;
-import org.androsovich.accounts.dto.assemblers.EntityAssembler;
+import org.androsovich.accounts.dto.account.AccountDto;
 import org.androsovich.accounts.dto.assemblers.RegistrationUserEntityAssembler;
 import org.androsovich.accounts.dto.assemblers.UserModelAssembler;
 import org.androsovich.accounts.entities.Account;
@@ -18,8 +18,6 @@ import org.androsovich.exceptions.UserWithDuplicatePhoneException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-
-import java.math.BigDecimal;
 
 import static org.androsovich.accounts.constants.Constants.VALIDATION_FAILED_MESSAGE;
 
@@ -44,9 +42,9 @@ public class RegistrationController {
         try {
             User user = userEntityAssembler.toEntity(request);
             User obtanedUser = userService.save(user);
-            Account account = new Account(null, obtanedUser, new BigDecimal(request.getBalance()));
-            accountService.save(account);
 
+            Account account = AccountDto.toEntity(obtanedUser, request.getBalance());
+            accountService.save(account);
             return ResponseEntity.ok(userModelAssembler.toModel(obtanedUser));
 
         } catch (UserWithDuplicateEmailException | UserWithDuplicatePhoneException e) {
