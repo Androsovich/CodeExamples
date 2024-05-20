@@ -26,6 +26,10 @@ public class Account {
     @Column(name = "balance", nullable = false)
     private BigDecimal balance = BigDecimal.ZERO;
 
+    @Min(0)
+    @Column(name = "percentage_limit", nullable = false)
+    private BigDecimal percentageLimit = BigDecimal.ZERO;
+
     @Override
     public String toString() {
         return "Account[" +
