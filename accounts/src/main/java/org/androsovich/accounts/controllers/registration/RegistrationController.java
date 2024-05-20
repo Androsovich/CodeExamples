@@ -33,12 +33,7 @@ public class RegistrationController {
 
     @PostMapping
     @Operation(summary = "Adding a new user to the banking system with an account balance")
-    public ResponseEntity<?> registration(@RequestBody @Valid RegistrationUserRequest request, BindingResult bindingResult) {
-        if (bindingResult.hasErrors()) {
-            log.error(VALIDATION_FAILED_MESSAGE);
-            return ResponseEntity.badRequest().body(VALIDATION_FAILED_MESSAGE);
-        }
-
+    public ResponseEntity<?> registration(@RequestBody @Valid RegistrationUserRequest request) {
         try {
             User user = userEntityAssembler.toEntity(request);
             User obtanedUser = userService.save(user);
