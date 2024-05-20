@@ -16,10 +16,8 @@ import org.androsovich.accounts.services.UserService;
 import org.androsovich.exceptions.UserWithDuplicateEmailException;
 import org.androsovich.exceptions.UserWithDuplicatePhoneException;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
-import static org.androsovich.accounts.constants.Constants.VALIDATION_FAILED_MESSAGE;
 
 @RestController
 @Slf4j
