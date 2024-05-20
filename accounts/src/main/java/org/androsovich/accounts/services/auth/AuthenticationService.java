@@ -1,4 +1,4 @@
-package org.androsovich.accounts.services;
+package org.androsovich.accounts.services.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

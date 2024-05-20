@@ -4,7 +4,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 import org.androsovich.accounts.dto.auth.AuthenticationRequest;
 import org.androsovich.accounts.dto.auth.AuthenticationResponse;
-import org.androsovich.accounts.services.AuthenticationService;
+import org.androsovich.accounts.services.auth.AuthenticationService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
