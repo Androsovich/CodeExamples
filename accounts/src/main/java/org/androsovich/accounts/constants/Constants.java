@@ -15,8 +15,12 @@ public class Constants {
     public static final String EMAIL_EXISTS_MESSAGE = "There is an user with that email address:";
     public static final String PHONE_EXISTS_MESSAGE = "There is an user with that phone:";
 
+    // 207%
     public static final double LIMIT_PERCENTAGE = 3.07;
+    // 5%
     public static final double BALANCE_PERCENTAGE = 1.05;
+
+    public static final String CRON = "1 * * * * *";
 
     private Constants() {
     }
