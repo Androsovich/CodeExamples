@@ -15,21 +15,30 @@ import java.time.LocalDate;
 public class RegistrationUserRequest {
     @NotBlank(message = "Please provide a first name")
     private String firstName;
+
     @NotBlank(message = "Please provide a last name")
     private String lastName;
+
     @NotBlank(message = "Please provide a middle name")
     private String middleName;
+
     @NotNull
     @Past(message = "Please provide a birthday")
     private LocalDate birthday;
+
     @NotBlank(message = "Please provide a username")
     private String username;
+
     @Size(min = 4, message = "Password must be at least 4 characters long")
     private String password;
+
     @NotBlank
     private String phone;
+
+    @NotBlank(message = "email address must be not empty")
     @Email(message = "Please provide a valid email address")
     private String email;
+
     @Min(0)
-    private int balance;
+    private double balance;
 }

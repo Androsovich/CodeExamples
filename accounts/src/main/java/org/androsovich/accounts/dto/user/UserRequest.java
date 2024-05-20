@@ -1,6 +1,6 @@
 package org.androsovich.accounts.dto.user;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
+import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;
 import org.androsovich.accounts.entities.User;
@@ -14,6 +14,7 @@ import org.androsovich.accounts.entities.User;
 public class UserRequest {
     @NotNull
     private Long id;
+    @Email
     private String email;
     private String phone;
 

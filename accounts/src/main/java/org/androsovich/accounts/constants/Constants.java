@@ -16,6 +16,9 @@ public class Constants {
     public static final String PHONE_EXISTS_MESSAGE = "There is an user with that phone:";
     public static final String VALIDATION_FAILED_MESSAGE = "Validation failed";
 
+    public static final double LIMIT_PERCENTAGE = 3.07;
+    public static final double BALANCE_PERCENTAGE = 1.05;
+
     private Constants() {
     }
 }
