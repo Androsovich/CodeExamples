@@ -17,7 +17,7 @@
                 <constraints nullable="false"/>
             </column>
             <column name="user_name" type="varchar(100)">
-                <constraints nullable="false" unique="true"/>
+                <constraints nullable="false"/>
             </column>
             <column name="password" type="varchar(100)">
                 <constraints nullable="false"/>
@@ -38,6 +38,9 @@
                 <constraints nullable="false" foreignKeyName="fk_user_id" references="users(id)"/>
             </column>
             <column name="balance" type="numeric">
+                <constraints nullable="false"/>
+            </column>
+            <column name="percentage_limit" type="numeric">
                 <constraints nullable="false"/>
             </column>
         </createTable>
@@ -66,6 +69,10 @@
             ALTER TABLE users
             ADD CONSTRAINT both_null_constraint CHECK (
             (phone IS NOT NULL) OR (email IS NOT NULL));
+            ALTER TABLE accounts
+            ADD CONSTRAINT not_negative_balance CHECK (balance >= 0);
+            ALTER TABLE accounts
+            ADD CONSTRAINT not_negative_limit CHECK (percentage_limit >= 0);
         </sql>
     </changeSet>
 </databaseChangeLog>
