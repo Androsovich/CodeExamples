@@ -36,10 +36,6 @@ public class User extends BaseEntity implements UserDetails {
     @Size(max = MAX_SIZE_NAME_USER, min = MIN_SIZE_NAME_USER)
     private String lastName;
 
-    @Column(name = "middle_name")
-    @Size(max = MAX_SIZE_NAME_USER, min = MIN_SIZE_NAME_USER)
-    private String middleName;
-
     @Column(name = "birthday")
     @NotNull
     @Past
@@ -102,7 +98,6 @@ public class User extends BaseEntity implements UserDetails {
         return "User [id= " + getId() +
                 ", firstName= " + firstName +
                 ", lastName= " + lastName +
-                ", middleName= " + middleName +
                 ", birthday= " + birthday +
                 ", email= " + email +
                 ", phone= " + phone +

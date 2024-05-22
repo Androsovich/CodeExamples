@@ -12,7 +12,6 @@
             </column>
             <column name="first_name" type="varchar(255)"/>
             <column name="last_name" type="varchar(255)"/>
-            <column name="middle_name" type="varchar(255)"/>
             <column name="birthday" type="DATE">
                 <constraints nullable="false"/>
             </column>

@@ -34,7 +34,9 @@ public class Account {
     public String toString() {
         return "Account[" +
                 "id=" + id +
+                ", user_id =" + user.getId() +
                 ", balance=" + balance +
+                ", percentageLimit=" + percentageLimit +
                 ']';
     }
 }
