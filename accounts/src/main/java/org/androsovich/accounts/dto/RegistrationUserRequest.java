@@ -19,9 +19,6 @@ public class RegistrationUserRequest {
     @NotBlank(message = "Please provide a last name")
     private String lastName;
 
-    @NotBlank(message = "Please provide a middle name")
-    private String middleName;
-
     @NotNull
     @Past(message = "Please provide a birthday")
     private LocalDate birthday;

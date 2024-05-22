@@ -8,14 +8,12 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.Optional;
 
+import static org.androsovich.accounts.constants.Queries.FILTER_FIND_ALL_VALID_TOKEN_BY_USER_QUERY;
+
 @Repository
 public interface TokenRepository extends JpaRepository<Token, Long> {
     Optional<Token> findByToken(String token);
 
-    @Query(value = """
-      select token from Token token inner join User user\s
-      on token.user.id = user.id\s
-      where user.id = :id and (token.expired = false or token.revoked = false)\s
-      """)
+    @Query(FILTER_FIND_ALL_VALID_TOKEN_BY_USER_QUERY)
     List<Token> findAllValidTokenByUser(Long id);
 }

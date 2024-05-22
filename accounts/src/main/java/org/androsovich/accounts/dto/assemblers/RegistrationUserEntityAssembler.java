@@ -17,7 +17,6 @@ public class RegistrationUserEntityAssembler  implements EntityAssembler<Registr
         return User.builder()
                 .firstName(request.getFirstName())
                 .lastName(request.getLastName())
-                .middleName(request.getMiddleName())
                 .birthday(request.getBirthday())
                 .userName(request.getUsername())
                 .password(passwordEncoder.encode(request.getPassword()))
