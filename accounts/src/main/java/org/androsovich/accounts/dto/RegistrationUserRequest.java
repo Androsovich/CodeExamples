@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.androsovich.accounts.validation.Phone;
 
 import java.time.LocalDate;
 
@@ -30,6 +31,7 @@ public class RegistrationUserRequest {
     private String password;
 
     @NotBlank
+    @Phone
     private String phone;
 
     @NotBlank(message = "email address must be not empty")
