@@ -9,11 +9,14 @@ public class Constants {
     public static final int MIN_SIZE_NAME_USER = 2;
     public static final String USERNAME_NOT_FOUND_EXCEPTION = "User not found by username: ";
     public static final String USER_NOT_FOUND_ID = "User not found by id: ";
-    public static final String AUTH_USER_NOT_FOUND_ID = "User id not found in UserDetails";
+    public static final String USER_NOT_FOUND_BY_PHONE = "User not found by phone: ";
+    public static final String USER_NOT_FOUND_BY_EMAIL = "User not found by email: ";
+    public static final String ACCOUNT_NOT_FOUND_BY_ID = "Account not found by id: ";
+    public static final String ACCOUNT_NOT_FOUND_ENOUGH_MONEY = "Not enough money : ";
 
-    public static final String GENERIC_ERROR = "Generic error";
     public static final String EMAIL_EXISTS_MESSAGE = "There is an user with that email address:";
     public static final String PHONE_EXISTS_MESSAGE = "There is an user with that phone:";
+    public static final String ACCOUNT_EXISTS_MESSAGE = "There is an account with that user :";
     public static final String BOTH_EMAIL_AND_PHONE_EMPTY = "email or phone must be not null";
 
     // 207%

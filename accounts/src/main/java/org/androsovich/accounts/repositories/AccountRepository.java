@@ -1,6 +1,7 @@
 package org.androsovich.accounts.repositories;
 
 import org.androsovich.accounts.entities.Account;
+import org.androsovich.accounts.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
@@ -14,4 +15,6 @@ public interface AccountRepository extends JpaRepository<Account, Long> {
     @Modifying
     @Query(INCREASE_BALANCE_BY_PERCENTAGE_QUERY)
     int increaseBalance(@Param("percentage") double percentage);
+
+    Account findByUser(User user);
 }

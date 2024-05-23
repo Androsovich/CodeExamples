@@ -61,14 +61,14 @@ public class UserServiceImpl implements UserService {
     @Transactional
     public User findByPhone(@NotNull String phone) {
         log.info("method - findByPhone phone - {}", phone);
-        return userRepository.findByPhone(phone).orElseThrow(() -> new UserNotFoundByPhoneException(USER_NOT_FOUND_ID + phone));
+        return userRepository.findByPhone(phone).orElseThrow(() -> new UserNotFoundByPhoneException(USER_NOT_FOUND_BY_PHONE + phone));
     }
 
     @Override
     @Transactional
     public User findByEmail(@NotNull String email) {
         log.info("method - findByEmail email - {}", email);
-        return userRepository.findByEmail(email).orElseThrow();
+        return userRepository.findByEmail(email).orElseThrow(() -> new UserNotFoundByEmailException(USER_NOT_FOUND_BY_EMAIL + email));
     }
 
     @Override
@@ -87,7 +87,7 @@ public class UserServiceImpl implements UserService {
             throw new IllegalUpdateUserException(BOTH_EMAIL_AND_PHONE_EMPTY);
         }
         user.setEmail(email);
-        user.setPhone(email);
+        user.setPhone(phone);
         return user;
     }
 
