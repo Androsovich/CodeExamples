@@ -4,6 +4,7 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;
 import org.androsovich.accounts.entities.User;
+import org.androsovich.accounts.validation.Phone;
 
 @Getter
 @Setter
@@ -16,6 +17,7 @@ public class UserRequest {
     private Long id;
     @Email
     private String email;
+    @Phone
     private String phone;
 
     public User toEntity() {
