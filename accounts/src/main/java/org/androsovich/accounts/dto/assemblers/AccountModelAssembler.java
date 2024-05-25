@@ -1,7 +1,7 @@
 package org.androsovich.accounts.dto.assemblers;
 
 import jakarta.validation.constraints.NotNull;
-import org.androsovich.accounts.controllers.AccountController;
+import org.androsovich.accounts.controllers.AccountRestControllerV1;
 import org.androsovich.accounts.dto.account.AccountDto;
 import org.androsovich.accounts.entities.Account;
 import org.modelmapper.ModelMapper;
@@ -38,8 +38,8 @@ public class AccountModelAssembler implements RepresentationModelAssembler<Accou
 
     private AccountDto getAccountDtoFromAccount(Account account, @NonNull ModelMapper mapper) {
         AccountDto accountDto = mapper.map(account, AccountDto.class);
-        accountDto.add(linkTo(AccountController.class).withRel("/v1/accounts"));
-        accountDto.add(linkTo(methodOn(AccountController.class).one(account.getId())).withSelfRel());
+        accountDto.add(linkTo(AccountRestControllerV1.class).withRel("/v1/accounts"));
+        accountDto.add(linkTo(methodOn(AccountRestControllerV1.class).one(account.getId())).withSelfRel());
         return accountDto;
     }
 }

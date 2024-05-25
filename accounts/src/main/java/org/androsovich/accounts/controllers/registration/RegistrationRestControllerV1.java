@@ -13,8 +13,8 @@ import org.androsovich.accounts.entities.Account;
 import org.androsovich.accounts.entities.User;
 import org.androsovich.accounts.services.AccountService;
 import org.androsovich.accounts.services.UserService;
-import org.androsovich.exceptions.UserWithDuplicateEmailException;
-import org.androsovich.exceptions.UserWithDuplicatePhoneException;
+import org.androsovich.accounts.exceptions.UserWithDuplicateEmailException;
+import org.androsovich.accounts.exceptions.UserWithDuplicatePhoneException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.*;
 @Slf4j
 @RequestMapping("/api/v1/registration")
 @RequiredArgsConstructor
-public class RegistrationController {
+public class RegistrationRestControllerV1 {
     private final UserService userService;
     private final AccountService accountService;
     private final RegistrationUserEntityAssembler userEntityAssembler;

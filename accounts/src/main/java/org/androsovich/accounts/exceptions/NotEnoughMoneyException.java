@@ -1,4 +1,4 @@
-package org.androsovich.exceptions;
+package org.androsovich.accounts.exceptions;
 
 public class NotEnoughMoneyException extends RuntimeException {
     public NotEnoughMoneyException(String message) {

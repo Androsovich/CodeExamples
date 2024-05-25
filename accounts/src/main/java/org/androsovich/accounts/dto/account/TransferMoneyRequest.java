@@ -13,10 +13,8 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @AllArgsConstructor
 public class TransferMoneyRequest {
-    @NotNull
     long fromAccountId;
 
-    @NotNull
     long toAccountId;
 
     @NotNull

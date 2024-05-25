@@ -13,6 +13,8 @@ public class Constants {
     public static final String USER_NOT_FOUND_BY_EMAIL = "User not found by email: ";
     public static final String ACCOUNT_NOT_FOUND_BY_ID = "Account not found by id: ";
     public static final String ACCOUNT_NOT_FOUND_ENOUGH_MONEY = "Not enough money : ";
+    public static final String ACCOUNTS_EQUALS_FOR_TRANSFER = "Accounts equals for transfer";
+    public static final String BALANCE_MUST_BE_NOT_NEGATIVE = "The balance should not be negative";
 
     public static final String EMAIL_EXISTS_MESSAGE = "There is an user with that email address:";
     public static final String PHONE_EXISTS_MESSAGE = "There is an user with that phone:";

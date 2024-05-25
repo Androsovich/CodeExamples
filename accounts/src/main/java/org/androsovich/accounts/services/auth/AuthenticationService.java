@@ -29,15 +29,16 @@ public class AuthenticationService {
     private final AuthenticationManager authenticationManager;
 
     public AuthenticationResponse authenticate(AuthenticationRequest request) {
+
+        var user = repository.findByUserName(request.name())
+                .orElseThrow(()-> new UsernameNotFoundException(USERNAME_NOT_FOUND_EXCEPTION + request.name()));
+
         authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(
                         request.name(),
                         request.password()
                 )
         );
-
-        var user = repository.findByUserName(request.name())
-                .orElseThrow(()-> new UsernameNotFoundException(USERNAME_NOT_FOUND_EXCEPTION + request.name()));
 
         var jwtToken = jwtService.generateToken(userDetailsService.loadUserByUsername(user.getUsername()));
         revokeAllUserTokens(user);

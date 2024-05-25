@@ -1,7 +1,7 @@
 package org.androsovich.accounts.dto.assemblers;
 
 import jakarta.validation.constraints.NotNull;
-import org.androsovich.accounts.controllers.UserController;
+import org.androsovich.accounts.controllers.UserRestControllerV1;
 import org.androsovich.accounts.dto.user.UserResponse;
 import org.androsovich.accounts.entities.User;
 import org.modelmapper.ModelMapper;
@@ -39,8 +39,8 @@ public class UserModelAssembler implements RepresentationModelAssembler<User, Us
 
     private UserResponse getUserDtoFromUser(User user, @NonNull ModelMapper mapper) {
         UserResponse userDto = mapper.map(user, UserResponse.class);
-        userDto.add(linkTo(UserController.class).withRel("/v1/users"));
-        userDto.add(linkTo(methodOn(UserController.class).one(user.getId())).withSelfRel());
+        userDto.add(linkTo(UserRestControllerV1.class).withRel("/v1/users"));
+        userDto.add(linkTo(methodOn(UserRestControllerV1.class).one(user.getId())).withSelfRel());
         return userDto;
     }
 }

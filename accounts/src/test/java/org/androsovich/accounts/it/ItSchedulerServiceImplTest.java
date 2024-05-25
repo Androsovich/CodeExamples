@@ -1,4 +1,4 @@
-package org.androsovich.accounts.services.impl;
+package org.androsovich.accounts.it;
 
 import org.androsovich.accounts.entities.Account;
 import org.androsovich.accounts.entities.User;
@@ -19,7 +19,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 @ActiveProfiles("test")
 @SpringBootTest
-class SchedulerServiceImplTest {
+class ItSchedulerServiceImplTest {
 
     @Autowired
     SchedulerService schedulerService;

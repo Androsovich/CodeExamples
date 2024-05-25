@@ -20,7 +20,18 @@ public class DataUtils {
                 .password("werty")
                 .birthday(LocalDate.of(2000, 10, 12))
                 .email("john.doe@email.com")
-                .phone("+7 911 243-45-76")
+                .phone("+111 788 856 789")
+                .build();
+    }
+    public static User getJohnDoeTransientCryptPassword() {
+        return User.builder()
+                .firstName("John")
+                .lastName("Doe")
+                .userName("www")
+                .password("$2a$10$BwtMxW8ZebFIKHm5J5EdUu7XjBt15EWicQNf1pJZfTHY1nh9iwLxK")
+                .birthday(LocalDate.of(2000, 10, 12))
+                .email("john.doe@email.com")
+                .phone("+111 636 555 789")
                 .build();
     }
 
@@ -32,7 +43,7 @@ public class DataUtils {
                 .password("werty")
                 .birthday(LocalDate.of(2000, 10, 12))
                 .email("john.doe@email.com")
-                .phone("+7 911 243-45-76")
+                .phone("+111 636 111 781")
                 .build();
 
         user.setId(1L);
@@ -48,7 +59,7 @@ public class DataUtils {
                 .password("werty1")
                 .birthday(LocalDate.of(1992, 9, 20))
                 .email("mike.wong@email.com")
-                .phone("+7 911 230-45-76")
+                .phone("+111 636 832 789")
                 .build();
 
         user.setId(2L);
@@ -64,7 +75,19 @@ public class DataUtils {
                 .password("werty1")
                 .birthday(LocalDate.of(1992, 9, 20))
                 .email("mike.wong@email.com")
-                .phone("+7 911 230-45-76")
+                .phone("+111 644 856 789")
+                .build();
+    }
+
+    public static User getPetrSnowTransient() {
+        return User.builder()
+                .firstName("Petr")
+                .lastName("Snow")
+                .userName("www11")
+                .password("werty11")
+                .birthday(LocalDate.of(1990, 9, 20))
+                .email("petr.snow@email.com")
+                .phone("202 555 0125")
                 .build();
     }
 
@@ -92,7 +115,7 @@ public class DataUtils {
                 .password("werty")
                 .birthday(LocalDate.of(2000, 10, 12))
                 .email("john.doe54@email.com")
-                .phone("+7 911 243-45-76")
+                .phone("+111 788 856 789")
                 .build();
 
         user.setId(1L);
@@ -103,7 +126,7 @@ public class DataUtils {
     public static UserRequest getJohnDoeDtoTransient() {
         return UserRequest.builder()
                 .id(1L)
-                .phone("+7 911 243-45-76")
+                .phone("202 555 2225")
                 .email("john.doe@email.com")
                 .build();
     }
@@ -119,7 +142,7 @@ public class DataUtils {
 
     public static Account getAccountMikeWongDtoPersisted() {
         return Account.builder()
-                .id(1L)
+                .id(2L)
                 .user(DataUtils.getMikeWongPersisted())
                 .balance(new BigDecimal(50))
                 .percentageLimit(new BigDecimal(50 * LIMIT_PERCENTAGE))

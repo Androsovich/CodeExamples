@@ -1,10 +1,7 @@
 package org.androsovich.accounts.dto;
 
 import jakarta.validation.constraints.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.androsovich.accounts.validation.Phone;
 
 import java.time.LocalDate;
@@ -13,6 +10,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @Getter
 @Setter
+@Builder
 public class RegistrationUserRequest {
     @NotBlank(message = "Please provide a first name")
     private String firstName;

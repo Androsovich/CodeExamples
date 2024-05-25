@@ -1,4 +1,4 @@
-package org.androsovich.exceptions.handlers;
+package org.androsovich.accounts.exceptions.handlers;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.FieldError;
