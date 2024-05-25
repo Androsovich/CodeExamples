@@ -25,7 +25,7 @@ public class AccountRestControllerV1 {
     }
 
     @PatchMapping("/transfer")
-    @Operation(summary = "money transfer to another account. id - id recipient account")
+    @Operation(summary = "money transfer to another account.")
     public ResponseEntity<?> transferMoneyBetweenAccounts(@RequestBody @Valid TransferMoneyRequest transferMoneyRequest) {
         accountService.transferMoneyBetweenAccounts(transferMoneyRequest);
         return ResponseEntity.ok().body(new OkResponse("transfer successfully"));
